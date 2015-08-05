@@ -19,9 +19,7 @@
     <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010">
       <Id>EMDK.Xamarin.VSIX.ID</Id>
       <Version>1.1</Version>
-      <Rating xsi:nil="true" /> 
-      <RatingCount xsi:nil="true" /> 
-      <DownloadCount xsi:nil="true" />
+
     </Vsix>
   </entry>
 </feed>

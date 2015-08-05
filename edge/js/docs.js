@@ -393,7 +393,7 @@ function loadDoc(key){
 	}).data("toc-tocify");
 
 	$(".icon-bug").click(function(){
-	    var url = "http://github.com/emdk/docs/issues/new?title=Doc Issue:" + document.title + '&body=' + encodeURIComponent('Page: ' + window.location.href);
+	    var url = "http://github.com/emdk/xamarin-docs/issues/new?title=Doc Issue:" + document.title + '&body=' + encodeURIComponent('Page: ' + window.location.href);
 	    window.open(url);
 
 	});

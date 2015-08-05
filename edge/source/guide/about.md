@@ -1,39 +1,61 @@
-# About EMDK For Xamarin
+# EMDK For Xamarin - Beta 
+Welcome to the EMDK for Xamarin Beta. This beta will provide you with ability to use Zebra's EMDK features within your Xamarin application. Please be sure to read the contents of this guide in it's entirety to ensure your evironment is properly setup
 
-## Overview
-The EMDK for Android provides developers with a comprehensive set of tools to easily create powerful line of business applications for enterprise mobile computing devices and is designed for use with Google's Android SDK and Android Development Tools (ADT). The EMDK for Android includes class libraries, sample applications with source code, as well as all of the associated documentation to help your applications take full advantage of what our devices have to offer.
+**Features Supported**
 
-It also includes an exclusive Profile Manager Technology within the your IDE, providing a GUI based development tool. This allows you to write fewer lines of code resulting in reduced development time, effort and errors.
+- Profile Manager Visual Studio (2012+) Plugin
+- Symbol.EMDK.Xamarin APIs
+	- EMDKManager, ProfileManager, VersionManager, EMDKBase
 
-## Requirements
-The following software must be installed prior to using the EMDK for Android.
+**Not Yet Implemented**
+
+- Symbol.EMDK.Xamarin.Barcode - this may be functional, but API names may change
+- Xamarin Studio Add-In
+- Mac Support
+
+##Getting Started
+### 1) Install the Xamarin Component
+When this product is released, the component will be available on the Xamarin Component store, but for the beta you must install it manually:
+
+- [Download and unzip the component]()
+- In a command prompt, navigate to the folder containing the unzipped contents
+
+	xamarin-component install emdk-component-0.0.1.xam
+
+> Note: You will not see any feedback after running the command. The component will be listed when you attempt to [add a component to a project](../guide/components)
+
+### 2) Complete IDE Setup
+Installing the Xamarin Component only enables the EMDK API library, you must complete the installation of the IDE integration. This step only needs to be performed once, however adding the EMDK For Xamarin component needs to be performed for each project you wish to include it in.
+
+- [Read the Visual Studio Setup Guide](../guide/vs/setup)
+
+### 3) Try the Sample
+A sample is included as part of the Xamarin Component package to help get you started. Click on the **samples** tab on the component details page to add it to your solution project.
+
+- [Read the Using Xamarin Samples Guide](../guide/sample/about)
+
+### 4) Understand Profile Manager
+One unique feature to EMDK for Xamarin is to control device behavior and configuration through the use of *profiles*. The EMDK Profile Manager lets you create profiles right from your IDE using a GUI interface for selecting the features and settings that your application wishes to use. Then in your application you would simply apply the profile when needed. This results in a simple approach and minimal lines of code required to accomplish tasks
+
+- [Read the Profile Manager Overview Guide](../guide/profiles/about)
+
+### 5) Build a Simple Application
+Now that you have your environment setup and have an overview of the EMDK for Xamarin, let's walk through and build an application from scratch.
+
+- [Follow the Hello Xamarin tutorial](../guide/tutorial/helloxamarin)
+
+### 6) Check out our docs
+We have a lot more resources for you to benefit from:
+
+- API reference
+- Developer Guides
+- Tutorials
+- Videos
+- More Samples
+- [More docs online](http://emdk.github.io/xamarin-docs/edge)
+
+### 7) Report Feedback/Issues
+Thanks for taking the time to try out this beta. We would love to hear your [feedback or issues](https://github.com/emdk/xamarin-docs/issues/new?title=EMDK%20For%20Xamarin) you have encountered. Note; A GitHub account is required to create issues, please log into Github before submitting an issue.
 
 
-
-
-## Devices Supported
-Although EMDK for Android has been designed to work with all Symbol mobile computers running Android, the following devices have been used for validation:
-
-* MC18 - KitKat
-* MC32 - OS Update image v00002 or higher (JellyBean)
-* MC40 - OS Update image v02.08.0520 or higher (JellyBean)
-* MC40 - KitKat
-* MC67 - OS Update image v01.28.14 or higher (JellyBean)
-* MC92 - KitKat
-* TC55 - OS Update image v01.74.00 or higher (JellyBean)
-* TC55 - OS Update image v02.52.02 or higher (KitKat)
-* TC70 - OS Update image v11.24.14 or higher (KitKat)
-* TC75 - KitKat
-
-
-## What's New
-
-**EMDK for Xamarin Beta v0.5 **
-
-* Profile Manager Wizard for Visual Studio
-* C# API's
-	* EMDKBase
-	* EMDKManager
-	* ProfileManager
-	* VersionManager
 

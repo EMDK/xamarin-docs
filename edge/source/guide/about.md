@@ -14,20 +14,15 @@ Welcome to the EMDK for Xamarin Beta. This beta will provide you with ability to
 - Mac Support
 
 ##Getting Started
-### 1) Install the Xamarin Component
-When this product is released, the component will be available on the Xamarin Component store, but for the beta you must install it manually:
-
-- [Download and unzip the component]()
-- In a command prompt, navigate to the folder containing the unzipped contents
-
-	xamarin-component install emdk-component-0.0.1.xam
-
-> Note: You will not see any feedback after running the command. The component will be listed when you attempt to [add a component to a project](../guide/components)
-
-### 2) Complete IDE Setup
-Installing the Xamarin Component only enables the EMDK API library, you must complete the installation of the IDE integration. This step only needs to be performed once, however adding the EMDK For Xamarin component needs to be performed for each project you wish to include it in.
+### 1) Install The Visual Studio Extension
+Download and install the Visual Studio Extension using the online extension gallery. For this beta, you will need to add a private gallery to your Visual Studio settings in order to access the extension.
 
 - [Read the Visual Studio Setup Guide](../guide/vs/setup)
+
+### 2) Install The Xamarin Component
+When this product is released, the component will be available on the Xamarin Component store, but for the beta you must install it manually:
+
+- [Read the Xamarin Component Install Guide](../guide/component/install)
 
 ### 3) Try the Sample
 A sample is included as part of the Xamarin Component package to help get you started. Click on the **samples** tab on the component details page to add it to your solution project.

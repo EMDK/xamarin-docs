@@ -17,16 +17,12 @@ var menuStrcture = [
 						icon: 'fa fa-rocket',
 						items: [
 							{
+								name: 'Visual Studio Extension',
+								link: '#guide-vs-setup',
+							},
+							{
 								name: 'Xamarin Component Installation',
-								link: '#guide-xamarinSetup',
-							},
-							{
-								name: 'Visual Studio Plug-in',
-								link: '#guide-vsSetup',
-							},
-							{
-								name: 'Xamarin Studio Plug-in',
-								link: '#guide-xsSetup',
+								link: '#guide-vs-component',
 							},
 							{
 								name: 'Setup A Device',

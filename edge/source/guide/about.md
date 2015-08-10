@@ -39,6 +39,8 @@ Now that you have your environment setup and have an overview of the EMDK for Xa
 
 - [Follow the Hello Xamarin tutorial](../guide/tutorial/helloxamarin)
 
+<div style="display:none">
+<!-- this section used in Xamarin gettingstarted.md for component packaging -->
 ### 6) Check out our docs
 We have a lot more resources for you to benefit from:
 
@@ -48,8 +50,9 @@ We have a lot more resources for you to benefit from:
 - Videos
 - More Samples
 - [More docs online](http://emdk.github.io/xamarin-docs/edge)
+</div>
 
-### 7) Report Feedback/Issues
+### Report Feedback/Issues
 Thanks for taking the time to try out this beta. We would love to hear your [feedback or issues](https://github.com/emdk/xamarin-docs/issues/new?title=EMDK%20For%20Xamarin) you have encountered. Note; A GitHub account is required to create issues, please log into Github before submitting an issue.
 
 

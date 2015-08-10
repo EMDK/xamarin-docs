@@ -22,19 +22,19 @@ var menuStrcture = [
 							},
 							{
 								name: 'Xamarin Component Installation',
-								link: '#guide-vs-component',
+								link: '#guide-component-install',
 							},
 							{
 								name: 'Setup A Device',
-								link: '#guide-setupDevice',
+								link: '#guide-deviceupdate',
 							},
 							{
 								name: 'EMDK Profiles Overview',
-								link: '#guide-profiles-usingwizard',
+								link: '#guide-profiles-about',
 							},
 							{
 								name: 'Profile Manager API Tutorial',
-								link: '#guide-tutorial-profileManagerApi',
+								link: '#guide-tutorial-helloxamarin',
 							}
 						]
 					}
@@ -50,39 +50,12 @@ var menuStrcture = [
 						icon: 'fa fa-terminal',
 						items: [
 							{
-								name: 'Profile Manager',
-								link: '#',
-								items: [
-									{
-										title: 'Profile Manager Tutorials',
-										icon: 'fa fa-book',
-										items: [
-											{
-												name: 'Basic Data Capture',
-												link: '#guide-tutorial-tutdatacaptureprofile',
-											},
+								name: 'Profile Manager API',
+								link: '#guide-tutorial-helloxamarin',
+							},
 
-										]
-									}
-								]
-							},
-							{
-								name: 'Scanning APIs',
-								link: '#',
-								items: [
-									{
-										title: 'Scanning API Tutorials',
-										icon: 'fa fa-book',
-										items: [
-											{
-												name: 'Basic Scanning Tutorial',
-												link: '#guide-tutorial-tutBasicScanningAPI',
-											},
-										]
-									}
-								]
-							},
 						]
+
 					}
 				]
 			},
@@ -97,45 +70,15 @@ var menuStrcture = [
 						items: [
 							{
 								name: 'Using EMDK For Xamarin Samples',
-								link: '#guide-sample-emdksamples',
+								link: '#guide-sample-about',
 							},
 							{
 								name: 'DataCapture Profile Sample',
-								link: '#guide-sample-sampledatacaptureprofile',
+								link: '#guide-sample-profile-datacapture',
 							},
 						]
 					}
 				]
-			},
-			{
-				name: 'Guides',
-				icon: 'fa fa-book',
-				link: '#',
-				items: [
-					{
-						title: 'Guides',
-						icon: 'fa fa-book',
-						items: [
-							{
-								name: 'SimulScan API',
-								link: '#guide-simulscan_guide',
-							},
-							{
-								name: 'Name-Value Pair',
-								link: '#guide-name_value_pair',
-							},
-							{
-								name: 'PersonalShopper API',
-								link: '#guide-personalshopper',
-							},
-							{
-								name: 'Secure NFC API',
-								link: '#guide-securenfc',
-							}
-						]
-					}
-				]
-
 			},
 			{
 				name: 'Reference',

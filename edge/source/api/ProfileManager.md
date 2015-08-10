@@ -11,7 +11,7 @@ The client can register to get data notification via callbacks.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.ProfileManager+IDataListener **p0**
+* Symbol.EMDK.Xamarin.ProfileManager+IDataListener **p0** - DataListener Instance
 
 **Returns** - System.Void
 
@@ -22,9 +22,9 @@ This function creates a name value pair string according to the Name-Value pair 
 
 Parameters: 
 
-* System.String **p2**
-* System.String **p2**
-* System.String **p2**
+* System.String **p2** - Parameter Value.
+* System.String **p2** - Parameter Value.
+* System.String **p2** - Parameter Value.
 
 **Returns** - System.String
 
@@ -35,9 +35,9 @@ Processes the given profile based on the data provided and the flag and return s
 
 Parameters: 
 
-* Org.W3c.Dom.IDocument **p2**
-* Org.W3c.Dom.IDocument **p2**
-* Org.W3c.Dom.IDocument **p2**
+* Org.W3c.Dom.IDocument **p2** - This can be used to provide data for processing action.
+* Org.W3c.Dom.IDocument **p2** - This can be used to provide data for processing action.
+* Org.W3c.Dom.IDocument **p2** - This can be used to provide data for processing action.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults
 
@@ -48,9 +48,9 @@ To be added.
 
 Parameters: 
 
-* System.String[] **p2**
-* System.String[] **p2**
-* System.String[] **p2**
+* System.String[] **p2** - To be added.
+* System.String[] **p2** - To be added.
+* System.String[] **p2** - To be added.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults
 
@@ -61,9 +61,9 @@ To be added.
 
 Parameters: 
 
-* Org.W3c.Dom.IDocument **p2**
-* Org.W3c.Dom.IDocument **p2**
-* Org.W3c.Dom.IDocument **p2**
+* Org.W3c.Dom.IDocument **p2** - To be added.
+* Org.W3c.Dom.IDocument **p2** - To be added.
+* Org.W3c.Dom.IDocument **p2** - To be added.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults
 
@@ -74,9 +74,9 @@ To be added.
 
 Parameters: 
 
-* System.String[] **p2**
-* System.String[] **p2**
-* System.String[] **p2**
+* System.String[] **p2** - To be added.
+* System.String[] **p2** - To be added.
+* System.String[] **p2** - To be added.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults
 
@@ -87,7 +87,7 @@ To be added.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.ProfileManager+IDataListener **p0**
+* Symbol.EMDK.Xamarin.ProfileManager+IDataListener **p0** - To be added.
 
 **Returns** - System.Void
 

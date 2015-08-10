@@ -11,7 +11,7 @@ To be added.
 
 Parameters: 
 
-* System.String **p0**
+* System.String **p0** - To be added.
 
 **Returns** - Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG
 

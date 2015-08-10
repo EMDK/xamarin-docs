@@ -4,8 +4,7 @@ The EMDKManager class is the key class in Android EMDK. This class provides acce
 Example Usage:
 
 	:::
-	
-        EMDKResults results = EMDKManager.getEMDKManager(getApplicationContext(), emdkListener);
+	EMDKResults results = EMDKManager.getEMDKManager(getApplicationContext(), emdkListener);
       
 **Type** - Java.Lang.Object
 
@@ -15,18 +14,10 @@ Example Usage:
 
 This is static method and it is the key function to get the EMDKManager object. Clients must implement EMDKManager.EMDKListener to get notified of the EMDK manager status and to get the EMDKManager object.
 
-<<<<<<< Updated upstream
-Example Usage:
-
-	:::cs
-	String mystring = "abc 123";
-          
-=======
->>>>>>> Stashed changes
 Parameters: 
 
-* Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **emdkListener**
-* Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **emdkListener**
+* Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **emdkListener** -  The EMDK Listener for listener callbacks.
+* Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **emdkListener** -  The EMDK Listener for listener callbacks.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults
 
@@ -38,12 +29,11 @@ This method returns an object instance which has derived from EMDKBase. Based on
 Example Usage:
 
 	:::
-	
-            VersionManager mVersionManager = (VersionManager) emdkManager.getInstance(EMDKManager.FEATURE_TYPE.VERSION);
+	VersionManager mVersionManager = (VersionManager) emdkManager.getInstance(EMDKManager.FEATURE_TYPE.VERSION);
           
 Parameters: 
 
-* Symbol.EMDK.Xamarin.EMDKManager+FEATURE_TYPE **featureType**
+* Symbol.EMDK.Xamarin.EMDKManager+FEATURE_TYPE **featureType** - The EMDKManager.FEATURE_TYPE the object to be created.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKBase
 
@@ -55,8 +45,7 @@ This method releases all the resources constructed by EMDKManager. EMDKManager c
 Example Usage:
 
 	:::
-	
-            emdkManager.release();
+	emdkManager.release();
           
 
 **Returns** - System.Void
@@ -69,12 +58,11 @@ This method releases resources of a given manager type. Instance variable is not
 Example Usage:
 
 	:::
-	
-            emdkManager.release(EMDKManager.FEATURE_TYPE.PROFILE);
+	emdkManager.release(EMDKManager.FEATURE_TYPE.PROFILE);
           
 Parameters: 
 
-* Symbol.EMDK.Xamarin.EMDKManager+FEATURE_TYPE **featureType**
+* Symbol.EMDK.Xamarin.EMDKManager+FEATURE_TYPE **featureType** - Type of EMDKManager.FEATURE_TYPE to be released. Only the given feature related manager will be cleared if it has been constructed.
 
 **Returns** - System.Void
 

@@ -19,7 +19,7 @@ To be added.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.EMDKManager **p0**
+* Symbol.EMDK.Xamarin.EMDKManager **p0** - To be added.
 
 **Returns** - System.Void
 

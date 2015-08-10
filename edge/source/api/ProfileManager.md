@@ -22,8 +22,8 @@ This function creates a name value pair string according to the Name-Value pair 
 
 Parameters: 
 
-* System.String **p2** - Parameter Value.
-* System.String **p2** - Parameter Value.
+* System.String **p0** - Emdk Name
+* System.String **p1** - Parameter Name.
 * System.String **p2** - Parameter Value.
 
 **Returns** - System.String
@@ -35,8 +35,8 @@ Processes the given profile based on the data provided and the flag and return s
 
 Parameters: 
 
-* Org.W3c.Dom.IDocument **p2** - This can be used to provide data for processing action.
-* Org.W3c.Dom.IDocument **p2** - This can be used to provide data for processing action.
+* System.String **p0** - profileName - Name of the profile. ex: 'Profile1'.
+* Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG **p1** - profileFlag - ProfileManager.PROFILE_FLAG If the profileFlag is set to SET, and if the given profile is not available in the EMDKConfig.xml, it will look for valid profile in extraData argument and if present, the profile will be added to the internal XML volatile repository and also applied to the device. If the profile is present in the EMDKConfig.xml, it will be applied to the device. If profileFlag is set to GET and if the profile is present in the internal repository, it will be returned in extraData.
 * Org.W3c.Dom.IDocument **p2** - This can be used to provide data for processing action.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults
@@ -48,8 +48,8 @@ To be added.
 
 Parameters: 
 
-* System.String[] **p2** - To be added.
-* System.String[] **p2** - To be added.
+* System.String **p0** - To be added.
+* Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG **p1** - To be added.
 * System.String[] **p2** - To be added.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults
@@ -61,8 +61,8 @@ To be added.
 
 Parameters: 
 
-* Org.W3c.Dom.IDocument **p2** - To be added.
-* Org.W3c.Dom.IDocument **p2** - To be added.
+* System.String **p0** - To be added.
+* Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG **p1** - To be added.
 * Org.W3c.Dom.IDocument **p2** - To be added.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults
@@ -74,8 +74,8 @@ To be added.
 
 Parameters: 
 
-* System.String[] **p2** - To be added.
-* System.String[] **p2** - To be added.
+* System.String **p0** - To be added.
+* Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG **p1** - To be added.
 * System.String[] **p2** - To be added.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults

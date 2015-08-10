@@ -11,7 +11,7 @@ To be added.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner+IDataListener **p0** - To be added.
+* Symbol.EMDK.Xamarin.Barcode.Scanner+IDataListener **p0** - 
 
 **Returns** - System.Void
 
@@ -22,7 +22,7 @@ To be added.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner+IStatusListener **p0** - To be added.
+* Symbol.EMDK.Xamarin.Barcode.Scanner+IStatusListener **p0** - 
 
 **Returns** - System.Void
 
@@ -73,7 +73,7 @@ To be added.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner+IDataListener **p0** - To be added.
+* Symbol.EMDK.Xamarin.Barcode.Scanner+IDataListener **p0** - 
 
 **Returns** - System.Void
 
@@ -84,7 +84,7 @@ To be added.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner+IStatusListener **p0** - To be added.
+* Symbol.EMDK.Xamarin.Barcode.Scanner+IStatusListener **p0** - 
 
 **Returns** - System.Void
 

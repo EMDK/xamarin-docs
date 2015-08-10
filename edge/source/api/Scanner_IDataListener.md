@@ -11,7 +11,7 @@ To be added.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.Barcode.ScanDataCollection **p0** - To be added.
+* Symbol.EMDK.Xamarin.Barcode.ScanDataCollection **p0** - 
 
 **Returns** - System.Void
 

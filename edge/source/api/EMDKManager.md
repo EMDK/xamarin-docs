@@ -16,7 +16,7 @@ This is static method and it is the key function to get the EMDKManager object. 
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **emdkListener** -  The EMDK Listener for listener callbacks.
+* Android.Content.Context **context** - The application context should be provided by the user.
 * Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **emdkListener** -  The EMDK Listener for listener callbacks.
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults

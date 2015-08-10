@@ -11,7 +11,7 @@ To be added.
 
 Parameters: 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Preamble
 

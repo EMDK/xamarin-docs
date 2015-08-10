@@ -11,8 +11,8 @@ To be added.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.Barcode.BarcodeManager+ConnectionState **p1** - To be added.
-* Symbol.EMDK.Xamarin.Barcode.BarcodeManager+ConnectionState **p1** - To be added.
+* Symbol.EMDK.Xamarin.Barcode.BarcodeManager+ConnectionState **p1** - 
+* Symbol.EMDK.Xamarin.Barcode.BarcodeManager+ConnectionState **p1** - 
 
 **Returns** - System.Void
 

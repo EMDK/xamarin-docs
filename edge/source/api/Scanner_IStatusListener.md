@@ -11,7 +11,7 @@ To be added.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.Barcode.StatusData **p0** - To be added.
+* Symbol.EMDK.Xamarin.Barcode.StatusData **p0** - 
 
 **Returns** - System.Void
 

@@ -11,7 +11,7 @@ To be added.
 
 Parameters: 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - System.Boolean
 
@@ -22,7 +22,7 @@ To be added.
 
 Parameters: 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner **p0** - To be added.
+* Symbol.EMDK.Xamarin.Barcode.Scanner **p0** - 
 
 **Returns** - System.Void
 

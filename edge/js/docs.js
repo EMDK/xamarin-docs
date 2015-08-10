@@ -369,7 +369,7 @@ function loadDoc(key){
 	}
 
 	//change code blocks
-	html = html.replace(/<pre><code>(.*)/g,'<pre class="prettyprint"><code>');
+	html = html.replace(/<pre><code>(.*)/g,'<pre class="prettyprint linenums"><code>');
 
 	$("#markdownDoc").html(html);
 	GA(key);

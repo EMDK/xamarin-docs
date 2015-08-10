@@ -37,6 +37,10 @@ body {
 	z-index:0;
 }	
 
+
+ol.linenums{
+	color:yellow;
+}
 #docsHeader{
 	font-family: "UniversLTStd67BoldCondensed",arial,helvetica,"helvetica neue",verdana,sans-serif;
     position: fixed;

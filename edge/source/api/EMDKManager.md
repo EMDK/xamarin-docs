@@ -17,9 +17,8 @@ To be added.
 
 Example Usage:
 
-	:::
-	
-            Method Code snippet
+	:::cs
+	String mystring = "abc 123";
           
 Parameters: 
 

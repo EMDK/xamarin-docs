@@ -1,11 +1,11 @@
 #EMDKManager
-To be added.
+The EMDKManager class is the key class in Android EMDK. This class provides access to different classes for the supported features. Clients should call EMDKManager.getEMDKManager(Context, EMDKManager.EMDKListener), to get the EMDKManager object. Each application implements EMDKListener interface. The EMDKManager object will be returned on successful opening through the EMDKListener callback.
 
 Example Usage:
 
 	:::
 	
-        Class Code snippet
+        EMDKResults results = EMDKManager.getEMDKManager(getApplicationContext(), emdkListener);
       
 **Type** - Java.Lang.Object
 
@@ -13,47 +13,50 @@ Example Usage:
 ###GetEMDKManager
 **public static Symbol.EMDK.Xamarin.EMDKResults GetEMDKManager (Android.Content.Context p0, Symbol.EMDK.Xamarin.EMDKManager.IEMDKListener p1);**
 
-To be added.
+This is static method and it is the key function to get the EMDKManager object. Clients must implement EMDKManager.EMDKListener to get notified of the EMDK manager status and to get the EMDKManager object.
 
+<<<<<<< Updated upstream
 Example Usage:
 
 	:::cs
 	String mystring = "abc 123";
           
+=======
+>>>>>>> Stashed changes
 Parameters: 
 
-* Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **p1**
-* Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **p1**
+* Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **emdkListener**
+* Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **emdkListener**
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKResults
 
 ###GetInstance
 **public virtual Symbol.EMDK.Xamarin.EMDKBase GetInstance (Symbol.EMDK.Xamarin.EMDKManager.FEATURE_TYPE p0);**
 
-To be added.
+This method returns an object instance which has derived from EMDKBase. Based on the type given, the object needs to be type-casted before used. Calling this method EMDKManager.getInstance(EMDKManager.FEATURE_TYPE) before EMDKManager opened will return null.
 
 Example Usage:
 
 	:::
 	
-            Method Code snippet
+            VersionManager mVersionManager = (VersionManager) emdkManager.getInstance(EMDKManager.FEATURE_TYPE.VERSION);
           
 Parameters: 
 
-* Symbol.EMDK.Xamarin.EMDKManager+FEATURE_TYPE **p0**
+* Symbol.EMDK.Xamarin.EMDKManager+FEATURE_TYPE **featureType**
 
 **Returns** - Symbol.EMDK.Xamarin.EMDKBase
 
 ###Release
 **public virtual void Release ();**
 
-To be added.
+This method releases all the resources constructed by EMDKManager. EMDKManager can't be used after this call. The clients must call this method before exiting the application.
 
 Example Usage:
 
 	:::
 	
-            Method Code snippet
+            emdkManager.release();
           
 
 **Returns** - System.Void
@@ -61,17 +64,17 @@ Example Usage:
 ###Release
 **public virtual void Release (Symbol.EMDK.Xamarin.EMDKManager.FEATURE_TYPE p0);**
 
-To be added.
+This method releases resources of a given manager type. Instance variable is not required as multiple instances are not allowed by design.
 
 Example Usage:
 
 	:::
 	
-            Method Code snippet
+            emdkManager.release(EMDKManager.FEATURE_TYPE.PROFILE);
           
 Parameters: 
 
-* Symbol.EMDK.Xamarin.EMDKManager+FEATURE_TYPE **p0**
+* Symbol.EMDK.Xamarin.EMDKManager+FEATURE_TYPE **featureType**
 
 **Returns** - System.Void
 

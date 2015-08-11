@@ -9,10 +9,10 @@ To be added.
 
 To be added.
 
-Parameters: 
+**Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.BarcodeManager+ConnectionState **p1** - 
-* Symbol.EMDK.Xamarin.Barcode.BarcodeManager+ConnectionState **p1** - 
+* Symbol.EMDK.Xamarin.Barcode.ScannerInfo **p0** - To be added.
+* Symbol.EMDK.Xamarin.Barcode.BarcodeManager+ConnectionState **p1** - To be added.
 
 **Returns** - System.Void
 

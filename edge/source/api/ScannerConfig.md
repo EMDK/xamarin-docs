@@ -9,9 +9,9 @@ To be added.
 
 To be added.
 
-Parameters: 
+**Parameters:** 
 
-* System.String **p0** - 
+* System.String **p0** - To be added.
 
 **Returns** - System.Boolean
 
@@ -20,9 +20,9 @@ Parameters:
 
 To be added.
 
-Parameters: 
+**Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner **p0** - 
+* Symbol.EMDK.Xamarin.Barcode.Scanner **p0** - To be added.
 
 **Returns** - System.Void
 

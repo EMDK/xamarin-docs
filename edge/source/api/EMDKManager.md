@@ -14,7 +14,7 @@ Example Usage:
 
 This is static method and it is the key function to get the EMDKManager object. Clients must implement EMDKManager.EMDKListener to get notified of the EMDK manager status and to get the EMDKManager object.
 
-Parameters: 
+**Parameters:** 
 
 * Android.Content.Context **context** - The application context should be provided by the user.
 * Symbol.EMDK.Xamarin.EMDKManager+IEMDKListener **emdkListener** -  The EMDK Listener for listener callbacks.
@@ -31,7 +31,7 @@ Example Usage:
 	:::
 	VersionManager mVersionManager = (VersionManager) emdkManager.getInstance(EMDKManager.FEATURE_TYPE.VERSION);
           
-Parameters: 
+**Parameters:** 
 
 * Symbol.EMDK.Xamarin.EMDKManager+FEATURE_TYPE **featureType** - The EMDKManager.FEATURE_TYPE the object to be created.
 
@@ -60,7 +60,7 @@ Example Usage:
 	:::
 	emdkManager.release(EMDKManager.FEATURE_TYPE.PROFILE);
           
-Parameters: 
+**Parameters:** 
 
 * Symbol.EMDK.Xamarin.EMDKManager+FEATURE_TYPE **featureType** - Type of EMDKManager.FEATURE_TYPE to be released. Only the given feature related manager will be cleared if it has been constructed.
 

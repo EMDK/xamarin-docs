@@ -17,7 +17,7 @@ To be added.
 
 To be added.
 
-Parameters: 
+**Parameters:** 
 
 * Symbol.EMDK.Xamarin.EMDKManager **p0** - To be added.
 

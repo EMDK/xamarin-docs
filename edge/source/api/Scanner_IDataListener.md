@@ -9,9 +9,9 @@ To be added.
 
 To be added.
 
-Parameters: 
+**Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.ScanDataCollection **p0** - 
+* Symbol.EMDK.Xamarin.Barcode.ScanDataCollection **p0** - To be added.
 
 **Returns** - System.Void
 

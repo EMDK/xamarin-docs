@@ -20,7 +20,7 @@ Example Usage:
               }
             }
           
-Parameters: 
+**Parameters:** 
 
 * Symbol.EMDK.Xamarin.VersionManager+VERSION_TYPE **p0** - To be added.
 

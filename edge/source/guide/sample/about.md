@@ -10,6 +10,8 @@ The EMDK For Xamarin includes sample projects to explore and get familiar with i
 ## Opening a Sample
 After adding the EMDK for Xamarin component to your Android project, you can access the samples that come bundled with the component:
 
+> See `PathTooLongException` section below for details on how to fix an error that may occur when opening samples in this manor.
+
 1. Open the EMDK for Xamarin components detail page
 
 	![img](images/component/details-button.png)
@@ -25,7 +27,12 @@ The sample project will then open. You can choose to run it and review the assoc
 
 ![img](images/component/sample-opened.png)
 
+##PathTooLongException
+There is a known [issue](https://bugzilla.xamarin.com/show_bug.cgi?id=17662) that sometimes occurs when loading and building a sample project in the manor described above. When the a Xamarin component is added to your project, a copy of that component and all of it contents are copied to your project and placed in the `PROJECT/Components` folder. All the samples for that project reside three directories deeper into the path project path  `PROJECT/Components/COMPONENTNAME/Samples/SampleName`. As you can see the full path to this sample can grow quite large. i.e. **C:\Users\USERNAME\Documents\Visual Studio 2013\Projects\PROJECTNAME\Components\emdk-component-0.0.1\samples\SAMPLENAME**.  In most cases the project will load correctly when launching the sample from the Component details page, but when you attempt to build the project you get get a PathTooLongException. This error happens because the windows operating system sets a maximum limit to how long a path can be (260 characters). This path may not be 260 long yet, but when the build process starts, it will generate files and paths inside that sample folder.  To solve this issue, you simply need to copy the sample project that you wish to use, out of that embedded samples folder, up to the IDE's project folder, and then load the sample by clicking on its .sln (solution)file.
+
+
+
 ## Details of Samples
 Be sure to reference the details of each included sample as described in their associated guides:
 
-* [Profiles - Data Capture](../guide/sample/profile-datacapture) - Demonstrates use of base EMDK API's and using data capture using profiles generated from Profile Manager. 
+* [Profiles - Data Capture](../guide/sample/profile-datacapture) - Demonstrates use of base EMDK API's and using data capture using profiles generated from Profile Manager.

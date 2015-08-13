@@ -214,22 +214,60 @@ Now lets add some code to our project.
         :::cs
         void ApplyProfile()
         {
-
-            if(profileManager != null)
+            if (profileManager != null)
             {
-                EMDKResults results = profileManager.ProcessProfile(profileName, ProfileManager.PROFILE_FLAG.Set, new String[] {""});
-                if(results.StatusCode != EMDKResults.STATUS_CODE.Success)
+                EMDKResults results = profileManager.ProcessProfile(profileName, ProfileManager.PROFILE_FLAG.Set, new String[] { "" });
+                if (results.StatusCode == EMDKResults.STATUS_CODE.Success)
                 {
-                    tvStatus.Text = "Status: Profile initialization failed ...";
+                    tvStatus.Text = "Status: Profile applied successfully ...";
+                }
+                else if (results.StatusCode == EMDKResults.STATUS_CODE.CheckXml)
+                {
+                    //Inspect the XML response to see if there are any errors, if not report success
+                    using (XmlReader reader = XmlReader.Create(new StringReader(results.StatusString)))
+                    {
+                        String checkXmlStatus = "Status:\n\n";
+                        while (reader.Read())
+                        {
+                            switch (reader.NodeType)
+                            {
+                                case XmlNodeType.Element:
+                                    switch (reader.Name)
+                                    {
+                                        case "parm-error":
+                                            checkXmlStatus +=  "Parm Error:\n";
+                                            checkXmlStatus += reader.GetAttribute("name") + " - ";
+                                            checkXmlStatus += reader.GetAttribute("desc") + "\n\n";
+                                            break;
+                                        case "characteristic-error":
+                                            checkXmlStatus += "characteristic:\n";
+                                            checkXmlStatus += reader.GetAttribute("type") + " - ";
+                                            checkXmlStatus += reader.GetAttribute("desc") + "\n\n";
+                                            break;
+                                    }
+                                    break;
+                            }
+                        }
+
+                        if (checkXmlStatus == "Status:\n\n")
+                        {
+                            tvStatus.Text = "Status: Profile applied successfully ...";
+                        }
+                        else
+                        {
+                            tvStatus.Text = checkXmlStatus;
+                        }
+
+                    }
                 }
                 else
                 {
-                    tvStatus.Text = "Status: Profile initialization success ...";
+                    tvStatus.Text = "Status: Profile initialization failed ... " + results.StatusCode;
                 }
             }
             else
             {
-                 tvStatus.Text = "Status: profileManager is null ...";
+                tvStatus.Text = "Status: profileManager is null ...";
             }
         }
 
@@ -257,7 +295,17 @@ Now lets add some code to our project.
         }
 
 ##Running the application
+Now that we are finish with our first EMDK for Xamarin application, lets see how it runs.
 
+> NOTE: Make sure the device is connected to your development system via a USB cable, and that Developer Mode/USB debugging is enabled on the device.
+
+1. Make note of the current Time and Date on the device.
+
+2. Start the application by pressing the "Play" button on the toolbar in your IDE.
+   The IDE will install the new application on the device and run it.
+3. If all goes well, you should eventually see your application start and the status message change to `EMDK Opened successfully ...`
+4. Now press the `Apply Profile` button.
+5. The Status Message should now read `Profile applied successfully ...`. You should see the Time on the devices Notification Bar change to the time you set the Clock profile. You can also pull the Notification Bar down and see that the Date has changed to the Date you set in the Clock profile.
 
 
 ##Download the Source

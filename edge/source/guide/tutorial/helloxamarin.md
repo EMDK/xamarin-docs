@@ -1,15 +1,42 @@
 #Your First EMDK For Xamarin Application
 
-This document will contain step by step instructions for using EMDK Api's in a new Xamarin application from scratch. It will cover adding the component to the project, using profile manager, using basic APIs
+This document contains step by step instructions for using EMDK Api's in a new Xamarin application from scratch. It covers adding the component to the project, using profile manager, using basic APIs
+
+##Prerequisites
+Before starting this tutorial you must install the following software.
+
+- Visual Studio 2013 or later
+- [Xamarin Plaform](http://xamarin.com/download)
+- [Symbol EMDK for Xamarin Add-in for Visual Studio](../guide/vs-setup)
 
 
 ##Create a new project
-When creating a project for this tutorial use the project name **ProfileDataCaptureTutorial**
+When creating a project for this tutorial use the project name **GettingStartedTutorial**
 
 If you are developing your project in Visual Studio, follow this [guide](../guide/newprojectvisualstudio) to create a new project.
 
 ##Add Symbol EMDK Component
 Follow this [guide](../guide/component-install) to add the needed component you your project.
+
+##Build a Profile
+In this project we will perform a simple task to demonstrate how to use the ProfileManager Wizard to create a profile
+and then submit that profile via the ProfileManager API.
+
+Lets begin by creating a Profile that will set the Date and Time on our device.
+
+1. Open the ProfileManger Wizard by selecting EMDK > Profile Manager
+2. Create a new Profile by clicking the `Create` Button.
+3. In the Create a New Profile Dialog, enter **ClockProfile** as the Name, and then click `Create`
+4. Once the Profile Editor loads, select the Clock feature in the Available Features pane, and then click the `Right Arrow` (greater than symbol) to add the clock feature to the selected features list.
+5. Select the Clock feature in the selected features list, and Clock feature parameters will load in the far left pane.
+6. Click in the Date: field, and notice the instructions for that field at the bottom left of the Wizard. In this field lets
+enter a date that follows the formatting instructions for that field.
+7. Click in the Time: field, In this field lets enter a time that follows the formatting instructions for that field.
+8. Now click `Apply` and then `Finish`
+9. Now click the `Close` on the Profile Manger
+
+The ProfileManager Wizard will generate the needed xml in a file call EMDKConfig.xml and place it in the Assets folder of our project. Now lets move on and write some code to submit the profile.
+
 
 ##Setup AndroidManifest.xml
 In order to use the Symbol EMDK for Android in your project we first need to add a few items to the AndroidManifest.xml in your project.
@@ -26,48 +53,32 @@ In order to use the Symbol EMDK for Android in your project we first need to add
 4. Now add a `uses-library` tag inside the `application` node.
 
         :::xml
-        <uses-library android:name="com.symbol.emdk" android:required="false" />
-
-  >NOTE: This tag uses an optional parameter `android:requred`. When set to false, this parameter allows your
-  application to load if it where to be run on a non-Zebra device( which would not have the EMDK libraries). This would allow you to create an application that can run on many devices and make use of other libraries on non-Zebra devices to perform similar tasks.
+        <uses-library android:name="com.symbol.emdk" />
 
 
 **Your completed AndroidManifest.xml should resemble the following:**
 
     :::xml
     <?xml version="1.0" encoding="utf-8"?>
-    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-              package="ProfileDataCaptureTutorial.ProfileDataCaptureTutorial" android:versionCode="1" android:versionName="1.0">
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="GettingStartedTutorial.GettingStartedTutorial" android:versionCode="1" android:versionName="1.0">
       <uses-sdk android:minSdkVersion="19" />
       <uses-permission android:name="com.symbol.emdk.permission.EMDK" />
-      <application android:label="ProfileDataCaptureTutorial" android:icon="@drawable/Icon">
-        <uses-library android:name="com.symbol.emdk" android:required="false" />
+    	<application android:label="GettingStartedTutorial" android:icon="@drawable/Icon">
+        <uses-library android:name="com.symbol.emdk"  />
       </application>
     </manifest>
 
-##Build the User Interface
+##Setup User Interface
 Now lets build our User Interface by opening our main layout file and dragging a dropping some UI elements into our Form.
 
 1. Open our main layout by selecting **Solution pane** > "Project Name" > Resources > layout > Main.axml
 2. After the layout loads in the Form Builder we can begin adding and modifying UI elements.
-  1. Select the **HELLO WORLD, CLICK ME!** button, and set its `id` and `text` properties to the following values in the **Properties** pane.
-    - **MyButton** set **id** to `@+id/buttonSet` and set **text** to `Set`
-  2. Add 6 new checkboxes from the **Toolbox** pane above the **buttonSet** button.
-  3. Select each check box widget and set its `id` and `text` properties to one of the following values in the **Properties** pane.
-    - **checkbox1** set **id** to `@+id/checkBoxCode128` and set **text** to `Code128`
-    - **checkbox2** set **id** to `@+id/checkBoxCode39` and set **text** to `Code39`
-    - **checkbox3** set **id** to `@+id/checkBoxEAN8` and set **text** to `EAN8`
-    - **checkbox4** set **id** to `@+id/checkBoxEAN13` and set **text** to `EAN13`
-    - **checkbox5** set **id** to `@+id/checkBoxUPCA` and set **text** to `UPCA`
-    - **checkbox6** set **id** to `@+id/checkBoxUPCE0` and set **text** to `UPCE0`
-  4. Add a new textview widget to the form directly below the **buttonSet** button.
-  5. Select the new textview **textView1**, and set its `id` and `text` properties to the following values in the **Properties** pane.
+  1. Select the **HELLO WORLD, CLICK ME!** button, and set its `text` property to the following value in the **Properties** pane.
+    - **MyButton** set **text** to `Apply Profile`
+  2. Add a new textview widget to the form directly below **MyButton** .
+  3. Select the new textview **textView1**, and set its `id` and `text` properties to the following values in the **Properties** pane.
     -  **textView1** set **id** to `@+id/textViewStatus` and set **text** to `Status:`
-  6. Add a new EditText widget to the for directlty below *textView1** and set its properties to the following values in the **Properties** pane.
-    - set **id** to `@+id/editText1`
-    - set **layout_height** to `214dp`
-    - set **layout_marginBottom** to `173dp`
-    - set **layout_width** to `match_parent`
+
 
 **Your completed Main.axml should resemble the following:**
 >NOTE: To veiw layout in as xml, switch from **Design** to **Source** view by selecting `Source` in the bottom left corner of the **Form Builder**
@@ -78,55 +89,17 @@ Now lets build our User Interface by opening our main layout file and dragging a
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-        <CheckBox
-            android:text="Code128"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/checkBoxCode128"
-            android:checked="true" />
-        <CheckBox
-            android:text="Code39"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/checkBoxCode39" />
-        <CheckBox
-            android:text="EAN8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/checkBoxEAN8"
-            android:checked="true" />
-        <CheckBox
-            android:text="EAN13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/checkBoxEAN13" />
-        <CheckBox
-            android:text="UPCA"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/checkBoxUPCA"
-            android:checked="true" />
-        <CheckBox
-            android:text="UPCE0"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/checkBoxUPCE0" />
         <Button
-            android:text="Set"
-            android:layout_width="match_parent"
+            android:id="@+id/MyButton"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonSet" />
+            android:text="Apply Profile" />
         <TextView
             android:text="Status:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textViewStatus" />
-        <EditText
-            android:inputType="textMultiLine"
-            android:layout_width="match_parent"
-            android:layout_height="214.4dp"
-            android:id="@+id/editText1"
-            android:layout_marginBottom="173.4dp" />
     </LinearLayout>
 
 ##Add Some Code
@@ -134,51 +107,40 @@ Now lets add some code to our project.
 
 1. Start by opening up our MainActivity, select **Solution pane** > "Project Name" > MainActivity.cs
 2. Add a `using` directive that references the Symbol EMDK for Xamarin
-  > `using Symbol.EMDK.Xamarin;`
+
+        :::cs
+        using Symbol.EMDK.Xamarin;
 
 3. Now lets add some global variables to the MainActivity class for later use.
 
         :::cs
         private EMDKManager emdkManager = null;
         private ProfileManager profileManager = null;
-        private String profileName = "DataCaptureProfile-1";
-        private String extraDataXML = "";
+        private String profileName = "ClockProfile";
         private TextView tvStatus = null;
-        private CheckBox cbCode128 = null;
-        private CheckBox cbCode39 = null;
-        private CheckBox cbEAN8 = null;
-        private CheckBox cbEAN13 = null;
-        private CheckBox cbUPCA = null;
-        private CheckBox cbUPCE0 = null;
+
 
 4. When our OnCreate Activity lifecycle method is called, we call the Activity's SetContentVeiw() method, which will pull in the layout we created previously in Main.axml. We now need to initialize our User Interface global variables so they can be referenced anywhere in the MainActivity class. We will do that inside our OnCreate method just below where SetContentVeiw() is called.
 
             :::cs
             tvStatus = FindViewById<TextView>(Resource.Id.textViewStatus);
-            cbCode128 = FindViewById<CheckBox>(Resource.Id.checkBoxCode128);
-            cbCode39 = FindViewById<CheckBox>(Resource.Id.checkBoxCode39);
-            cbEAN8 = FindViewById<CheckBox>(Resource.Id.checkBoxEAN8);
-            cbEAN13 = FindViewById<CheckBox>(Resource.Id.checkBoxEAN13);
-            cbUPCA = FindViewById<CheckBox>(Resource.Id.checkBoxUPCA);
-            cbUPCE0 = FindViewById<CheckBox>(Resource.Id.checkBoxUPCE0);
 
-5. While we are initializing the User Interface lets also add a callback to our "SET" button which will call a method to collect our checkbox selections and modify our scanning profile to enable or disable barcode types. For this we will add a method to our MainActivity class that can be called in our OnCreate method.
 
-  1. Add the class method  
+5. While we are initializing the User Interface lets modify setup our button call a method that will submit our profile. When we crated the profile from the Android Blank template, it added a few lines for us, but we need to modify one of them.
+
+  1. Change the line that finds the button, so it will find the button
+
+  Change:
 
             :::cs
-            void AddButtonListener()
-            {
-                Button btnSet = FindViewById<Button>(Resource.Id.buttonSet);
+            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
 
-                btnSet.Click += delegate { ModifyProfileXML();};
-            }
-
-  2. Call the method inside OnCreate
+  To:
 
             :::cs
-            AddButtonListener();
+             button.Click += delegate { ApplyProfile(); };
 
+>Note: We will add the ApplyProfile() method later in this tutorial.
 
 6. Also in our OnCreate method, we will call the EMDKManager.GetEMDKManger() method to start the EMDKManger initialization process. Then we will check the result of the method and alert the user by updating the Status TextView.
 
@@ -232,6 +194,7 @@ Now lets add some code to our project.
                     tvStatus.Text = "Status: Exception <" + e.Message + ">";
                 }
             }
+
   4. We also need to make sure we clean up the EMDKManger references when they can no longer be used. We will do this in the OnClosed method.
 
             :::cs
@@ -246,143 +209,54 @@ Now lets add some code to our project.
                 }
             }
 
-8. Later we will create a Profile via the ProfileManager Wizard. We need a way to pass that Profile to the ProfileManager to be processing, for this we will add a method to our MainActivity class.
-  1. Create the InitProfile method
+8. We need a way to pass the Profile to the ProfileManager to be processed, for this we will add a method to our MainActivity class called ApplyProfile.
 
-            :::cs
-            void InitProfile()
+        :::cs
+        void ApplyProfile()
+        {
+
+            if(profileManager != null)
             {
-
-                if(profileManager != null)
+                EMDKResults results = profileManager.ProcessProfile(profileName, ProfileManager.PROFILE_FLAG.Set, new String[] {""});
+                if(results.StatusCode != EMDKResults.STATUS_CODE.Success)
                 {
-                    EMDKResults results = profileManager.ProcessProfile(profileName, ProfileManager.PROFILE_FLAG.Set, new String[] {""});
-                    if(results.StatusCode != EMDKResults.STATUS_CODE.Success)
-                    {
-                        tvStatus.Text = "Status: Profile initialization failed ...";
-                    }
-                    else
-                    {
-                        tvStatus.Text = "Status: Profile initialization success ...";
-                    }
+                    tvStatus.Text = "Status: Profile initialization failed ...";
                 }
                 else
                 {
-                     tvStatus.Text = "Status: profileManager is null ...";
+                    tvStatus.Text = "Status: Profile initialization success ...";
                 }
             }
-
-  2. Call the InitProfile method when right after the Profile manager is initialized in OnOpened
-
-            :::cs
-            void EMDKManager.IEMDKListener.OnOpened(EMDKManager emdkManager)
-            {
-                tvStatus.Text = "Status: EMDK Opened successfully ...";
-
-                this.emdkManager = emdkManager;
-
-                try
-                {
-                    profileManager = (ProfileManager)emdkManager.GetInstance(EMDKManager.FEATURE_TYPE.Profile);
-                    InitProfile();
-                }
-                catch (Exception e)
-                {
-                    tvStatus.Text = "Status: Exception <" + e.Message + ">";
-                }
-            }
-
-9. The ProfileManager.ProcessProfile() method allows one to pass an xml structure that will serve as an update to a static xml profile. ProcessProfile() will take the update xml and apply it to the static Profile before summiting it to be processed.
-So now we need a method that will check the status of our checkboxes and create an xml string that will update our extraDataXML global variable. We will add a method to the MainActivity class.
-
-        :::cs
-        void CreateExtraDataFromUI()
-        {
-            extraDataXML = "";
-
-            extraDataXML += "<?xml version=\"1.0\" encoding=\"utf-8\"?>" +
-                            "<characteristic type=\"Profile\">" +
-                            "<characteristic type=\"Barcode\" version=\"0.1\">" +
-                            "<characteristic type=\"Decoders\">";
-
-            if (cbCode128.Checked)
-            {
-                extraDataXML += "<parm name=\"decoder_code128\" value=\"true\"/>";
-            }
             else
             {
-                extraDataXML += "<parm name=\"decoder_code128\" value=\"false\"/>";
-            }
-
-            if (cbCode39.Checked)
-            {
-                extraDataXML += "<parm name=\"decoder_code39\" value=\"true\"/>";
-            }
-            else
-            {
-                extraDataXML += "<parm name=\"decoder_code39\" value=\"false\"/>";
-            }
-
-            if (cbEAN8.Checked)
-            {
-                extraDataXML += "<parm name=\"decoder_ean8\" value=\"true\"/>";
-            }
-            else
-            {
-                extraDataXML += "<parm name=\"decoder_ean8\" value=\"false\"/>";
-            }
-
-            if (cbEAN13.Checked)
-            {
-                extraDataXML += "<parm name=\"decoder_ean13\" value=\"true\"/>";
-            }
-            else
-            {
-                extraDataXML += "<parm name=\"decoder_ean13\" value=\"false\"/>";
-            }
-
-            if (cbUPCA.Checked)
-            {
-                extraDataXML += "<parm name=\"decoder_upca\" value=\"true\"/>";
-            }
-            else
-            {
-                extraDataXML += "<parm name=\"decoder_upca\" value=\"false\"/>";
-            }
-
-            if (cbUPCE0.Checked)
-            {
-                extraDataXML += "<parm name=\"decoder_upce0\" value=\"true\"/>";
-            }
-            else
-            {
-                extraDataXML += "<parm name=\"decoder_upce0\" value=\"false\"/>";
-            }
-
-            extraDataXML += "</characteristic>" +
-                            "</characteristic>" +
-                            "</characteristic>";
-        }
-
-10. Now we need to add is a method to submit the extraDataXML Profile update. This method will be called by our "SET" button. Lets add a new method to the MainActivity class.
-
-        :::cs
-        void ModifyProfileXML()
-        {
-            CreateExtraDataFromUI();
-
-            String[] modifyData = new String[1];
-            modifyData[0] = extraDataXML;
-
-            EMDKResults results = profileManager.ProcessProfile(profileName, ProfileManager.PROFILE_FLAG.Set, modifyData);
-
-            if (results.StatusCode != EMDKResults.STATUS_CODE.Success)
-            {
-                tvStatus.Text = "Profile modification failed ...";
-            }
-            else
-            {
-                tvStatus.Text = "Profile modification succeeded ...";
+                 tvStatus.Text = "Status: profileManager is null ...";
             }
         }
 
-##Build a Profile
+
+
+
+
+9. Lastly we need to make sure and clean up our references to ProfileManager and EMDKManager before our application exits.
+
+        :::cs
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+
+            if (profileManager != null)
+            {
+                profileManager = null;
+            }
+
+            if (emdkManager != null)
+            {
+                emdkManager.Release();
+                emdkManager = null;
+            }
+        }
+
+
+
+##Download the Source
+The project source to this tutorial can be [downloaded (Internet Connection Required)](https://github.com/EMDK/xamarin-samples/archive/GettingStartedTutorial.zip).

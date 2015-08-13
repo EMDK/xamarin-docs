@@ -13,7 +13,7 @@ Before starting this tutorial you must install the following software.
 ##Create a new project
 When creating a project for this tutorial use the project name **GettingStartedTutorial**
 
-If you are developing your project in Visual Studio, follow this [guide](../guide/newprojectvisualstudio) to create a new project.
+Follow this [guide](../guide/newprojectvisualstudio) to create a new project in Visual Studio.
 
 ##Add Symbol EMDK Component
 Follow this [guide](../guide/component-install) to add the needed component you your project.
@@ -255,6 +255,8 @@ Now lets add some code to our project.
                 emdkManager = null;
             }
         }
+
+##Running the application
 
 
 

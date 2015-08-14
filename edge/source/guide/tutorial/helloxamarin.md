@@ -240,7 +240,7 @@ Now lets add some code to our project.
                                             checkXmlStatus += reader.GetAttribute("desc") + "\n\n";
                                             break;
                                         case "characteristic-error":
-                                            checkXmlStatus += "characteristic:\n";
+                                            checkXmlStatus += "characteristic Error:\n";
                                             checkXmlStatus += reader.GetAttribute("type") + " - ";
                                             checkXmlStatus += reader.GetAttribute("desc") + "\n\n";
                                             break;

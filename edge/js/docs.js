@@ -517,7 +517,7 @@ function loadDoc(key){
 			if(imgIsVideo){
 				var ytid = $(this).attr('alt').replace('yt:','');
 
-				var ytEmbed = '<iframe id="yt-video" width="100%" height="315" src="https://www.youtube.com/embed/' + ytid + '" frameborder="0" autoplay allowfullscreen></iframe>'
+				var ytEmbed = '<iframe id="yt-video" width="100%" height="315" src="https://www.youtube.com/embed/' + ytid + '?autoplay=1" frameborder="0" autoplay allowfullscreen></iframe>'
 				$("#modalImg").html(ytEmbed);
 				console.log('youtube video' + ytid);
 				itemHeight = 480;

@@ -1,9 +1,12 @@
 #Visual Studio Setup
 
+## Watch This Guide
+![yt:4z1HQ1M3qJ0](images/video.png)
+
 ##Adding Extension Gallery
 Prior to releasing the EMDK For Xamarin, we will be hosting a private Visual Studio Extension gallery to allow you to easily install the extension. To get access to the gallery, you need to add a configuration option to your Visual Studio settings.
 
-[Watch a video walkthorugh](https://www.youtube.com/watch?v=4z1HQ1M3qJ0)
+
 
 1. Open Visual Studio and select `Tools\Options`.
 
@@ -45,6 +48,8 @@ Now that the gallery has been added to Visual Studio, you will be able to use th
 9. Restart Visual Studio as directed
 
 	![img](images/vs/vsix-restart.png)
+
+
 
 ## What's Next
 In order to fully enable the EMDK for Xamarin, you must [install the Xamarin Component](../guide/component/install)

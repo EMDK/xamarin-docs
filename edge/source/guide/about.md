@@ -1,13 +1,22 @@
-# EMDK For Xamarin - Beta 
+# EMDK For Xamarin - Beta
 Welcome to the EMDK for Xamarin Beta. This beta will provide you with ability to use Zebra's EMDK features within your Xamarin application. Please be sure to read the contents of this guide in it's entirety to ensure your evironment is properly setup
 
-**Features Supported**
+###Before you get started
+ In order to use the EMDK for Xamarin Beta, you must first have Microsoft Visual Studio 2010 or above, and the Xamarin Platform installed on your development system.  Zebra does not provide licenses for Microsoft Visual Studio or licenses for Xamarin Platform/Xamarin Studio. Further information on obtaining licenses or getting started with these products, can be found at the following links.
+
+* [Microsoft Visual Studio](https://www.visualstudio.com/downloads/download-visual-studio-vs)
+
+* [Xamarin](http://developer.xamarin.com/guides/cross-platform/getting_started/)
+
+
+
+###Features Supported
 
 - Profile Manager Visual Studio (2012+) Plugin
 - Symbol.EMDK.Xamarin APIs
 	- EMDKManager, ProfileManager, VersionManager, EMDKBase
 
-**Not Yet Implemented**
+###Not Yet Implemented
 
 - Symbol.EMDK.Xamarin.Barcode - this may be functional, but API names may change
 - Xamarin Studio Add-In
@@ -54,6 +63,3 @@ We have a lot more resources for you to benefit from:
 
 ### Report Feedback/Issues
 Thanks for taking the time to try out this beta. We would love to hear your [feedback or issues](https://github.com/emdk/xamarin-docs/issues/new?title=EMDK%20For%20Xamarin) you have encountered. Note; A GitHub account is required to create issues, please log into Github before submitting an issue.
-
-
-

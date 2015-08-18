@@ -59,6 +59,11 @@ div.video span {
     background-size: 50%;
   }
 }
+
+div {
+  clear: both;
+}
+
 /*.video:after {
     position:absolute;
     top:0;

@@ -499,24 +499,29 @@ function loadDoc(key){
 	}
 
 	//Get images
-	var imgTags = $("#markdownDoc").find('img');
-	for(var i = 0; i<imgTags.length; i++)
-	{
+	var imgTags = $("#markdownDoc").find('img').each(function( index ) {
+		if($(this).attr('alt').startsWith('yt:')){
+			var ytid = $(this).attr('alt').replace('yt:','');
+			var video_thumbnail = 'http://img.youtube.com/vi/'+ytid+'/0.jpg';
+			$(this).attr('src',video_thumbnail);
+		}
 		//Image Model
-		$(imgTags[i]).click(function(){
+		$(this).click(function(){
 			//Set Image
 			var imgIsVideo = false;
 			if($(this).attr('alt').startsWith('yt:')){
 				imgIsVideo = true;
 			}
+			var itemHeight = this.naturalHeight;
+			var itemWidth = this.naturalWidth;
 			if(imgIsVideo){
 				var ytid = $(this).attr('alt').replace('yt:','');
 
-				var ytEmbed = '<iframe width="420" height="315" src="https://www.youtube.com/embed/' + ytid + '" frameborder="0" autoplay allowfullscreen></iframe>'
+				var ytEmbed = '<iframe width="100%" height="315" src="https://www.youtube.com/embed/' + ytid + '" frameborder="0" autoplay allowfullscreen></iframe>'
 				$("#modalImg").html(ytEmbed);
 				console.log('youtube video' + ytid);
-				this.naturalHeight = 315;
-				this.naturalWidth = 420;
+				itemHeight = 480;
+				itemWidth = 640;
 			}
 			else{
 				$("#modalImg").html( '<a href="' + $(this).attr("src") + '" target="_blank"><img title="" slt="img" src="' + $(this).attr("src") + '"></img></a>');
@@ -530,7 +535,7 @@ function loadDoc(key){
 			}
 			else
 			{
-				$(".modal-dialog").css("width", (this.naturalWidth +44) + "px");
+				$(".modal-dialog").css("width", (itemWidth +44) + "px");
 			}
 
 			if(this.naturalHeight  > ($(window).height()- 120))
@@ -539,9 +544,8 @@ function loadDoc(key){
 			}
 			else
 			{
-				$(".modal-body").css("height", (this.naturalHeight+44) + "px");
+				$(".modal-body").css("height", (itemHeight+44) + "px");
 			}
-
 			//Show
 			$('#basicModal').modal('show');
 
@@ -550,6 +554,11 @@ function loadDoc(key){
 				$("#modalImg").scrollLeft(0);
 			},200);
 		});
+
+
+	});;
+	for(var i = 0; i<imgTags.length; i++)
+	{
 	}
 
 	//Get links

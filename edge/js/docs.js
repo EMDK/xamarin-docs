@@ -504,9 +504,12 @@ function loadDoc(key){
 			var ytid = $(this).attr('alt').replace('yt:','');
 			var video_thumbnail = 'http://img.youtube.com/vi/'+ytid+'/0.jpg';
 			$(this).attr('src',video_thumbnail);
+			$(this).wrap( "<div class='videos'></div>" );
+			$(this).wrap( "<div  class='video' alt='yt:" + ytid + "''></div>" );
+			$(this).before( "<span></span>" );
 		}
 		//Image Model
-		$(this).click(function(){
+		$(this).parent().click(function(){
 			//Set Image
 			var imgIsVideo = false;
 			if($(this).attr('alt').startsWith('yt:')){

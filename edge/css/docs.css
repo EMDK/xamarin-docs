@@ -38,7 +38,41 @@ body {
 	z-index:0;
 }	
 
-
+.videos img {
+  /*width:100%;*/
+  height:auto;
+}
+div.video {
+  float: left;
+  position: relative;
+}
+div.video span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../images/play_button.png") no-repeat;
+  background-position: 50% 50%;
+  background-size: 50%;
+}
+@media screen and (max-width: 480px) {
+  a.video span {
+    background-size: 50%;
+  }
+}
+/*.video:after {
+    position:absolute;
+    top:0;
+    left:0;
+    content:'';
+    width: 100%;
+    height: 100%;
+    background: transparent url("../images/play_button.png") no-repeat center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    z-index: 9999;
+}
+*/
 ol.linenums{
 	color:yellow;
 }

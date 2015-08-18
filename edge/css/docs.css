@@ -360,11 +360,11 @@ ol.linenums{
         margin: 0 auto;
         display: block;
     }
-/*iframe{
+#markdownDoc iframe{
 	width:100%;
 	height:1000px;
 	border: 0px;
-}*/
+}
 
 .selectedMenuItem{
 	background-color: #444444;

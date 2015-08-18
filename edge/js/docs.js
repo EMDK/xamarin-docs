@@ -517,7 +517,7 @@ function loadDoc(key){
 			if(imgIsVideo){
 				var ytid = $(this).attr('alt').replace('yt:','');
 
-				var ytEmbed = '<iframe width="100%" height="315" src="https://www.youtube.com/embed/' + ytid + '" frameborder="0" autoplay allowfullscreen></iframe>'
+				var ytEmbed = '<iframe id="yt-video" width="100%" height="315" src="https://www.youtube.com/embed/' + ytid + '" frameborder="0" autoplay allowfullscreen></iframe>'
 				$("#modalImg").html(ytEmbed);
 				console.log('youtube video' + ytid);
 				itemHeight = 480;
@@ -546,6 +546,12 @@ function loadDoc(key){
 			{
 				$(".modal-body").css("height", (itemHeight+44) + "px");
 			}
+
+			if(imgIsVideo){
+				$("#basicModal").on('hide.bs.modal', function(){
+			        $("#yt-video").attr('src', '');
+			    });
+			}
 			//Show
 			$('#basicModal').modal('show');
 
@@ -557,9 +563,7 @@ function loadDoc(key){
 
 
 	});;
-	for(var i = 0; i<imgTags.length; i++)
-	{
-	}
+
 
 	//Get links
 	var aTags = $("#markdownDoc").find('a');

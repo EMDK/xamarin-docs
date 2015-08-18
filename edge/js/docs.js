@@ -505,7 +505,23 @@ function loadDoc(key){
 		//Image Model
 		$(imgTags[i]).click(function(){
 			//Set Image
-			$("#modalImg").html( '<a href="' + $(this).attr("src") + '" target="_blank"><img title="" slt="img" src="' + $(this).attr("src") + '"></img></a>');
+			var imgIsVideo = false;
+			if($(this).attr('alt').startsWith('yt:')){
+				imgIsVideo = true;
+			}
+			if(imgIsVideo){
+				var ytid = $(this).attr('alt').replace('yt:','');
+
+				var ytEmbed = '<iframe width="420" height="315" src="https://www.youtube.com/embed/' + ytid + '" frameborder="0" autoplay allowfullscreen></iframe>'
+				$("#modalImg").html(ytEmbed);
+				console.log('youtube video' + ytid);
+				this.naturalHeight = 315;
+				this.naturalWidth = 420;
+			}
+			else{
+				$("#modalImg").html( '<a href="' + $(this).attr("src") + '" target="_blank"><img title="" slt="img" src="' + $(this).attr("src") + '"></img></a>');
+
+			}
 
 			//Size box
 			if(this.naturalWidth  > ($(document).width()- 100))

@@ -2,6 +2,10 @@
 
 >NOTE: Devices will need to be updated with the latest EMDK for Android Device Runtime
 
+## Watch This Guide
+![yt:KhXADu7t924](images/video.png)
+
+
 ##	Installing The Device Update
 
 For your convenience, a menu item has been added to the Visual Studio extension to perform the device updated. Before running make sure:

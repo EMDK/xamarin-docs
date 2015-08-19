@@ -1,6 +1,10 @@
 #Xamarin Component Install
 The Xamarin Component part of the EMDK includes the API libraries that you will use in your Android application. You must install the component and add it to your android project before being able to use the APIs.
 
+## Watch This Guide
+![yt:RazeKMsKrXU](images/video.png)
+
+
 ## Installing the Xamarin Component
 Normally, you would install the Xamarin Component by accessing the Xamarin Component store, however for the beta we have included the component as part of the [Visual Studio Extension](../guide/vs/setup). After you have installed the EMDK For Xamarin Visual Studio Extension:
 

@@ -5,13 +5,13 @@ To be added.
 
 ##Constructors
 ### DataEventArgs 
-**public DataEventArgs (Symbol.EMDK.Xamarin.ProfileManager.ResultData p0);**
+**public DataEventArgs (Symbol.XamarinEMDK.ProfileManager.ResultData p0);**
 
 ##Properties
 
 ###P0
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.ProfileManager+ResultData
+**Type** - Symbol.XamarinEMDK.ProfileManager+ResultData
 
 

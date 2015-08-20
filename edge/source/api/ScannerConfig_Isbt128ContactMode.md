@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.Isbt128ContactMode ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Isbt128ContactMode ValueOf (string p0);**
 
 To be added.
 
@@ -13,29 +13,29 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Isbt128ContactMode
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ContactMode
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.Isbt128ContactMode[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Isbt128ContactMode[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Isbt128ContactMode[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ContactMode[]
 
 ##Properties
 
 ###Always
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Isbt128ContactMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ContactMode
 ###Auto
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Isbt128ContactMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ContactMode
 ###Never
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Isbt128ContactMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ContactMode
 
 

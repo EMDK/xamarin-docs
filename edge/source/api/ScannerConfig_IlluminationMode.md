@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.IlluminationMode ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.IlluminationMode ValueOf (string p0);**
 
 To be added.
 
@@ -13,25 +13,25 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+IlluminationMode
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+IlluminationMode
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.IlluminationMode[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.IlluminationMode[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+IlluminationMode[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+IlluminationMode[]
 
 ##Properties
 
 ###Off
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+IlluminationMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+IlluminationMode
 ###On
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+IlluminationMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+IlluminationMode
 
 

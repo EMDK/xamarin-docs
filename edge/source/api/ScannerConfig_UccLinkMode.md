@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.UccLinkMode ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.UccLinkMode ValueOf (string p0);**
 
 To be added.
 
@@ -13,29 +13,29 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+UccLinkMode
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+UccLinkMode
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.UccLinkMode[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.UccLinkMode[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+UccLinkMode[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+UccLinkMode[]
 
 ##Properties
 
 ###AlwaysLinked
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+UccLinkMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+UccLinkMode
 ###AutoDiscriminate
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+UccLinkMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+UccLinkMode
 ###LinkFlagIgnored
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+UccLinkMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+UccLinkMode
 
 

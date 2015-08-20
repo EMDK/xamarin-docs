@@ -5,17 +5,17 @@ To be added.
 
 ##Constructors
 ### ScannerConnectionEventArgs 
-**public ScannerConnectionEventArgs (Symbol.EMDK.Xamarin.Barcode.ScannerInfo p0, Symbol.EMDK.Xamarin.Barcode.BarcodeManager.ConnectionState p1);**
+**public ScannerConnectionEventArgs (Symbol.XamarinEMDK.Barcode.ScannerInfo p0, Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState p1);**
 
 ##Properties
 
 ###P0
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo
 ###P1
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.BarcodeManager+ConnectionState
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+ConnectionState
 
 

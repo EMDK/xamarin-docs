@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.ProfileManager.PROFILE_FLAG ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG ValueOf (string p0);**
 
 To be added.
 
@@ -13,33 +13,33 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG
+**Returns** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
 
 ###Values
-**public static Symbol.EMDK.Xamarin.ProfileManager.PROFILE_FLAG[] Values ();**
+**public static Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG[]
+**Returns** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG[]
 
 ##Properties
 
 ###CheckCompatibility
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG
+**Type** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
 ###Get
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG
+**Type** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
 ###Reset
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG
+**Type** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
 ###Set
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG
+**Type** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
 
 

@@ -5,28 +5,28 @@ To be added.
 
 ##Methods
 ###GetConnectionType
-**public virtual Symbol.EMDK.Xamarin.Barcode.ScannerInfo.ConnectionType GetConnectionType ();**
+**public virtual Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType GetConnectionType ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+ConnectionType
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
 
 ###GetDecoderType
-**public virtual Symbol.EMDK.Xamarin.Barcode.ScannerInfo.DecoderType GetDecoderType ();**
+**public virtual Symbol.XamarinEMDK.Barcode.ScannerInfo.DecoderType GetDecoderType ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+DecoderType
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DecoderType
 
 ###GetDeviceType
-**public virtual Symbol.EMDK.Xamarin.Barcode.ScannerInfo.DeviceType GetDeviceType ();**
+**public virtual Symbol.XamarinEMDK.Barcode.ScannerInfo.DeviceType GetDeviceType ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+DeviceType
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
 
 ##Properties
 

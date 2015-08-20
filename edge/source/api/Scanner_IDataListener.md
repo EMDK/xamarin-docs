@@ -5,13 +5,13 @@ To be added.
 
 ##Methods
 ###OnData
-**public void OnData (Symbol.EMDK.Xamarin.Barcode.ScanDataCollection p0);**
+**public void OnData (Symbol.XamarinEMDK.Barcode.ScanDataCollection p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.ScanDataCollection **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.ScanDataCollection **p0** - To be added.
 
 **Returns** - System.Void
 

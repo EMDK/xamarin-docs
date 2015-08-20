@@ -5,12 +5,12 @@ To be added.
 
 ##Methods
 ###GetScanData
-**public virtual System.Collections.Generic.IList<Symbol.EMDK.Xamarin.Barcode.ScanDataCollection.ScanData> GetScanData ();**
+**public virtual System.Collections.Generic.IList<Symbol.XamarinEMDK.Barcode.ScanDataCollection.ScanData> GetScanData ();**
 
 To be added.
 
 
-**Returns** - System.Collections.Generic.IList<Symbol.EMDK.Xamarin.Barcode.ScanDataCollection+ScanData>
+**Returns** - System.Collections.Generic.IList<Symbol.XamarinEMDK.Barcode.ScanDataCollection+ScanData>
 
 ##Properties
 
@@ -21,6 +21,6 @@ To be added.
 ###Result
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerResults
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 
 

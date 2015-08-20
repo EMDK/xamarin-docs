@@ -8,6 +8,6 @@ To be added.
 ###Result
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerResults
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 
 

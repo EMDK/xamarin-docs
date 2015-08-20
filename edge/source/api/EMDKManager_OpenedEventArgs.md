@@ -5,13 +5,13 @@ To be added.
 
 ##Constructors
 ### OpenedEventArgs 
-**public OpenedEventArgs (Symbol.EMDK.Xamarin.EMDKManager p0);**
+**public OpenedEventArgs (Symbol.XamarinEMDK.EMDKManager p0);**
 
 ##Properties
 
 ###P0
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKManager
+**Type** - Symbol.XamarinEMDK.EMDKManager
 
 

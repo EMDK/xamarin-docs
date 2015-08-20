@@ -5,9 +5,9 @@ To be added.
 
 ##Properties
 
-###ReaderSpecificParams
+###ReaderSpecific
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+ReaderParams+ReaderSpecific
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParams+ReaderSpecifics
 
 

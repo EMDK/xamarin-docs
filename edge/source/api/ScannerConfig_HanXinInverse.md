@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.HanXinInverse ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.HanXinInverse ValueOf (string p0);**
 
 To be added.
 
@@ -13,29 +13,29 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+HanXinInverse
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+HanXinInverse
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.HanXinInverse[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.HanXinInverse[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+HanXinInverse[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+HanXinInverse[]
 
 ##Properties
 
 ###Auto
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+HanXinInverse
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+HanXinInverse
 ###Disabled
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+HanXinInverse
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+HanXinInverse
 ###Enabled
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+HanXinInverse
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+HanXinInverse
 
 

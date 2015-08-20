@@ -1,5 +1,5 @@
 #EMDKBase
-This is the base class that all the EMDK manager classes derived from.
+To be added.
 
 **Type** - Java.Lang.Object
 

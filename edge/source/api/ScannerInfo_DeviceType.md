@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerInfo.DeviceType ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerInfo.DeviceType ValueOf (string p0);**
 
 To be added.
 
@@ -13,33 +13,33 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+DeviceType
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerInfo.DeviceType[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerInfo.DeviceType[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+DeviceType[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType[]
 
 ##Properties
 
 ###Camera
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+DeviceType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
 ###Imager
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+DeviceType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
 ###Laser
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+DeviceType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
 ###Undefined
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+DeviceType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
 
 

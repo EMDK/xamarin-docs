@@ -5,6 +5,10 @@ To be added.
 
 ##Properties
 
+###ProfileConfig
+To be added.
+
+**Type** - Symbol.XamarinEMDK.ProfileConfig
 ###ProfileDocument
 To be added.
 
@@ -12,7 +16,7 @@ To be added.
 ###ProfileFlag
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.ProfileManager+PROFILE_FLAG
+**Type** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
 ###ProfileName
 To be added.
 
@@ -24,6 +28,6 @@ To be added.
 ###Result
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults
+**Type** - Symbol.XamarinEMDK.EMDKResults
 
 

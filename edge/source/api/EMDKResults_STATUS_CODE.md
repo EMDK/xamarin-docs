@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.EMDKResults.STATUS_CODE ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.EMDKResults.STATUS_CODE ValueOf (string p0);**
 
 To be added.
 
@@ -13,57 +13,57 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Returns** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 
 ###Values
-**public static Symbol.EMDK.Xamarin.EMDKResults.STATUS_CODE[] Values ();**
+**public static Symbol.XamarinEMDK.EMDKResults.STATUS_CODE[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE[]
+**Returns** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE[]
 
 ##Properties
 
 ###CheckXml
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 ###EmdkNotOpened
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 ###EmptyProfilename
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 ###Failure
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 ###NoDataListener
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 ###NullPointer
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 ###PreviousRequestInProgress
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 ###Processing
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 ###Success
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 ###Unknown
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 
 

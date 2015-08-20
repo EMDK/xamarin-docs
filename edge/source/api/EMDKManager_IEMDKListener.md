@@ -13,13 +13,13 @@ To be added.
 **Returns** - System.Void
 
 ###OnOpened
-**public void OnOpened (Symbol.EMDK.Xamarin.EMDKManager p0);**
+**public void OnOpened (Symbol.XamarinEMDK.EMDKManager p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.EMDKManager **p0** - To be added.
+* Symbol.XamarinEMDK.EMDKManager **p0** - To be added.
 
 **Returns** - System.Void
 

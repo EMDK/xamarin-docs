@@ -5,24 +5,24 @@ To be added.
 
 ##Methods
 ###AddDataListener
-**public virtual void AddDataListener (Symbol.EMDK.Xamarin.Barcode.Scanner.IDataListener p0);**
+**public virtual void AddDataListener (Symbol.XamarinEMDK.Barcode.Scanner.IDataListener p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner+IDataListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner+IDataListener **p0** - To be added.
 
 **Returns** - System.Void
 
 ###AddStatusListener
-**public virtual void AddStatusListener (Symbol.EMDK.Xamarin.Barcode.Scanner.IStatusListener p0);**
+**public virtual void AddStatusListener (Symbol.XamarinEMDK.Barcode.Scanner.IStatusListener p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner+IStatusListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner+IStatusListener **p0** - To be added.
 
 **Returns** - System.Void
 
@@ -67,24 +67,24 @@ To be added.
 **Returns** - System.Void
 
 ###RemoveDataListener
-**public virtual void RemoveDataListener (Symbol.EMDK.Xamarin.Barcode.Scanner.IDataListener p0);**
+**public virtual void RemoveDataListener (Symbol.XamarinEMDK.Barcode.Scanner.IDataListener p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner+IDataListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner+IDataListener **p0** - To be added.
 
 **Returns** - System.Void
 
 ###RemoveStatusListener
-**public virtual void RemoveStatusListener (Symbol.EMDK.Xamarin.Barcode.Scanner.IStatusListener p0);**
+**public virtual void RemoveStatusListener (Symbol.XamarinEMDK.Barcode.Scanner.IStatusListener p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner+IStatusListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner+IStatusListener **p0** - To be added.
 
 **Returns** - System.Void
 
@@ -93,11 +93,11 @@ To be added.
 ###Config
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig
 ###InterfaceConfig
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.InterfaceConfig
+**Type** - Symbol.XamarinEMDK.Barcode.InterfaceConfig
 ###IsEnabled
 To be added.
 
@@ -109,10 +109,10 @@ To be added.
 ###ScannerInfo
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo
-###TriggerTypes
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo
+###TriggerType
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.Scanner+TriggerType
+**Type** - Symbol.XamarinEMDK.Barcode.Scanner+TriggerTypes
 
 

@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.BarcodeManager.DeviceIdentifier ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier ValueOf (string p0);**
 
 To be added.
 
@@ -13,37 +13,37 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.BarcodeManager+DeviceIdentifier
+**Returns** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.BarcodeManager.DeviceIdentifier[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.BarcodeManager+DeviceIdentifier[]
+**Returns** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier[]
 
 ##Properties
 
 ###BluetoothImager1
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.BarcodeManager+DeviceIdentifier
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
 ###Default
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.BarcodeManager+DeviceIdentifier
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
 ###InternalCamera1
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.BarcodeManager+DeviceIdentifier
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
 ###InternalImager1
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.BarcodeManager+DeviceIdentifier
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
 ###InternalLaser1
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.BarcodeManager+DeviceIdentifier
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
 
 

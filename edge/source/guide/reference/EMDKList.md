@@ -1,9 +1,7 @@
 #EMDK For Android API List
 
 ## Core and ProfileManager APIs
-The following APIs are to be used to process EMDK features and profiles using the [Profile Manager](../guide/profiles/about) as well as getting information about the EMDK.
-
-
+The following APIs are to be used to process EMDK features and profiles using the [Profile Manager](../guide/profiles/usingwizard) as well as getting information about the EMDK.
 
 ###EMDKBase
 
@@ -38,6 +36,9 @@ The following APIs are to be used to process EMDK features and profiles using th
 
 * [VersionManager](../api/VersionManager)
 * [VersionManager_VERSION_TYPE](../api/VersionManager_VERSION_TYPE)
+
+
+
 
 
 ## Barcode APIs
@@ -111,9 +112,7 @@ The following APIs are used when you wish to handle all barcode scanning entirel
 * [ScannerConfig_DecoderParameters_MailMarkDecoder](../api/ScannerConfig_DecoderParameters_MailMarkDecoder)
 * [ScannerConfig_DecoderParameters_Matrix2of5Decoder](../api/ScannerConfig_DecoderParameters_Matrix2of5Decoder)
 * [ScannerConfig_DecoderParameters_MaxiCodeDecoder](../api/ScannerConfig_DecoderParameters_MaxiCodeDecoder)
-* [ScannerConfig_DecoderParameters_MicroPdf](../api/ScannerConfig_DecoderParameters_MicroPdf)
 * [ScannerConfig_DecoderParameters_MicroPdfDecoder](../api/ScannerConfig_DecoderParameters_MicroPdfDecoder)
-* [ScannerConfig_DecoderParameters_MicroQr](../api/ScannerConfig_DecoderParameters_MicroQr)
 * [ScannerConfig_DecoderParameters_MicroQrDecoder](../api/ScannerConfig_DecoderParameters_MicroQrDecoder)
 * [ScannerConfig_DecoderParameters_MsiDecoder](../api/ScannerConfig_DecoderParameters_MsiDecoder)
 * [ScannerConfig_DecoderParameters_Pdf417Decoder](../api/ScannerConfig_DecoderParameters_Pdf417Decoder)
@@ -137,7 +136,6 @@ The following APIs are used when you wish to handle all barcode scanning entirel
 * [ScannerConfig_InterfaceParams](../api/ScannerConfig_InterfaceParams)
 * [ScannerConfig_Inverse1DMode](../api/ScannerConfig_Inverse1DMode)
 * [ScannerConfig_Isbt128ConcatMode](../api/ScannerConfig_Isbt128ConcatMode)
-* [ScannerConfig_Isbt128ContactMode](../api/ScannerConfig_Isbt128ContactMode)
 * [ScannerConfig_LcdMode](../api/ScannerConfig_LcdMode)
 * [ScannerConfig_LinearSecurityLevel](../api/ScannerConfig_LinearSecurityLevel)
 * [ScannerConfig_PickList](../api/ScannerConfig_PickList)
@@ -149,12 +147,6 @@ The following APIs are used when you wish to handle all barcode scanning entirel
 * [ScannerConfig_ReaderParameters_ReaderSpecifics_LaserSpecifics](../api/ScannerConfig_ReaderParameters_ReaderSpecifics_LaserSpecifics)
 * [ScannerConfig_ReaderParameters_ReaderSpecifics](../api/ScannerConfig_ReaderParameters_ReaderSpecifics)
 * [ScannerConfig_ReaderParameters](../api/ScannerConfig_ReaderParameters)
-* [ScannerConfig_ReaderParams_ReaderSpecifics_CameraSpecifics](../api/ScannerConfig_ReaderParams_ReaderSpecifics_CameraSpecifics)
-* [ScannerConfig_ReaderParams_ReaderSpecifics_ContinuousRead](../api/ScannerConfig_ReaderParams_ReaderSpecifics_ContinuousRead)
-* [ScannerConfig_ReaderParams_ReaderSpecifics_ImagerSpecifics](../api/ScannerConfig_ReaderParams_ReaderSpecifics_ImagerSpecifics)
-* [ScannerConfig_ReaderParams_ReaderSpecifics_LaserSpecifics](../api/ScannerConfig_ReaderParams_ReaderSpecifics_LaserSpecifics)
-* [ScannerConfig_ReaderParams_ReaderSpecifics](../api/ScannerConfig_ReaderParams_ReaderSpecifics)
-* [ScannerConfig_ReaderParams](../api/ScannerConfig_ReaderParams)
 * [ScannerConfig_ScanParameters](../api/ScannerConfig_ScanParameters)
 * [ScannerConfig_SecurityLevel](../api/ScannerConfig_SecurityLevel)
 * [ScannerConfig_SkipOnUnSupported](../api/ScannerConfig_SkipOnUnSupported)
@@ -186,8 +178,6 @@ The following APIs are used when you wish to handle all barcode scanning entirel
 
 * [StatusData](../api/StatusData)
 * [StatusData_ScannerStates](../api/StatusData_ScannerStates)
-
-
 
 
 

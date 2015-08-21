@@ -33,10 +33,6 @@ To be added.
 To be added.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
-###DependacyComponentFailure
-To be added.
-
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
 ###DependencyComponentFailure
 To be added.
 
@@ -82,10 +78,6 @@ To be added.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
 ###NamevalueMismatchInExtradata
-To be added.
-
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
-###NamevalueMissmatchInConfig
 To be added.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE

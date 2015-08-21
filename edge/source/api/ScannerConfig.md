@@ -32,10 +32,6 @@ To be added.
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters
-###readerParam
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParams
 ###ReaderParams
 To be added.
 

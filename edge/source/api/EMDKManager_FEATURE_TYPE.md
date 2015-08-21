@@ -33,10 +33,6 @@ To be added.
 To be added.
 
 **Type** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE
-###Scanandpair
-To be added.
-
-**Type** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE
 ###Version
 To be added.
 

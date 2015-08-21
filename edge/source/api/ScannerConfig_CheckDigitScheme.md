@@ -33,13 +33,5 @@ To be added.
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme
-###Mod1010
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme
-###Mod1110
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme
 
 

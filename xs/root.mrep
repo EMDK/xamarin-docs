@@ -11,7 +11,7 @@
       <Author />
       <Copyright />
       <Url />
-      <Description>Symbol EMDK for Xamarin - Profile Manager Wizard</Description>
+      <Description>Symbol EMDK for Xamarin </Description>
       <Category>IDE extensions</Category>
       <Dependencies>
         <AddinDependency>

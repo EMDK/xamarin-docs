@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.SkipOnUnSupported ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.SkipOnUnSupported ValueOf (string p0);**
 
 To be added.
 
@@ -13,33 +13,33 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SkipOnUnSupported
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.SkipOnUnSupported[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.SkipOnUnSupported[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SkipOnUnSupported[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported[]
 
 ##Properties
 
 ###All
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SkipOnUnSupported
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
 ###None
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SkipOnUnSupported
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
 ###UnsupportedParam
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SkipOnUnSupported
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
 ###UnsupportedValue
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SkipOnUnSupported
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
 
 

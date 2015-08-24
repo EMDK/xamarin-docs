@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.Inverse1DMode ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode ValueOf (string p0);**
 
 To be added.
 
@@ -13,29 +13,29 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Inverse1DMode
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.Inverse1DMode[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Inverse1DMode[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode[]
 
 ##Properties
 
 ###Auto
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Inverse1DMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
 ###Disabled
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Inverse1DMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
 ###Enabled
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Inverse1DMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
 
 

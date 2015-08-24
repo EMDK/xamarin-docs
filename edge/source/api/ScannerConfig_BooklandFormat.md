@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.BooklandFormat ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat ValueOf (string p0);**
 
 To be added.
 
@@ -13,25 +13,25 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+BooklandFormat
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+BooklandFormat
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.BooklandFormat[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+BooklandFormat[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+BooklandFormat[]
 
 ##Properties
 
-###Isbn10
+###ISBN_10
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+BooklandFormat
-###Isbn13
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+BooklandFormat
+###ISBN_13
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+BooklandFormat
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+BooklandFormat
 
 

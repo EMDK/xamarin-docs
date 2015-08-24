@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.CodeIdType ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType ValueOf (string p0);**
 
 To be added.
 
@@ -13,29 +13,29 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CodeIdType
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.CodeIdType[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CodeIdType[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType[]
 
 ##Properties
 
 ###Aim
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CodeIdType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType
 ###None
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CodeIdType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType
 ###Symbol
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CodeIdType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType
 
 

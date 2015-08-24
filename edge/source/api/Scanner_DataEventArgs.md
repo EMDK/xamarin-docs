@@ -5,13 +5,13 @@ To be added.
 
 ##Constructors
 ### DataEventArgs 
-**public DataEventArgs (Symbol.EMDK.Xamarin.Barcode.ScanDataCollection p0);**
+**public DataEventArgs (Symbol.XamarinEMDK.Barcode.ScanDataCollection p0);**
 
 ##Properties
 
 ###P0
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScanDataCollection
+**Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection
 
 

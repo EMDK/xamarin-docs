@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.Preamble ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble ValueOf (string p0);**
 
 To be added.
 
@@ -13,29 +13,29 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Preamble
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.Preamble[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Preamble[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble[]
 
 ##Properties
 
 ###CountryAndSysChar
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Preamble
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble
 ###None
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Preamble
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble
 ###SysChar
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+Preamble
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble
 
 

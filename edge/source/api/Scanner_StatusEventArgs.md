@@ -5,13 +5,13 @@ To be added.
 
 ##Constructors
 ### StatusEventArgs 
-**public StatusEventArgs (Symbol.EMDK.Xamarin.Barcode.StatusData p0);**
+**public StatusEventArgs (Symbol.XamarinEMDK.Barcode.StatusData p0);**
 
 ##Properties
 
 ###P0
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.StatusData
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData
 
 

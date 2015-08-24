@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerInfo.ConnectionType ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType ValueOf (string p0);**
 
 To be added.
 
@@ -13,37 +13,37 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+ConnectionType
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerInfo.ConnectionType[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+ConnectionType[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType[]
 
 ##Properties
 
 ###BluetoothSsi
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+ConnectionType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
 ###Internal
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+ConnectionType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
 ###SerialSsi
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+ConnectionType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
 ###Undefined
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+ConnectionType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
 ###Usb
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerInfo+ConnectionType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
 
 

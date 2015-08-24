@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.SupplementalMode ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode ValueOf (string p0);**
 
 To be added.
 
@@ -13,49 +13,49 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SupplementalMode
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.SupplementalMode[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SupplementalMode[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode[]
 
 ##Properties
 
 ###Always
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
 ###Auto
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
 ###No
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SupplementalMode
-###S378379
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+###S_378_379
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SupplementalMode
-###S414419434439
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+###S_414_419_434_439
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SupplementalMode
-###S977
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+###S_977
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SupplementalMode
-###S978979
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+###S_978_979
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
 ###Smart
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
 
 

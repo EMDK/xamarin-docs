@@ -5,13 +5,13 @@ To be added.
 
 ##Methods
 ###OnStatus
-**public void OnStatus (Symbol.EMDK.Xamarin.Barcode.StatusData p0);**
+**public void OnStatus (Symbol.XamarinEMDK.Barcode.StatusData p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.StatusData **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.StatusData **p0** - To be added.
 
 **Returns** - System.Void
 

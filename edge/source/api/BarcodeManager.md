@@ -1,50 +1,50 @@
 #BarcodeManager
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.EMDKBase
+**Type** - Symbol.XamarinEMDK.EMDKBase
 
 ##Methods
 ###AddConnectionListener
-**public virtual void AddConnectionListener (Symbol.EMDK.Xamarin.Barcode.BarcodeManager.IScannerConnectionListener p0);**
+**public virtual void AddConnectionListener (Symbol.XamarinEMDK.Barcode.BarcodeManager.IScannerConnectionListener p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.BarcodeManager+IScannerConnectionListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.BarcodeManager+IScannerConnectionListener **p0** - To be added.
 
 **Returns** - System.Void
 
 ###GetDevice
-**public virtual Symbol.EMDK.Xamarin.Barcode.Scanner GetDevice (Symbol.EMDK.Xamarin.Barcode.BarcodeManager.DeviceIdentifier p0);**
+**public virtual Symbol.XamarinEMDK.Barcode.Scanner GetDevice (Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.BarcodeManager+DeviceIdentifier **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.Scanner
+**Returns** - Symbol.XamarinEMDK.Barcode.Scanner
 
 ###GetDevice
-**public virtual Symbol.EMDK.Xamarin.Barcode.Scanner GetDevice (Symbol.EMDK.Xamarin.Barcode.ScannerInfo p0);**
+**public virtual Symbol.XamarinEMDK.Barcode.Scanner GetDevice (Symbol.XamarinEMDK.Barcode.ScannerInfo p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.ScannerInfo **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.ScannerInfo **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.Scanner
+**Returns** - Symbol.XamarinEMDK.Barcode.Scanner
 
 ###RemoveConnectionListener
-**public virtual void RemoveConnectionListener (Symbol.EMDK.Xamarin.Barcode.BarcodeManager.IScannerConnectionListener p0);**
+**public virtual void RemoveConnectionListener (Symbol.XamarinEMDK.Barcode.BarcodeManager.IScannerConnectionListener p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.BarcodeManager+IScannerConnectionListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.BarcodeManager+IScannerConnectionListener **p0** - To be added.
 
 **Returns** - System.Void
 
@@ -53,6 +53,6 @@ To be added.
 ###SupportedDevicesInfo
 To be added.
 
-**Type** - System.Collections.Generic.IList<Symbol.EMDK.Xamarin.Barcode.ScannerInfo>
+**Type** - System.Collections.Generic.IList<Symbol.XamarinEMDK.Barcode.ScannerInfo>
 
 

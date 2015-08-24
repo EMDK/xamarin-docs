@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.AudioStreamType ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType ValueOf (string p0);**
 
 To be added.
 
@@ -13,29 +13,29 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+AudioStreamType
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.AudioStreamType[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+AudioStreamType[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType[]
 
 ##Properties
 
-###Alarams
+###Alarms
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+AudioStreamType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
 ###Media
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+AudioStreamType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
 ###Ringer
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+AudioStreamType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
 
 

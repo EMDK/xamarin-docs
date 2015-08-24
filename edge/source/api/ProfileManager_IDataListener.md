@@ -5,13 +5,13 @@ To be added.
 
 ##Methods
 ###OnData
-**public void OnData (Symbol.EMDK.Xamarin.ProfileManager.ResultData p0);**
+**public void OnData (Symbol.XamarinEMDK.ProfileManager.ResultData p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.ProfileManager+ResultData **p0** - To be added.
+* Symbol.XamarinEMDK.ProfileManager+ResultData **p0** - To be added.
 
 **Returns** - System.Void
 

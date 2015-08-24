@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.SecurityLevel ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel ValueOf (string p0);**
 
 To be added.
 
@@ -13,33 +13,33 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SecurityLevel
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.SecurityLevel[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SecurityLevel[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel[]
 
 ##Properties
 
 ###Level0
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
 ###Level1
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
 ###Level2
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
 ###Level3
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
 
 

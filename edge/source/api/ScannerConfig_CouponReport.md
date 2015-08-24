@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.CouponReport ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport ValueOf (string p0);**
 
 To be added.
 
@@ -13,29 +13,29 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CouponReport
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.CouponReport[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CouponReport[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport[]
 
 ##Properties
 
 ###Both
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CouponReport
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport
 ###New
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CouponReport
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport
 ###Old
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CouponReport
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport
 
 

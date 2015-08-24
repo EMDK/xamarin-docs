@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.LinearSecurityLevel ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel ValueOf (string p0);**
 
 To be added.
 
@@ -13,33 +13,33 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+LinearSecurityLevel
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.LinearSecurityLevel[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+LinearSecurityLevel[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel[]
 
 ##Properties
 
 ###AllThrice
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
 ###AllTwice
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
 ###LongAndShort
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
 ###ShortOrCodabar
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
 
 

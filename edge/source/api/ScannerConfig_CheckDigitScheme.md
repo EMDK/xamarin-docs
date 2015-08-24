@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.CheckDigitScheme ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitScheme ValueOf (string p0);**
 
 To be added.
 
@@ -13,25 +13,25 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CheckDigitScheme
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.CheckDigitScheme[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitScheme[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CheckDigitScheme[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme[]
 
 ##Properties
 
-###Mod1010
+###MOD_10_10
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CheckDigitScheme
-###Mod1110
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme
+###MOD_11_10
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CheckDigitScheme
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme
 
 

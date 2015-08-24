@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.LcdMode ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.LcdMode ValueOf (string p0);**
 
 To be added.
 
@@ -13,25 +13,25 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+LcdMode
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LcdMode
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.LcdMode[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.LcdMode[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+LcdMode[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LcdMode[]
 
 ##Properties
 
 ###Disabled
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+LcdMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LcdMode
 ###Enabled
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+LcdMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LcdMode
 
 

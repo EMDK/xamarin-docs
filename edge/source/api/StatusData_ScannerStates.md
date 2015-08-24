@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.StatusData.ScannerStates ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates ValueOf (string p0);**
 
 To be added.
 
@@ -13,37 +13,37 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.StatusData+ScannerStates
+**Returns** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.StatusData.ScannerStates[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.StatusData+ScannerStates[]
+**Returns** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates[]
 
 ##Properties
 
 ###Disabled
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
 ###Error
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
 ###Idle
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
 ###Scanning
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
 ###Waiting
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
 
 

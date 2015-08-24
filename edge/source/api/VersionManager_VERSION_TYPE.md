@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.VersionManager.VERSION_TYPE ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.VersionManager.VERSION_TYPE ValueOf (string p0);**
 
 To be added.
 
@@ -13,29 +13,29 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.VersionManager+VERSION_TYPE
+**Returns** - Symbol.XamarinEMDK.VersionManager+VERSION_TYPE
 
 ###Values
-**public static Symbol.EMDK.Xamarin.VersionManager.VERSION_TYPE[] Values ();**
+**public static Symbol.XamarinEMDK.VersionManager.VERSION_TYPE[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.VersionManager+VERSION_TYPE[]
+**Returns** - Symbol.XamarinEMDK.VersionManager+VERSION_TYPE[]
 
 ##Properties
 
 ###Barcode
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.VersionManager+VERSION_TYPE
+**Type** - Symbol.XamarinEMDK.VersionManager+VERSION_TYPE
 ###Emdk
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.VersionManager+VERSION_TYPE
+**Type** - Symbol.XamarinEMDK.VersionManager+VERSION_TYPE
 ###Mx
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.VersionManager+VERSION_TYPE
+**Type** - Symbol.XamarinEMDK.VersionManager+VERSION_TYPE
 
 

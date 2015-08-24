@@ -5,7 +5,7 @@ To be added.
 
 ##Methods
 ###ValueOf
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.CheckDigitType ValueOf (string p0);**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitType ValueOf (string p0);**
 
 To be added.
 
@@ -13,29 +13,29 @@ To be added.
 
 * System.String **p0** - To be added.
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CheckDigitType
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitType
 
 ###Values
-**public static Symbol.EMDK.Xamarin.Barcode.ScannerConfig.CheckDigitType[] Values ();**
+**public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitType[] Values ();**
 
 To be added.
 
 
-**Returns** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CheckDigitType[]
+**Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitType[]
 
 ##Properties
 
 ###No
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CheckDigitType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitType
 ###Opcc
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CheckDigitType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitType
 ###Uss
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+CheckDigitType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitType
 
 

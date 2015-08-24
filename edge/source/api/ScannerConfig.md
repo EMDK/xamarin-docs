@@ -16,33 +16,33 @@ To be added.
 **Returns** - System.Boolean
 
 ###ResetToDefault
-**public virtual void ResetToDefault (Symbol.EMDK.Xamarin.Barcode.Scanner p0);**
+**public virtual void ResetToDefault (Symbol.XamarinEMDK.Barcode.Scanner p0);**
 
 To be added.
 
 **Parameters:** 
 
-* Symbol.EMDK.Xamarin.Barcode.Scanner **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner **p0** - To be added.
 
 **Returns** - System.Void
 
 ##Properties
 
-###DecoderParameters
+###DecoderParams
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+DecoderParams
-###ReaderParameters
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters
+###ReaderParams
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+ReaderParams
-###ScanParameters
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParameters
+###ScanParams
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+ScanParams
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ScanParameters
 ###SkipOnUnsupported
 To be added.
 
-**Type** - Symbol.EMDK.Xamarin.Barcode.ScannerConfig+SkipOnUnSupported
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
 
 

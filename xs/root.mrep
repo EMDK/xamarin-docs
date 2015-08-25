@@ -11,7 +11,7 @@
       <Author />
       <Copyright />
       <Url />
-      <Description>Symbol EMDK for Xamarin </Description>
+      <Description>Symbol EMDK for Xamarin - Profile Manager Wizard</Description>
       <Category>IDE extensions</Category>
       <Dependencies>
         <AddinDependency>
@@ -25,7 +25,7 @@
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">8611751</Property>
+        <Property name="DownloadSize">8611467</Property>
       </Properties>
     </Addin>
   </Addin>

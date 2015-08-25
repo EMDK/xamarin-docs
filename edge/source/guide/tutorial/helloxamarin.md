@@ -109,7 +109,7 @@ Now lets add some code to our project.
 2. Add a `using` directive that references the Symbol EMDK for Xamarin
 
         :::cs
-        using Symbol.EMDK.Xamarin;
+        using Symbol.XamarinEMDK;
 
 3. Now lets add some global variables to the MainActivity class for later use.
 

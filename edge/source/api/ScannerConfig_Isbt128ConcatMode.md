@@ -1,4 +1,4 @@
-#ScannerConfig+Isbt128ConcatMode
+#ScannerConfig.Isbt128ConcatMode
 To be added.
 
 **Type** - Java.Lang.Enum

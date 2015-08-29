@@ -1,4 +1,4 @@
-#ScannerConfig+ViewFinderMode
+#ScannerConfig.ViewFinderMode
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -26,6 +26,10 @@ To be added.
 ##Properties
 
 ###Enabled
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ViewFinderMode
+###StaticRecticle
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ViewFinderMode

@@ -1,4 +1,4 @@
-#ScannerInfo+DecoderType
+#ScannerInfo.DecoderType
 To be added.
 
 **Type** - Java.Lang.Enum

@@ -1,4 +1,4 @@
-#BarcodeManager+ConnectionState
+#BarcodeManager.ConnectionState
 To be added.
 
 **Type** - Java.Lang.Enum

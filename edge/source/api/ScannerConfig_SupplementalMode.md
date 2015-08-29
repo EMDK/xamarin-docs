@@ -1,4 +1,4 @@
-#ScannerConfig+SupplementalMode
+#ScannerConfig.SupplementalMode
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -50,6 +50,22 @@ To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
 ###S_978_979
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+###S378379
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+###S414419434439
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+###S977
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+###S978979
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode

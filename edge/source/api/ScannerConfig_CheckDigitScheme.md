@@ -1,4 +1,4 @@
-#ScannerConfig+CheckDigitScheme
+#ScannerConfig.CheckDigitScheme
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -30,6 +30,14 @@ To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme
 ###MOD_11_10
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme
+###Mod1010
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme
+###Mod1110
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme

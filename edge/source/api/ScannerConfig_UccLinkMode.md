@@ -1,4 +1,4 @@
-#ScannerConfig+UccLinkMode
+#ScannerConfig.UccLinkMode
 To be added.
 
 **Type** - Java.Lang.Enum

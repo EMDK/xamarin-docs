@@ -1,4 +1,4 @@
-#EMDKResults+STATUS_CODE
+#EMDKResults.STATUS_CODE
 To be added.
 
 **Type** - Java.Lang.Enum

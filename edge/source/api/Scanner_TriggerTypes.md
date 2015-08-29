@@ -1,4 +1,4 @@
-#Scanner+TriggerTypes
+#Scanner.TriggerTypes
 To be added.
 
 **Type** - Java.Lang.Enum

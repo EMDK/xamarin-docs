@@ -1,4 +1,4 @@
-#ScannerConfig+DecoderParameters+Gs1DatabarLimDecoder
+#ScannerConfig.DecoderParameters.Gs1DatabarLimDecoder
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder

@@ -1,4 +1,4 @@
-#ScannerConfig+CheckDigitType
+#ScannerConfig.CheckDigitType
 To be added.
 
 **Type** - Java.Lang.Enum

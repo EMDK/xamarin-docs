@@ -1,4 +1,4 @@
-#ScannerConfig+ReaderParameters+ReaderSpecifics+LaserSpecifics
+#ScannerConfig.ReaderParameters.ReaderSpecifics.LaserSpecifics
 To be added.
 
 **Type** - Java.Lang.Object

@@ -1,4 +1,4 @@
-#EMDKManager+FEATURE_TYPE
+#EMDKManager.FEATURE_TYPE
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -30,6 +30,10 @@ To be added.
 
 **Type** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE
 ###Profile
+To be added.
+
+**Type** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE
+###Scanandpair
 To be added.
 
 **Type** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE

@@ -1,4 +1,4 @@
-#ScannerConfig+SkipOnUnSupported
+#ScannerConfig.SkipOnUnSupported
 To be added.
 
 **Type** - Java.Lang.Enum

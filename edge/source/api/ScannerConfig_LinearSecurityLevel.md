@@ -1,4 +1,4 @@
-#ScannerConfig+LinearSecurityLevel
+#ScannerConfig.LinearSecurityLevel
 To be added.
 
 **Type** - Java.Lang.Enum

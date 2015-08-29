@@ -1,10 +1,14 @@
-#ProfileManager+ResultData
+#ProfileManager.ResultData
 To be added.
 
 **Type** - Java.Lang.Object
 
 ##Properties
 
+###ProfileConfig
+To be added.
+
+**Type** - Symbol.XamarinEMDK.ProfileConfig
 ###ProfileDocument
 To be added.
 

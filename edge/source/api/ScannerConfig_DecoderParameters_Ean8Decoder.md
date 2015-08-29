@@ -1,4 +1,4 @@
-#ScannerConfig+DecoderParameters+Ean8Decoder
+#ScannerConfig.DecoderParameters.Ean8Decoder
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder

@@ -1,4 +1,4 @@
-#ScannerConfig+IlluminationMode
+#ScannerConfig.IlluminationMode
 To be added.
 
 **Type** - Java.Lang.Enum

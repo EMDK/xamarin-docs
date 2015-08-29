@@ -1,4 +1,4 @@
-#StatusData+ScannerStates
+#StatusData.ScannerStates
 To be added.
 
 **Type** - Java.Lang.Enum

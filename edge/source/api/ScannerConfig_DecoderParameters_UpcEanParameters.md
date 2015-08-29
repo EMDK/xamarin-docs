@@ -1,4 +1,4 @@
-#ScannerConfig+DecoderParameters+UpcEanParameters
+#ScannerConfig.DecoderParameters.UpcEanParameters
 To be added.
 
 **Type** - Java.Lang.Object

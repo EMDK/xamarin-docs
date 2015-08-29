@@ -1,4 +1,4 @@
-#ScanDataCollection+ScanData
+#ScanDataCollection.ScanData
 To be added.
 
 **Type** - Java.Lang.Object

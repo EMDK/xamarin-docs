@@ -1,4 +1,4 @@
-#ScanDataCollection+LabelType
+#ScanDataCollection.LabelType
 To be added.
 
 **Type** - Java.Lang.Enum

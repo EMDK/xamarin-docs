@@ -1,4 +1,4 @@
-#ScannerConfig+DecoderParameters
+#ScannerConfig.DecoderParameters
 To be added.
 
 **Type** - Java.Lang.Object

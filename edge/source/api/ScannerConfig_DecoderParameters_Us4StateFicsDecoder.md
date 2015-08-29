@@ -1,4 +1,4 @@
-#ScannerConfig+DecoderParameters+Us4StateFicsDecoder
+#ScannerConfig.DecoderParameters.Us4StateFicsDecoder
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder

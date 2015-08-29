@@ -1,4 +1,4 @@
-#ScannerConfig+ReaderParameters+ReaderSpecifics+ImagerSpecifics
+#ScannerConfig.ReaderParameters.ReaderSpecifics.ImagerSpecifics
 To be added.
 
 **Type** - Java.Lang.Object

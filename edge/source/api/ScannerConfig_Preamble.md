@@ -1,4 +1,4 @@
-#ScannerConfig+Preamble
+#ScannerConfig.Preamble
 To be added.
 
 **Type** - Java.Lang.Enum

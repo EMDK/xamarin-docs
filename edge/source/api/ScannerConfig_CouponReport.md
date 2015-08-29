@@ -1,4 +1,4 @@
-#ScannerConfig+CouponReport
+#ScannerConfig.CouponReport
 To be added.
 
 **Type** - Java.Lang.Enum

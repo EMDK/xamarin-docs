@@ -1,4 +1,4 @@
-#ScannerConfig+ScanParameters
+#ScannerConfig.ScanParameters
 To be added.
 
 **Type** - Java.Lang.Object

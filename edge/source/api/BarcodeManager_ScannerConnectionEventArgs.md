@@ -1,4 +1,4 @@
-#BarcodeManager+ScannerConnectionEventArgs
+#BarcodeManager.ScannerConnectionEventArgs
 To be added.
 
 **Type** - System.EventArgs

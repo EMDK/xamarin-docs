@@ -1,4 +1,4 @@
-#BarcodeManager+DeviceIdentifier
+#BarcodeManager.DeviceIdentifier
 To be added.
 
 **Type** - Java.Lang.Enum

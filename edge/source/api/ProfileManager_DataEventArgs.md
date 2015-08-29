@@ -1,4 +1,4 @@
-#ProfileManager+DataEventArgs
+#ProfileManager.DataEventArgs
 To be added.
 
 **Type** - System.EventArgs

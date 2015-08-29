@@ -1,4 +1,4 @@
-#ScannerConfig+PowerMode
+#ScannerConfig.PowerMode
 To be added.
 
 **Type** - Java.Lang.Enum

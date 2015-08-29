@@ -1,4 +1,4 @@
-#ScannerInfo+DeviceType
+#ScannerInfo.DeviceType
 To be added.
 
 **Type** - Java.Lang.Enum

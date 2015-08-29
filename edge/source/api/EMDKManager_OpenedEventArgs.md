@@ -1,4 +1,4 @@
-#EMDKManager+OpenedEventArgs
+#EMDKManager.OpenedEventArgs
 To be added.
 
 **Type** - System.EventArgs

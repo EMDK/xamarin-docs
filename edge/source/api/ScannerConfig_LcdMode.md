@@ -1,4 +1,4 @@
-#ScannerConfig+LcdMode
+#ScannerConfig.LcdMode
 To be added.
 
 **Type** - Java.Lang.Enum

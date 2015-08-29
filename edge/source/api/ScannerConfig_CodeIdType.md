@@ -1,4 +1,4 @@
-#ScannerConfig+CodeIdType
+#ScannerConfig.CodeIdType
 To be added.
 
 **Type** - Java.Lang.Enum

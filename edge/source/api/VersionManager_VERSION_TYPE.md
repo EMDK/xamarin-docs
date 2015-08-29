@@ -1,4 +1,4 @@
-#VersionManager+VERSION_TYPE
+#VersionManager.VERSION_TYPE
 To be added.
 
 **Type** - Java.Lang.Enum

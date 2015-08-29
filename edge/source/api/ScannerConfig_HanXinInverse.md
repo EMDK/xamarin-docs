@@ -1,4 +1,4 @@
-#ScannerConfig+HanXinInverse
+#ScannerConfig.HanXinInverse
 To be added.
 
 **Type** - Java.Lang.Enum

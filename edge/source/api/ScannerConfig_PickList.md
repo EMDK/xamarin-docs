@@ -1,4 +1,4 @@
-#ScannerConfig+PickList
+#ScannerConfig.PickList
 To be added.
 
 **Type** - Java.Lang.Enum

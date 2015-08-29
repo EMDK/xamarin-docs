@@ -1,4 +1,4 @@
-#ScannerInfo+ConnectionType
+#ScannerInfo.ConnectionType
 To be added.
 
 **Type** - Java.Lang.Enum

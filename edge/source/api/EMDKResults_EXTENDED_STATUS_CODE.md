@@ -1,4 +1,4 @@
-#EMDKResults+EXTENDED_STATUS_CODE
+#EMDKResults.EXTENDED_STATUS_CODE
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -30,6 +30,10 @@ To be added.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
 ###AppNotAllowedToSubmitXml
+To be added.
+
+**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+###DependacyComponentFailure
 To be added.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
@@ -78,6 +82,10 @@ To be added.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
 ###NamevalueMismatchInExtradata
+To be added.
+
+**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+###NamevalueMissmatchInConfig
 To be added.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE

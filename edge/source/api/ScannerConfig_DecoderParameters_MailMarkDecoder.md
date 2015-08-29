@@ -1,4 +1,4 @@
-#ScannerConfig+DecoderParameters+MailMarkDecoder
+#ScannerConfig.DecoderParameters.MailMarkDecoder
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder

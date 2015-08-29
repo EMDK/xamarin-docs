@@ -1,4 +1,4 @@
-#BarcodeManager+IScannerConnectionListener
+#BarcodeManager.IScannerConnectionListener
 To be added.
 
 **Type** - 

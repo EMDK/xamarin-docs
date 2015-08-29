@@ -1,4 +1,4 @@
-#ScannerConfig+ReaderParameters+ReaderSpecifics+ContinuousRead
+#ScannerConfig.ReaderParameters.ReaderSpecifics.ContinuousRead
 To be added.
 
 **Type** - Java.Lang.Object

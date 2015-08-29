@@ -1,4 +1,4 @@
-#ScannerConfig+AudioStreamType
+#ScannerConfig.AudioStreamType
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -25,6 +25,10 @@ To be added.
 
 ##Properties
 
+###Alarams
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
 ###Alarms
 To be added.
 

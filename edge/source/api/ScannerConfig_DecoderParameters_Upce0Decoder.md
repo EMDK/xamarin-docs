@@ -1,4 +1,4 @@
-#ScannerConfig+DecoderParameters+Upce0Decoder
+#ScannerConfig.DecoderParameters.Upce0Decoder
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder

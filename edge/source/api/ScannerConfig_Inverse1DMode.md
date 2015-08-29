@@ -1,4 +1,4 @@
-#ScannerConfig+Inverse1DMode
+#ScannerConfig.Inverse1DMode
 To be added.
 
 **Type** - Java.Lang.Enum

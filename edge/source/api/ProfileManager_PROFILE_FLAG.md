@@ -1,4 +1,4 @@
-#ProfileManager+PROFILE_FLAG
+#ProfileManager.PROFILE_FLAG
 To be added.
 
 **Type** - Java.Lang.Enum

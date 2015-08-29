@@ -16,7 +16,7 @@ To be added.
 ###ContinuousRead
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParams+ReaderSpecifics+ContinuousRead
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParams.ReaderSpecifics.ContinuousRead
 ###DisconnectOnExit
 To be added.
 
@@ -28,18 +28,18 @@ To be added.
 ###Inverse1DMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode
 ###LcdMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LcdMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LcdMode
 ###LinearSecurityLevel
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 ###PickList
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PickList
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PickList
 
 

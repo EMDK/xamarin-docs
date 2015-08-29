@@ -28,18 +28,18 @@ To be added.
 ###Both
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+COUPON_REPORT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.COUPON_REPORT
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+COUPON_REPORT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.COUPON_REPORT
 ###New
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+COUPON_REPORT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.COUPON_REPORT
 ###Old
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+COUPON_REPORT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.COUPON_REPORT
 
 

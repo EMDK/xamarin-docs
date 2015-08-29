@@ -28,14 +28,14 @@ To be added.
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+LCD_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.LCD_MODE
 ###Disabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+LCD_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.LCD_MODE
 ###Enabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+LCD_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.LCD_MODE
 
 

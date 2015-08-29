@@ -16,7 +16,7 @@ To be added.
 ###ProfileFlag
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
+**Type** - Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG
 ###ProfileName
 To be added.
 

@@ -8,11 +8,11 @@ To be added.
 ###AudioStreamType
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType
 ###CodeIdType
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType
 ###DecodeAudioFeedbackUri
 To be added.
 

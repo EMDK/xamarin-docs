@@ -28,18 +28,18 @@ To be added.
 ###BroadcastIntent
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+INTENT_DELIVERY
+**Type** - Symbol.XamarinEMDK.ProfileConfig.INTENT_DELIVERY
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+INTENT_DELIVERY
+**Type** - Symbol.XamarinEMDK.ProfileConfig.INTENT_DELIVERY
 ###SendViaStartactivity
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+INTENT_DELIVERY
+**Type** - Symbol.XamarinEMDK.ProfileConfig.INTENT_DELIVERY
 ###SendViaStartservice
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+INTENT_DELIVERY
+**Type** - Symbol.XamarinEMDK.ProfileConfig.INTENT_DELIVERY
 
 

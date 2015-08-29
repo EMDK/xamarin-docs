@@ -28,22 +28,22 @@ To be added.
 ###BluetoothImager1
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier
 ###InternalCamera1
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier
 ###InternalImager1
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier
 ###InternalLaser1
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier
 
 

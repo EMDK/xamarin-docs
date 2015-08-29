@@ -28,14 +28,14 @@ To be added.
 ###Hard
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.Scanner+TriggerTypes
+**Type** - Symbol.XamarinEMDK.Barcode.Scanner.TriggerTypes
 ###SoftAlways
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.Scanner+TriggerTypes
+**Type** - Symbol.XamarinEMDK.Barcode.Scanner.TriggerTypes
 ###SoftOnce
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.Scanner+TriggerTypes
+**Type** - Symbol.XamarinEMDK.Barcode.Scanner.TriggerTypes
 
 

@@ -12,7 +12,7 @@ To be added.
 ###LabelType
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection+LabelType
+**Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###TimeStamp
 To be added.
 

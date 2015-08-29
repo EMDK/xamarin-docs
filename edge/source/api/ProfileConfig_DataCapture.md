@@ -8,14 +8,14 @@ To be added.
 ###barcodes
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+DataCapture+Barcode
+**Type** - Symbol.XamarinEMDK.ProfileConfig.DataCapture.Barcode
 ###DataDelivery
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+DataCapture+DataDeliveryParameters
+**Type** - Symbol.XamarinEMDK.ProfileConfig.DataCapture.DataDeliveryParameters
 ###Msr
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+DataCapture+MSR
+**Type** - Symbol.XamarinEMDK.ProfileConfig.DataCapture.MSR
 
 

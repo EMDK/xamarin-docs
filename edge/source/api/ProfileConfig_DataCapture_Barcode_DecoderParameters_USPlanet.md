@@ -8,6 +8,6 @@ To be added.
 ###ReportCheckDigit
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 
 

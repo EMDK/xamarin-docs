@@ -8,7 +8,7 @@ To be added.
 ###AimType
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+AIM_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.AIM_TYPE
 ###BeamTimer
 To be added.
 
@@ -24,19 +24,19 @@ To be added.
 ###IlluminationMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ILLUMINATION_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ILLUMINATION_MODE
 ###Inverse1dMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+INVERSE_1D_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.INVERSE_1D_MODE
 ###LcdMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+LCD_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.LCD_MODE
 ###LinearSecurityLevel
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+LINEAR_SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.LINEAR_SECURITY_LEVEL
 ###LowPowerTimeout
 To be added.
 
@@ -44,11 +44,11 @@ To be added.
 ###Picklist
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+PICK_LIST
+**Type** - Symbol.XamarinEMDK.ProfileConfig.PICK_LIST
 ###PowerMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+POWER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.POWER_MODE
 ###SameBarcodeTimeout
 To be added.
 
@@ -56,6 +56,6 @@ To be added.
 ###ViewfinderMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VIEWFINDER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VIEWFINDER_MODE
 
 

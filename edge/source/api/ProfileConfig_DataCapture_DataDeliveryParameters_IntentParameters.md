@@ -12,7 +12,7 @@ To be added.
 ###BasicDataFormatting
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+DataCapture+DataDeliveryParameters+BasicDataFormatting
+**Type** - Symbol.XamarinEMDK.ProfileConfig.DataCapture.DataDeliveryParameters.BasicDataFormatting
 ###Category
 To be added.
 
@@ -20,10 +20,10 @@ To be added.
 ###Delivery
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+INTENT_DELIVERY
+**Type** - Symbol.XamarinEMDK.ProfileConfig.INTENT_DELIVERY
 ###OutputEnabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 
 

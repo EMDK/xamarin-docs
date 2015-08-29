@@ -28,14 +28,14 @@ To be added.
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###False
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###True
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 
 

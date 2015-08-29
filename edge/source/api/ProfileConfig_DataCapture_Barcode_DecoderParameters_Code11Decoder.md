@@ -16,14 +16,14 @@ To be added.
 ###Redundancy
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###ReportCheckDigit
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###VerifyCheckDigit
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VERIFY_CHECK_DIGIT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VERIFY_CHECK_DIGIT
 
 

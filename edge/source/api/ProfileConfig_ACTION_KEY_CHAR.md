@@ -28,22 +28,22 @@ To be added.
 ###Carriagereturn
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ACTION_KEY_CHAR
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ACTION_KEY_CHAR
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ACTION_KEY_CHAR
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ACTION_KEY_CHAR
 ###Linefeed
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ACTION_KEY_CHAR
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ACTION_KEY_CHAR
 ###None
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ACTION_KEY_CHAR
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ACTION_KEY_CHAR
 ###Tab
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ACTION_KEY_CHAR
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ACTION_KEY_CHAR
 
 

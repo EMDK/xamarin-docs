@@ -12,14 +12,14 @@ To be added.
 ###CameraSpecific
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParams+ReaderSpecifics+CameraSpecifics
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParams.ReaderSpecifics.CameraSpecifics
 ###ImagerSpecific
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParams+ReaderSpecifics+ImagerSpecifics
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParams.ReaderSpecifics.ImagerSpecifics
 ###LaserSpecific
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParams+ReaderSpecifics+LaserSpecifics
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParams.ReaderSpecifics.LaserSpecifics
 
 

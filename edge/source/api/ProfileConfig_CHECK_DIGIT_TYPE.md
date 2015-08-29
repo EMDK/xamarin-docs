@@ -28,18 +28,18 @@ To be added.
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CHECK_DIGIT_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CHECK_DIGIT_TYPE
 ###No
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CHECK_DIGIT_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CHECK_DIGIT_TYPE
 ###Opcc
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CHECK_DIGIT_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CHECK_DIGIT_TYPE
 ###Uss
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CHECK_DIGIT_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CHECK_DIGIT_TYPE
 
 

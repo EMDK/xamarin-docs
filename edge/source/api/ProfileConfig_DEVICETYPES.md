@@ -28,18 +28,18 @@ To be added.
 ###Auto
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+DEVICETYPES
+**Type** - Symbol.XamarinEMDK.ProfileConfig.DEVICETYPES
 ###InternalCamera1
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+DEVICETYPES
+**Type** - Symbol.XamarinEMDK.ProfileConfig.DEVICETYPES
 ###InternalImager1
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+DEVICETYPES
+**Type** - Symbol.XamarinEMDK.ProfileConfig.DEVICETYPES
 ###InternalLaser1
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+DEVICETYPES
+**Type** - Symbol.XamarinEMDK.ProfileConfig.DEVICETYPES
 
 

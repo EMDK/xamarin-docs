@@ -8,10 +8,10 @@ To be added.
 ###Preamble
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+PREAMBLE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.PREAMBLE
 ###ReportCheckDigit
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 
 

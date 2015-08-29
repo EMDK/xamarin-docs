@@ -28,18 +28,18 @@ To be added.
 ###AllThrice
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 ###AllTwice
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 ###LongAndShort
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 ###ShortOrCodabar
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 
 

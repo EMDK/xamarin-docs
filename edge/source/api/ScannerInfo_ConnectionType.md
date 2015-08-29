@@ -28,22 +28,22 @@ To be added.
 ###BluetoothSsi
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType
 ###Internal
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType
 ###SerialSsi
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType
 ###Undefined
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType
 ###Usb
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType
 
 

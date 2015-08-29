@@ -28,14 +28,14 @@ To be added.
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CHECK_DIGIT_SCHEME
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CHECK_DIGIT_SCHEME
 ###Mod1010
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CHECK_DIGIT_SCHEME
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CHECK_DIGIT_SCHEME
 ###Mod1110
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CHECK_DIGIT_SCHEME
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CHECK_DIGIT_SCHEME
 
 

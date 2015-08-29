@@ -28,14 +28,14 @@ To be added.
 ###No
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+VerifyCheckDigit
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.VerifyCheckDigit
 ###One
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+VerifyCheckDigit
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.VerifyCheckDigit
 ###Two
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+VerifyCheckDigit
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.VerifyCheckDigit
 
 

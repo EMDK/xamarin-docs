@@ -28,38 +28,38 @@ To be added.
 ###Always
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SUPPLEMENTAL_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SUPPLEMENTAL_MODE
 ###Auto
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SUPPLEMENTAL_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SUPPLEMENTAL_MODE
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SUPPLEMENTAL_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SUPPLEMENTAL_MODE
 ###No
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SUPPLEMENTAL_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SUPPLEMENTAL_MODE
 ###S378379
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SUPPLEMENTAL_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SUPPLEMENTAL_MODE
 ###S414419434439
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SUPPLEMENTAL_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SUPPLEMENTAL_MODE
 ###S977
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SUPPLEMENTAL_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SUPPLEMENTAL_MODE
 ###S978979
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SUPPLEMENTAL_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SUPPLEMENTAL_MODE
 ###Smart
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SUPPLEMENTAL_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SUPPLEMENTAL_MODE
 
 

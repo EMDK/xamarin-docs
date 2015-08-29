@@ -28,18 +28,18 @@ To be added.
 ###AlwaysLinked
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+UCC_LINK_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.UCC_LINK_MODE
 ###AutoDiscriminate
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+UCC_LINK_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.UCC_LINK_MODE
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+UCC_LINK_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.UCC_LINK_MODE
 ###LinkFlagIgnored
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+UCC_LINK_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.UCC_LINK_MODE
 
 

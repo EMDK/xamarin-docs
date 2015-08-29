@@ -28,18 +28,18 @@ To be added.
 ###Auto
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+INVERSE_1D_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.INVERSE_1D_MODE
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+INVERSE_1D_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.INVERSE_1D_MODE
 ###Disabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+INVERSE_1D_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.INVERSE_1D_MODE
 ###Enabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+INVERSE_1D_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.INVERSE_1D_MODE
 
 

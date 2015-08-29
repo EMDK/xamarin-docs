@@ -28,18 +28,18 @@ To be added.
 ###Level0
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel
 ###Level1
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel
 ###Level2
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel
 ###Level3
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel
 
 

@@ -28,14 +28,14 @@ To be added.
 ###AlwaysLinked
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+UccLinkMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.UccLinkMode
 ###AutoDiscriminate
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+UccLinkMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.UccLinkMode
 ###LinkFlagIgnored
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+UccLinkMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.UccLinkMode
 
 

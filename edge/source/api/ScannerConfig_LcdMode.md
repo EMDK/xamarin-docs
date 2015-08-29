@@ -28,10 +28,10 @@ To be added.
 ###Disabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LcdMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LcdMode
 ###Enabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LcdMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LcdMode
 
 

@@ -28,14 +28,14 @@ To be added.
 ###Always
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ContactMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Isbt128ContactMode
 ###Auto
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ContactMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Isbt128ContactMode
 ###Never
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ContactMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Isbt128ContactMode
 
 

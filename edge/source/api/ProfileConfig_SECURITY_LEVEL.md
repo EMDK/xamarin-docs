@@ -28,22 +28,22 @@ To be added.
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SECURITY_LEVEL
 ###Level0
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SECURITY_LEVEL
 ###Level1
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SECURITY_LEVEL
 ###Level2
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SECURITY_LEVEL
 ###Level3
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SECURITY_LEVEL
 
 

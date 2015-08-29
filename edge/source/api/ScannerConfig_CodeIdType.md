@@ -28,14 +28,14 @@ To be added.
 ###Aim
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType
 ###None
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType
 ###Symbol
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType
 
 

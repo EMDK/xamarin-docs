@@ -28,42 +28,42 @@ To be added.
 ###CheckXml
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 ###EmdkNotOpened
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 ###EmptyProfilename
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 ###Failure
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 ###NoDataListener
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 ###NullPointer
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 ###PreviousRequestInProgress
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 ###Processing
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 ###Success
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 ###Unknown
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 
 

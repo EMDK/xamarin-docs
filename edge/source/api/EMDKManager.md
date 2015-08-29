@@ -12,7 +12,7 @@ To be added.
 **Parameters:** 
 
 * Android.Content.Context **p0** - To be added.
-* Symbol.XamarinEMDK.EMDKManager+IEMDKListener **p1** - To be added.
+* Symbol.XamarinEMDK.EMDKManager.IEMDKListener **p1** - To be added.
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults
 
@@ -23,7 +23,7 @@ To be added.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE **p0** - To be added.
+* Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE **p0** - To be added.
 
 **Returns** - Symbol.XamarinEMDK.EMDKBase
 
@@ -42,7 +42,7 @@ To be added.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE **p0** - To be added.
+* Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE **p0** - To be added.
 
 **Returns** - System.Void
 

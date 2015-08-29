@@ -28,18 +28,18 @@ To be added.
 ###CountryAndSysChar
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+PREAMBLE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.PREAMBLE
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+PREAMBLE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.PREAMBLE
 ###None
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+PREAMBLE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.PREAMBLE
 ###SysChar
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+PREAMBLE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.PREAMBLE
 
 

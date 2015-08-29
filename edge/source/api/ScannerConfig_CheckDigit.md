@@ -28,10 +28,10 @@ To be added.
 ###One
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigit
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigit
 ###Two
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigit
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigit
 
 

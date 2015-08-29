@@ -12,22 +12,22 @@ To be added.
 ###ContinuousRead
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParams+ReaderSpecifics+ContinuousRead
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParams.ReaderSpecifics.ContinuousRead
 ###IlluminationMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+IlluminationMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.IlluminationMode
 ###Inverse1DMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode
 ###LinearSecurityLevel
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 ###ViewfinderMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ViewFinderMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ViewFinderMode
 
 

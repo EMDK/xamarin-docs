@@ -28,50 +28,50 @@ To be added.
 ###Always
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###Auto
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###No
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###S_378_379
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###S_414_419_434_439
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###S_977
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###S_978_979
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###S378379
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###S414419434439
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###S977
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###S978979
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###Smart
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 
 

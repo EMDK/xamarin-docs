@@ -28,14 +28,14 @@ To be added.
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ILLUMINATION_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ILLUMINATION_MODE
 ###Off
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ILLUMINATION_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ILLUMINATION_MODE
 ###On
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ILLUMINATION_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ILLUMINATION_MODE
 
 

@@ -28,14 +28,14 @@ To be added.
 ###CountryAndSysChar
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble
 ###None
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble
 ###SysChar
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble
 
 

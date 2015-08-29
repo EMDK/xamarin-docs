@@ -28,82 +28,82 @@ To be added.
 ###ActivitySelectionMergingNotSupported
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###AppNotAllowedToSubmitXml
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###DependacyComponentFailure
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###DependencyComponentFailure
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureNameNotFoundInConfig
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureNameNotFoundInExtradata
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureNotUniqueInConfig
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureNotUniqueInExtradata
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureTypeNotFoundInConfig
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureTypeNotFoundInExtradata
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###GeneralExceptionOccured
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###InvalidProfileConfiguration
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###InvalidValue
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###NamevalueMismatchInConfig
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###NamevalueMismatchInExtradata
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###NamevalueMissmatchInConfig
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###None
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###ProfileNameFormatError
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###ProfileNotFoundInConfig
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###ProfileNotFoundInExtradata
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 
 

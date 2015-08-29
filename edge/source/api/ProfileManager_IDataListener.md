@@ -11,7 +11,7 @@ To be added.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.ProfileManager+ResultData **p0** - To be added.
+* Symbol.XamarinEMDK.ProfileManager.ResultData **p0** - To be added.
 
 **Returns** - System.Void
 

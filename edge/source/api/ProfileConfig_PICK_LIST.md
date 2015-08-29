@@ -28,18 +28,18 @@ To be added.
 ###Centered
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+PICK_LIST
+**Type** - Symbol.XamarinEMDK.ProfileConfig.PICK_LIST
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+PICK_LIST
+**Type** - Symbol.XamarinEMDK.ProfileConfig.PICK_LIST
 ###Disabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+PICK_LIST
+**Type** - Symbol.XamarinEMDK.ProfileConfig.PICK_LIST
 ###Enabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+PICK_LIST
+**Type** - Symbol.XamarinEMDK.ProfileConfig.PICK_LIST
 
 

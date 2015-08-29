@@ -28,22 +28,22 @@ To be added.
 ###AlwaysOn
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+POWER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.POWER_MODE
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+POWER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.POWER_MODE
 ###High
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+POWER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.POWER_MODE
 ###Low
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+POWER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.POWER_MODE
 ###Optimized
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+POWER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.POWER_MODE
 
 

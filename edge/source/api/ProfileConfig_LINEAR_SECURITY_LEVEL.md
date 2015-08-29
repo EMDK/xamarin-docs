@@ -28,22 +28,22 @@ To be added.
 ###AllThrice
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+LINEAR_SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.LINEAR_SECURITY_LEVEL
 ###AllTwice
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+LINEAR_SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.LINEAR_SECURITY_LEVEL
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+LINEAR_SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.LINEAR_SECURITY_LEVEL
 ###LongAndShort
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+LINEAR_SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.LINEAR_SECURITY_LEVEL
 ###ShortOrCodabar
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+LINEAR_SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.LINEAR_SECURITY_LEVEL
 
 

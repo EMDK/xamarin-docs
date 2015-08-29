@@ -8,6 +8,6 @@ To be added.
 ###ReaderSpecific
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParams+ReaderSpecifics
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParams.ReaderSpecifics
 
 

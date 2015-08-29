@@ -28,18 +28,18 @@ To be added.
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VIEWFINDER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VIEWFINDER_MODE
 ###Disabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VIEWFINDER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VIEWFINDER_MODE
 ###Enabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VIEWFINDER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VIEWFINDER_MODE
 ###StaticRecticle
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VIEWFINDER_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VIEWFINDER_MODE
 
 

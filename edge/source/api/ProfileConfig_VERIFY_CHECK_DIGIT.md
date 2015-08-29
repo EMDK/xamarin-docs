@@ -28,18 +28,18 @@ To be added.
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VERIFY_CHECK_DIGIT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VERIFY_CHECK_DIGIT
 ###No
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VERIFY_CHECK_DIGIT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VERIFY_CHECK_DIGIT
 ###One
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VERIFY_CHECK_DIGIT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VERIFY_CHECK_DIGIT
 ###Two
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VERIFY_CHECK_DIGIT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VERIFY_CHECK_DIGIT
 
 

@@ -28,14 +28,14 @@ To be added.
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+BOOKLAND_FORMAT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.BOOKLAND_FORMAT
 ###Isbn10
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+BOOKLAND_FORMAT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.BOOKLAND_FORMAT
 ###Isbn13
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+BOOKLAND_FORMAT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.BOOKLAND_FORMAT
 
 

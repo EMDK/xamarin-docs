@@ -28,18 +28,18 @@ To be added.
 ###Aim
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CODE_ID_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CODE_ID_TYPE
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CODE_ID_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CODE_ID_TYPE
 ###None
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CODE_ID_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CODE_ID_TYPE
 ###Symbol
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CODE_ID_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CODE_ID_TYPE
 
 

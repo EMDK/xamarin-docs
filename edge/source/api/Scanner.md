@@ -11,7 +11,7 @@ To be added.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.Barcode.Scanner+IDataListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner.IDataListener **p0** - To be added.
 
 **Returns** - System.Void
 
@@ -22,7 +22,7 @@ To be added.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.Barcode.Scanner+IStatusListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner.IStatusListener **p0** - To be added.
 
 **Returns** - System.Void
 
@@ -73,7 +73,7 @@ To be added.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.Barcode.Scanner+IDataListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner.IDataListener **p0** - To be added.
 
 **Returns** - System.Void
 
@@ -84,7 +84,7 @@ To be added.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.Barcode.Scanner+IStatusListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner.IStatusListener **p0** - To be added.
 
 **Returns** - System.Void
 
@@ -113,6 +113,6 @@ To be added.
 ###TriggerType
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.Scanner+TriggerTypes
+**Type** - Symbol.XamarinEMDK.Barcode.Scanner.TriggerTypes
 
 

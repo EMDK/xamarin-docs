@@ -28,18 +28,18 @@ To be added.
 ###Alarams
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType
 ###Alarms
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType
 ###Media
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType
 ###Ringer
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType
 
 

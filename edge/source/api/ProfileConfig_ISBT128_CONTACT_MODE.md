@@ -28,18 +28,18 @@ To be added.
 ###Always
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ISBT128_CONTACT_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ISBT128_CONTACT_MODE
 ###Auto
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ISBT128_CONTACT_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ISBT128_CONTACT_MODE
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ISBT128_CONTACT_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ISBT128_CONTACT_MODE
 ###Never
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ISBT128_CONTACT_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ISBT128_CONTACT_MODE
 
 

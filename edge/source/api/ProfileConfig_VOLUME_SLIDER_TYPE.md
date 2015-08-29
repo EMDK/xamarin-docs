@@ -28,18 +28,18 @@ To be added.
 ###Alarm
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VOLUME_SLIDER_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VOLUME_SLIDER_TYPE
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VOLUME_SLIDER_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VOLUME_SLIDER_TYPE
 ###MusicAndMedia
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VOLUME_SLIDER_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VOLUME_SLIDER_TYPE
 ###RingerAndNotifications
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VOLUME_SLIDER_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VOLUME_SLIDER_TYPE
 
 

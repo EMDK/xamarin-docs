@@ -28,14 +28,14 @@ To be added.
 ###ContinuousRead
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+AIM_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.AIM_TYPE
 ###Default
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+AIM_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.AIM_TYPE
 ###Trigger
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+AIM_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.AIM_TYPE
 
 

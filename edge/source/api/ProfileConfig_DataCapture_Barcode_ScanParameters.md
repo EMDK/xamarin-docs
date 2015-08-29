@@ -8,11 +8,11 @@ To be added.
 ###BtDisconnectOnExit
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###CodeIdType
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CODE_ID_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CODE_ID_TYPE
 ###ConnectionIdleTime
 To be added.
 
@@ -28,15 +28,15 @@ To be added.
 ###DecodeHapticFeedback
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###DecodingLedFeedback
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###DisplayBtAddressBarcode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###EstablishConnectionTime
 To be added.
 
@@ -48,6 +48,6 @@ To be added.
 ###VolumeSliderType
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+VOLUME_SLIDER_TYPE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.VOLUME_SLIDER_TYPE
 
 

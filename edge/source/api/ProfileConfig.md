@@ -12,11 +12,11 @@ To be added.
 ###ActivitySelection
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ActivitySelections
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ActivitySelections
 ###dataCaptures
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+DataCapture
+**Type** - Symbol.XamarinEMDK.ProfileConfig.DataCapture
 ###ModifiedDate
 To be added.
 

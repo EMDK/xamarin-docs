@@ -8,11 +8,11 @@ To be added.
 ###CheckDigit
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CHECK_DIGIT
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CHECK_DIGIT
 ###CheckDigitScheme
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+CHECK_DIGIT_SCHEME
+**Type** - Symbol.XamarinEMDK.ProfileConfig.CHECK_DIGIT_SCHEME
 ###Length1
 To be added.
 
@@ -24,10 +24,10 @@ To be added.
 ###Redundancy
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###ReportCheckDigit
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 
 

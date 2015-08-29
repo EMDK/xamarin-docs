@@ -12,7 +12,7 @@ To be added.
 ###BooklandFormat
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+BooklandFormat
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
 ###ConvertDataBarToUpcEan
 To be added.
 
@@ -24,7 +24,7 @@ To be added.
 ###CouponReport
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport
 ###EanZeroExtend
 To be added.
 
@@ -40,7 +40,7 @@ To be added.
 ###SecurityLevel
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel
 ###Supplemental2
 To be added.
 
@@ -52,7 +52,7 @@ To be added.
 ###SupplementalMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###SupplementalRetries
 To be added.
 

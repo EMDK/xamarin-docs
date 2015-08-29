@@ -28,18 +28,18 @@ To be added.
 ###CheckCompatibility
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
+**Type** - Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG
 ###Get
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
+**Type** - Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG
 ###Reset
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
+**Type** - Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG
 ###Set
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG
+**Type** - Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG
 
 

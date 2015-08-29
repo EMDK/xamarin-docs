@@ -11,7 +11,7 @@ To be added.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.ProfileManager+IDataListener **p0** - To be added.
+* Symbol.XamarinEMDK.ProfileManager.IDataListener **p0** - To be added.
 
 **Returns** - System.Void
 
@@ -36,7 +36,7 @@ To be added.
 **Parameters:** 
 
 * System.String **p0** - To be added.
-* Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG **p1** - To be added.
+* Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG **p1** - To be added.
 * Org.W3c.Dom.IDocument **p2** - To be added.
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults
@@ -49,7 +49,7 @@ To be added.
 **Parameters:** 
 
 * System.String **p0** - To be added.
-* Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG **p1** - To be added.
+* Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG **p1** - To be added.
 * Symbol.XamarinEMDK.ProfileConfig **p2** - To be added.
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults
@@ -62,7 +62,7 @@ To be added.
 **Parameters:** 
 
 * System.String **p0** - To be added.
-* Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG **p1** - To be added.
+* Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG **p1** - To be added.
 * System.String[] **p2** - To be added.
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults
@@ -75,7 +75,7 @@ To be added.
 **Parameters:** 
 
 * System.String **p0** - To be added.
-* Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG **p1** - To be added.
+* Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG **p1** - To be added.
 * Org.W3c.Dom.IDocument **p2** - To be added.
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults
@@ -88,7 +88,7 @@ To be added.
 **Parameters:** 
 
 * System.String **p0** - To be added.
-* Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG **p1** - To be added.
+* Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG **p1** - To be added.
 * Symbol.XamarinEMDK.ProfileConfig **p2** - To be added.
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults
@@ -101,7 +101,7 @@ To be added.
 **Parameters:** 
 
 * System.String **p0** - To be added.
-* Symbol.XamarinEMDK.ProfileManager+PROFILE_FLAG **p1** - To be added.
+* Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG **p1** - To be added.
 * System.String[] **p2** - To be added.
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults
@@ -113,7 +113,7 @@ To be added.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.ProfileManager+IDataListener **p0** - To be added.
+* Symbol.XamarinEMDK.ProfileManager.IDataListener **p0** - To be added.
 
 **Returns** - System.Void
 

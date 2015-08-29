@@ -8,23 +8,23 @@ To be added.
 ###CheckIsbtTable
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###EnableEan128
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###EnableIsbt128
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###EnablePlain
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###Isbt128ConcatMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ISBT128_CONTACT_MODE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ISBT128_CONTACT_MODE
 ###Length1
 To be added.
 
@@ -36,10 +36,10 @@ To be added.
 ###Redundancy
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+ENABLED_STATE
+**Type** - Symbol.XamarinEMDK.ProfileConfig.ENABLED_STATE
 ###SecurityLevel
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileConfig+SECURITY_LEVEL
+**Type** - Symbol.XamarinEMDK.ProfileConfig.SECURITY_LEVEL
 
 

@@ -1,7 +1,7 @@
 #ScannerConfig.DecoderParameters.Code11Decoder
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
@@ -24,6 +24,6 @@ To be added.
 ###VerifyCheckDigit
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+VerifyCheckDigit
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.VerifyCheckDigit
 
 

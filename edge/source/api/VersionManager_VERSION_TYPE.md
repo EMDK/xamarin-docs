@@ -28,14 +28,14 @@ To be added.
 ###Barcode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.VersionManager+VERSION_TYPE
+**Type** - Symbol.XamarinEMDK.VersionManager.VERSION_TYPE
 ###Emdk
 To be added.
 
-**Type** - Symbol.XamarinEMDK.VersionManager+VERSION_TYPE
+**Type** - Symbol.XamarinEMDK.VersionManager.VERSION_TYPE
 ###Mx
 To be added.
 
-**Type** - Symbol.XamarinEMDK.VersionManager+VERSION_TYPE
+**Type** - Symbol.XamarinEMDK.VersionManager.VERSION_TYPE
 
 

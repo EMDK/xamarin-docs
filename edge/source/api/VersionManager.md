@@ -11,7 +11,7 @@ To be added.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.VersionManager+VERSION_TYPE **p0** - To be added.
+* Symbol.XamarinEMDK.VersionManager.VERSION_TYPE **p0** - To be added.
 
 **Returns** - System.String
 

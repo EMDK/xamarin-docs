@@ -1,4 +1,4 @@
-#EMDKManager+FEATURE_TYPE
+#EMDKManager.FEATURE_TYPE
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,14 +28,18 @@ To be added.
 ###Barcode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE
+**Type** - Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE
 ###Profile
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE
+**Type** - Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE
+###Scanandpair
+To be added.
+
+**Type** - Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE
 ###Version
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE
+**Type** - Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE
 
 

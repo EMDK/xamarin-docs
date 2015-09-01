@@ -1,4 +1,4 @@
-#Scanner+StatusEventArgs
+#Scanner.StatusEventArgs
 To be added.
 
 **Type** - System.EventArgs

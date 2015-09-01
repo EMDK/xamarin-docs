@@ -8,7 +8,7 @@ To be added.
 ###ExtendedStatusCode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###ExtendedStatusMessage
 To be added.
 
@@ -16,7 +16,7 @@ To be added.
 ###StatusCode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
+**Type** - Symbol.XamarinEMDK.EMDKResults.STATUS_CODE
 ###StatusDocument
 To be added.
 

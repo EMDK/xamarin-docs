@@ -1,4 +1,4 @@
-#ScannerConfig+HanXinInverse
+#ScannerConfig.HanXinInverse
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,14 +28,14 @@ To be added.
 ###Auto
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+HanXinInverse
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.HanXinInverse
 ###Disabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+HanXinInverse
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.HanXinInverse
 ###Enabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+HanXinInverse
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.HanXinInverse
 
 

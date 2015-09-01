@@ -1,4 +1,4 @@
-#Scanner+DataEventArgs
+#Scanner.DataEventArgs
 To be added.
 
 **Type** - System.EventArgs

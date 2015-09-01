@@ -1,4 +1,4 @@
-#ScannerConfig+ReaderParameters+ReaderSpecifics+LaserSpecifics
+#ScannerConfig.ReaderParameters.ReaderSpecifics.LaserSpecifics
 To be added.
 
 **Type** - Java.Lang.Object
@@ -12,18 +12,18 @@ To be added.
 ###ContinuousRead
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParameters+ReaderSpecifics+ContinuousRead
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParameters.ReaderSpecifics.ContinuousRead
 ###Inverse1DMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode
 ###LinearSecurityLevel
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 ###PowerMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PowerMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode
 
 

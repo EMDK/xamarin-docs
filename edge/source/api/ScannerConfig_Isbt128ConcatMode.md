@@ -1,4 +1,4 @@
-#ScannerConfig+Isbt128ConcatMode
+#ScannerConfig.Isbt128ConcatMode
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,14 +28,14 @@ To be added.
 ###Always
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ConcatMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Isbt128ConcatMode
 ###Auto
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ConcatMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Isbt128ConcatMode
 ###Never
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ConcatMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Isbt128ConcatMode
 
 

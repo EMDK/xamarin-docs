@@ -1,4 +1,4 @@
-#ScannerConfig+SkipOnUnSupported
+#ScannerConfig.SkipOnUnSupported
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,18 +28,18 @@ To be added.
 ###All
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SkipOnUnSupported
 ###None
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SkipOnUnSupported
 ###UnsupportedParam
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SkipOnUnSupported
 ###UnsupportedValue
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SkipOnUnSupported
 
 

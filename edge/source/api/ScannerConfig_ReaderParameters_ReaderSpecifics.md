@@ -1,4 +1,4 @@
-#ScannerConfig+ReaderParameters+ReaderSpecifics
+#ScannerConfig.ReaderParameters.ReaderSpecifics
 To be added.
 
 **Type** - Java.Lang.Object
@@ -12,14 +12,14 @@ To be added.
 ###CameraSpecific
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParameters+ReaderSpecifics+CameraSpecifics
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParameters.ReaderSpecifics.CameraSpecifics
 ###ImagerSpecific
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParameters+ReaderSpecifics+ImagerSpecifics
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParameters.ReaderSpecifics.ImagerSpecifics
 ###LaserSpecific
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParameters+ReaderSpecifics+LaserSpecifics
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParameters.ReaderSpecifics.LaserSpecifics
 
 

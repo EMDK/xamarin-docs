@@ -1,4 +1,4 @@
-#ScannerConfig+BooklandFormat
+#ScannerConfig.BooklandFormat
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,10 +28,18 @@ To be added.
 ###ISBN_10
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+BooklandFormat
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
 ###ISBN_13
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+BooklandFormat
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
+###Isbn10
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
+###Isbn13
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
 
 

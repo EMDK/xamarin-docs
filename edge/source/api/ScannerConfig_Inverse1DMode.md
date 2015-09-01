@@ -1,4 +1,4 @@
-#ScannerConfig+Inverse1DMode
+#ScannerConfig.Inverse1DMode
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,14 +28,14 @@ To be added.
 ###Auto
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode
 ###Disabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode
 ###Enabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode
 
 

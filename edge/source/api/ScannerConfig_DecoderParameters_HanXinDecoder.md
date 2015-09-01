@@ -1,13 +1,13 @@
-#ScannerConfig+DecoderParameters+HanXinDecoder
+#ScannerConfig.DecoderParameters.HanXinDecoder
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###HanXinInverse
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+HanXinInverse
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.HanXinInverse
 
 

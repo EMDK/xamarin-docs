@@ -1,4 +1,4 @@
-#ScannerInfo+DecoderType
+#ScannerInfo.DecoderType
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,14 +28,14 @@ To be added.
 ###OneDimensional
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DecoderType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.DecoderType
 ###TwoDimensional
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DecoderType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.DecoderType
 ###Undefined
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DecoderType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.DecoderType
 
 

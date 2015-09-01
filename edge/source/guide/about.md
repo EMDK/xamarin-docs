@@ -7,6 +7,7 @@ Welcome to the EMDK for Xamarin Alpa. This alpha will provide you with ability t
 * [Microsoft Visual Studio](https://www.visualstudio.com/downloads/download-visual-studio-vs)
 
 * [Xamarin](http://developer.xamarin.com/guides/cross-platform/getting_started/)
+	- Xamarin `Indie` licence is not suggested at this time due to Visual Studio complilation restrictions. Learn more [here](https://store.xamarin.com/).
 
 
 > NOTE: This is an `Alpha` release of the EMDK for Xamarin, as we work towards a final release, our goal is to reduce the number of changes to an absolute minimum, changes may need to occur in the API. Those changes may require you to modify your application to make use of updated EMDK releases.

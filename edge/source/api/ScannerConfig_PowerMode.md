@@ -1,4 +1,4 @@
-#ScannerConfig+PowerMode
+#ScannerConfig.PowerMode
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,18 +28,18 @@ To be added.
 ###AlwaysOn
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PowerMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode
 ###High
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PowerMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode
 ###Low
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PowerMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode
 ###Optimized
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PowerMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode
 
 

@@ -1,4 +1,4 @@
-#BarcodeManager+IScannerConnectionListener
+#BarcodeManager.IScannerConnectionListener
 To be added.
 
 **Type** - 
@@ -12,7 +12,7 @@ To be added.
 **Parameters:** 
 
 * Symbol.XamarinEMDK.Barcode.ScannerInfo **p0** - To be added.
-* Symbol.XamarinEMDK.Barcode.BarcodeManager+ConnectionState **p1** - To be added.
+* Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState **p1** - To be added.
 
 **Returns** - System.Void
 

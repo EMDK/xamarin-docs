@@ -1,4 +1,4 @@
-#BarcodeManager+ConnectionState
+#BarcodeManager.ConnectionState
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,10 +28,10 @@ To be added.
 ###Connected
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+ConnectionState
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState
 ###Disconnected
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+ConnectionState
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState
 
 

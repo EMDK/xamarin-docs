@@ -109,7 +109,7 @@ Now lets add some code to our project.
 2. Add a `using` directive that references the Symbol EMDK for Xamarin
 
         :::cs
-        using Symbol.EMDK.Xamarin;
+        using Symbol.XamarinEMDK;
 
 3. Now lets add some global variables to the MainActivity class for later use.
 
@@ -156,7 +156,7 @@ Now lets add some code to our project.
             }
 
 
-7. Next we will to add and interface to our Activity that notifies the client ( MainActivity ) that the EMDKManager object is ready to use `OnOpened` or is no longer available for use `OnClosed`.
+7. Next we will need to add and interface to our Activity that notifies the client ( MainActivity ) that the EMDKManager object is ready to use `OnOpened` or is no longer available for use `OnClosed`.
   1. Add the the interface to our MainActivity
 
             :::cs

@@ -12,6 +12,6 @@ To be added.
 ###State
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 
 

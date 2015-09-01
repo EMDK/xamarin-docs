@@ -1,7 +1,7 @@
-#ScannerConfig+DecoderParameters+Code39Decoder
+#ScannerConfig.DecoderParameters.Code39Decoder
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
@@ -36,7 +36,7 @@ To be added.
 ###SecurityLevel
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel
 ###VerifyCheckDigit
 To be added.
 

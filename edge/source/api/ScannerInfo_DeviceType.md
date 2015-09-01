@@ -1,4 +1,4 @@
-#ScannerInfo+DeviceType
+#ScannerInfo.DeviceType
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,18 +28,18 @@ To be added.
 ###Camera
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.DeviceType
 ###Imager
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.DeviceType
 ###Laser
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.DeviceType
 ###Undefined
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.DeviceType
 
 

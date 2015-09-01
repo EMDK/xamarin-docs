@@ -1,4 +1,4 @@
-#ScannerConfig+PickList
+#ScannerConfig.PickList
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,10 +28,10 @@ To be added.
 ###Disabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PickList
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PickList
 ###Enabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PickList
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PickList
 
 

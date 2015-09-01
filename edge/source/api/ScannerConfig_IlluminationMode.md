@@ -1,4 +1,4 @@
-#ScannerConfig+IlluminationMode
+#ScannerConfig.IlluminationMode
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,10 +28,10 @@ To be added.
 ###Off
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+IlluminationMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.IlluminationMode
 ###On
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+IlluminationMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.IlluminationMode
 
 

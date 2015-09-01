@@ -1,7 +1,7 @@
-#ScannerConfig+DecoderParameters+Code93Decoder
+#ScannerConfig.DecoderParameters.Code93Decoder
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 

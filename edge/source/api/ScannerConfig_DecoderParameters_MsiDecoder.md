@@ -1,18 +1,18 @@
-#ScannerConfig+DecoderParameters+MsiDecoder
+#ScannerConfig.DecoderParameters.MsiDecoder
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###CheckDigits
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigit
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigit
 ###CheckDigitScheme
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitScheme
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitScheme
 ###Length1
 To be added.
 

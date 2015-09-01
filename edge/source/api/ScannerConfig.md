@@ -31,18 +31,22 @@ To be added.
 ###DecoderParams
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters
+###readerParam
+To be added.
+
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParams
 ###ReaderParams
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ReaderParameters
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParameters
 ###ScanParams
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ScanParameters
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ScanParameters
 ###SkipOnUnsupported
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SkipOnUnSupported
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SkipOnUnSupported
 
 

@@ -1,4 +1,4 @@
-#ProfileManager+DataEventArgs
+#ProfileManager.DataEventArgs
 To be added.
 
 **Type** - System.EventArgs
@@ -12,6 +12,6 @@ To be added.
 ###P0
 To be added.
 
-**Type** - Symbol.XamarinEMDK.ProfileManager+ResultData
+**Type** - Symbol.XamarinEMDK.ProfileManager.ResultData
 
 

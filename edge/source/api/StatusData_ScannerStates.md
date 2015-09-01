@@ -1,4 +1,4 @@
-#StatusData+ScannerStates
+#StatusData.ScannerStates
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,22 +28,22 @@ To be added.
 ###Disabled
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 ###Error
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 ###Idle
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 ###Scanning
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 ###Waiting
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
+**Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 
 

@@ -1,4 +1,4 @@
-#BarcodeManager+ScannerConnectionEventArgs
+#BarcodeManager.ScannerConnectionEventArgs
 To be added.
 
 **Type** - System.EventArgs
@@ -16,6 +16,6 @@ To be added.
 ###P1
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager+ConnectionState
+**Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState
 
 

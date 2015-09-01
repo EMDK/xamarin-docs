@@ -1,7 +1,7 @@
-#ScannerConfig+DecoderParameters+Code128Decoder
+#ScannerConfig.DecoderParameters.Code128Decoder
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+DecoderParameters+BaseDecoder
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
@@ -24,7 +24,7 @@ To be added.
 ###Isbt128ConcatMode
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Isbt128ConcatMode
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Isbt128ConcatMode
 ###Length1
 To be added.
 
@@ -40,6 +40,6 @@ To be added.
 ###SecurityLevel
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SecurityLevel
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel
 
 

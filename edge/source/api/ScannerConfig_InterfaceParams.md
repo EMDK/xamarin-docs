@@ -1,4 +1,4 @@
-#ScannerConfig+InterfaceParams
+#ScannerConfig.InterfaceParams
 To be added.
 
 **Type** - Java.Lang.Object

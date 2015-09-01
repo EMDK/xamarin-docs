@@ -1,4 +1,4 @@
-#ScannerConfig+CouponReport
+#ScannerConfig.CouponReport
 To be added.
 
 **Type** - Java.Lang.Enum
@@ -28,14 +28,14 @@ To be added.
 ###Both
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport
 ###New
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport
 ###Old
 To be added.
 
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport
+**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport
 
 

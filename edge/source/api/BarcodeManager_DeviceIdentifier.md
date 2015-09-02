@@ -1,5 +1,5 @@
 #BarcodeManager.DeviceIdentifier
-To be added.
+Defines the specific scanner devices of each type.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier[]
@@ -26,23 +26,23 @@ To be added.
 ##Properties
 
 ###BluetoothImager1
-To be added.
+Bluetooth Scanner
 
 **Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier
 ###Default
-To be added.
+Use the device's default scanner (typically the laser or imager).
 
 **Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier
 ###InternalCamera1
-To be added.
+Rear facing camera.
 
 **Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier
 ###InternalImager1
-To be added.
+Imager or 2D barcode scanner.
 
 **Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier
 ###InternalLaser1
-To be added.
+Laser barcode scanner.
 
 **Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier
 

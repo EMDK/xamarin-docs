@@ -1,12 +1,12 @@
 #ScannerConfig.DecoderParameters.Ean8Decoder
-To be added.
+The Ean8 class provides access to parameters that are available for the Ean8 decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###ConvertToEan13
-To be added.
+Flag to convert EAN8 to EAN13.
 
 **Type** - System.Boolean
 

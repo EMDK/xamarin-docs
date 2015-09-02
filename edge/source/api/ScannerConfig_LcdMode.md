@@ -1,5 +1,5 @@
 #ScannerConfig.LcdMode
-To be added.
+Enable or disable LCD mode (for Blockbuster imager devices only). LCD mode enhances the ability of the imager to read bar codes from LCD displays such as cellphones.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.LcdMode ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LcdMode
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.LcdMode[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LcdMode[]
@@ -26,11 +26,11 @@ To be added.
 ##Properties
 
 ###Disabled
-To be added.
+Disables LCD mode
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LcdMode
 ###Enabled
-To be added.
+Enables LCD mode
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LcdMode
 

@@ -1,5 +1,5 @@
 #ScannerInfo.ConnectionType
-To be added.
+List of supported scanner connection types.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+ConnectionType[]
@@ -26,23 +26,23 @@ To be added.
 ##Properties
 
 ###BluetoothSsi
-To be added.
+The scanner device connected via Bluetooth to the mobile device.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType
 ###Internal
-To be added.
+The scanner device connected internally within the mobile device.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType
 ###SerialSsi
-To be added.
+The scanner device connected via serial SSI to the mobile device.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType
 ###Undefined
-To be added.
+Connection type is not defined.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType
 ###Usb
-To be added.
+The scanner device connected via USB to the mobile device.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.ConnectionType
 

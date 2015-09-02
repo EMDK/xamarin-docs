@@ -1,20 +1,20 @@
 #ScanDataCollection.ScanData
-To be added.
+The object contains the barcode data that has been scanned and other useful information.
 
 **Type** - Java.Lang.Object
 
 ##Properties
 
 ###Data
-To be added.
+The barcode data that was scanned.
 
 **Type** - System.String
 ###LabelType
-To be added.
+The barcode symbology that was scanned.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###TimeStamp
-To be added.
+The timestamp when the barcode was scanned.
 
 **Type** - System.String
 

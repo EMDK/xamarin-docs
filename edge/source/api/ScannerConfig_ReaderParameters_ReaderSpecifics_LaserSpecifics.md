@@ -1,28 +1,28 @@
 #ScannerConfig.ReaderParameters.ReaderSpecifics.LaserSpecifics
-To be added.
+LaserSpecific class provides access to the laser scanner specific parameters.
 
 **Type** - Java.Lang.Object
 
 ##Properties
 
 ###BeamTimer
-To be added.
+Sets the maximum amount of time that the reader remains on (0 - 60,000 ms in increments of 100 ms). A value of 0 sets the reader to stay on indefinitely.
 
 **Type** - System.Int32
 ###ContinuousRead
-To be added.
+ContinuousRead class provides access to continuous scanning related parameters.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ReaderParameters.ReaderSpecifics.ContinuousRead
 ###Inverse1DMode
-To be added.
+This parameter allows the user to select decoding on inverse 1D bar codes. Use enum ScannerConfig.Inverse1DMode.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode
 ###LinearSecurityLevel
-To be added.
+Sets the number of times a bar code is read to confirm an accurate decode. Use enum ScannerConfig.LinearSecurityLevel.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 ###PowerMode
-To be added.
+Set scanner power mode. Use enum ScannerConfig.PowerMode.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode
 

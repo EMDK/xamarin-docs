@@ -1,5 +1,5 @@
 #ScannerConfig.DecoderParameters.Us4StateDecoder
-To be added.
+The US4State class provides access to parameters that are available for the US4State decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 

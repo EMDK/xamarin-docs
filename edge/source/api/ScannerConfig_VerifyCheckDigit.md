@@ -1,5 +1,5 @@
 #ScannerConfig.VerifyCheckDigit
-To be added.
+Check the integrity of all Code 11 symbols to verify that the data complies with the specified check digit algorithm. This selects the check digit mechanism for the decoded Code 11 bar code.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.VerifyCheckDigit ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+VerifyCheckDigit
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.VerifyCheckDigit[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+VerifyCheckDigit[]
@@ -26,15 +26,15 @@ To be added.
 ##Properties
 
 ###No
-To be added.
+Do not verify check digit.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.VerifyCheckDigit
 ###One
-To be added.
+Bar code contains one check digit.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.VerifyCheckDigit
 ###Two
-To be added.
+Bar code contains two check digits.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.VerifyCheckDigit
 

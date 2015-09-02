@@ -1,5 +1,5 @@
 #ScannerConfig.CheckDigitType
-To be added.
+Verify data integrity.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitType ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitType
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitType[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitType[]
@@ -26,15 +26,15 @@ To be added.
 ##Properties
 
 ###No
-To be added.
+A check digit is not used.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitType
 ###Opcc
-To be added.
+Select to check the integrity of all Interleaved 2 of 5 symbols to verify the data complies with either the Optical Product Code Council (OPCC) check digit algorithm.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitType
 ###Uss
-To be added.
+Select to check the integrity of all Interleaved 2 of 5 symbols to verify the data complies with either the Uniform Symbology Specification (USS) check digit algorithm.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitType
 

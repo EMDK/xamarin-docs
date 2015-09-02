@@ -1,44 +1,44 @@
 #ScannerConfig.DecoderParameters.Code128Decoder
-To be added.
+The Code128 class provides access to parameters that are available for the Code128 decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###CheckIsbtTable
-To be added.
+The ISBT specification includes a table that lists several types of ISBT bar codes that are commonly used in pairs. If ISBT128 Concat Mode is set, enable Check ISBT T able to concatenate only those pairs found in this table. Other types of ISBT codes are not concatenated.
 
 **Type** - System.Boolean
 ###EnableEan128
-To be added.
+Flag to enable EAN128 subtype.
 
 **Type** - System.Boolean
 ###EnableIsbt128
-To be added.
+Flag to enable ISBT128.
 
 **Type** - System.Boolean
 ###EnablePlain
-To be added.
+Flag to enable other sub types besides GS1-128 and ISBT-128
 
 **Type** - System.Boolean
 ###Isbt128ConcatMode
-To be added.
+Select an option for concatenating pairs of ISBT code types. Use enum ScannerConfig.Isbt128ContactMode.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Isbt128ConcatMode
 ###Length1
-To be added.
+Use to set decode lengths. The supported range is 0 to 55.
 
 **Type** - System.Int32
 ###Length2
-To be added.
+Use to set decode lengths. The supported range is 0 to 55.
 
 **Type** - System.Int32
 ###Redundancy
-To be added.
+Sets the reader to read the bar code twice before accepting data.
 
 **Type** - System.Boolean
 ###SecurityLevel
-To be added.
+The scanner of fers four levels of decode security for Code 128 bar codes. Select increasing levels of security for decreasing levels of bar code quality. There is an inverse relationship between security and scanner aggressiveness, so choose only that level of security necessary for any given application. Use enum ScannerConfig.SecurityLevel.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel
 

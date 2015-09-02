@@ -1,5 +1,5 @@
 #ScannerConfig.CodeIdType
-To be added.
+A Code ID character identifies the code type of a scanned bar code. This is useful when the reader is decoding more than one code type. Select a code ID character to insert between the prefix and the decoded symbol.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CodeIdType[]
@@ -26,15 +26,15 @@ To be added.
 ##Properties
 
 ###Aim
-To be added.
+A standards based three character prefix.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType
 ###None
-To be added.
+No prefix.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType
 ###Symbol
-To be added.
+A Symbol defined single character prefix.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CodeIdType
 

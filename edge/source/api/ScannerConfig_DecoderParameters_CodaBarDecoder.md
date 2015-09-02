@@ -1,28 +1,28 @@
 #ScannerConfig.DecoderParameters.CodaBarDecoder
-To be added.
+The CodaBar class provides access to parameters that are available for the CodaBar decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###ClsiEditing
-To be added.
+Enable this parameter to strip the start and stop characters and insert a space after the first, fifth, and tenth characters of a 14-character Codabar symbol. Enable this feature if the host system requires this data format.
 
 **Type** - System.Boolean
 ###Length1
-To be added.
+Use to set decode lengths. The supported range is 0 to 55..
 
 **Type** - System.Int32
 ###Length2
-To be added.
+Use to set decode lengths. The supported range is 0 to 55.
 
 **Type** - System.Int32
 ###NotisEditing
-To be added.
+Enable this parameter to strip the start and stop characters from a decoded Codabar symbol. Enable this feature if the host system requires this data format.
 
 **Type** - System.Boolean
 ###Redundancy
-To be added.
+Sets the reader to read the bar code twice before accepting data.
 
 **Type** - System.Boolean
 

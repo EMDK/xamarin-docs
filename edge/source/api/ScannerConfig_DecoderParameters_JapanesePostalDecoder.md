@@ -1,5 +1,5 @@
 #ScannerConfig.DecoderParameters.JapanesePostalDecoder
-To be added.
+The JapanesePostal class provides access to parameters that are available for the JapanesePostal decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 

@@ -1,5 +1,5 @@
 #ScannerConfig.DecoderParameters.MicroQrDecoder
-To be added.
+The MicroQr class provides access to parameters that are available for the MicroQr decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 

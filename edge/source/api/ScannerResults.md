@@ -1,5 +1,5 @@
 #ScannerResults
-To be added.
+Defines all the error codes the barcode scanning API returns.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerResults ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerResults
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerResults[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerResults[]
@@ -26,103 +26,103 @@ To be added.
 ##Properties
 
 ###AlreadyScanning
-To be added.
+Scanning in progress.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###Description
-To be added.
+
 
 **Type** - System.String
 ###Failure
-To be added.
+There was a problem.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###FeatureNotSupported
-To be added.
+The feature is not supported
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###InvalidObject
-To be added.
+The object is not valid.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###InvalidValue
-To be added.
+The value is invalid.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###LengthMismatch
-To be added.
+Decoded barcode does not meet length requirements.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###NoDataListener
-To be added.
+Scan read is issued without adding the data listener.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###ScanDataFailure
-To be added.
+Unexpected scan data
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###ScannerDeinitFailure
-To be added.
+Scanner de-initialization failed.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###ScannerInitFailure
-To be added.
+Scanner initialization failed.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###ScannerInUse
-To be added.
+Cannot enable scanner and is already in use.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###ScannerNotEnabled
-To be added.
+The scanner device is not enabled.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###ScannerNotSupported
-To be added.
+Scanner not supported
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###ScannerOperationFailure
-To be added.
+Scanner operation failed.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###ScannerTimedOut
-To be added.
+A timeout occured
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###ScanParamNotSupported
-To be added.
+Particular parameter not supported.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###ScanParamReadOnly
-To be added.
+Read only parameters.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###Success
-To be added.
+Success
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###TriggerKeyInUse
-To be added.
+Trigger key is already used by other user.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###TriggerKeyRegFailed
-To be added.
+Failed to register for the hard trigger key notification.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###TriggerKeyUnregFailed
-To be added.
+Failed to unRegister for the hard trigger key notification.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###Undefined
-To be added.
+Error code not defined.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###Value
-To be added.
+
 
 **Type** - System.Int32
 ###VfError
-To be added.
+View finder error.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 

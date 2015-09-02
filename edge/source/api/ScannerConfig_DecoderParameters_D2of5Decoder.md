@@ -1,20 +1,20 @@
 #ScannerConfig.DecoderParameters.D2of5Decoder
-To be added.
+The D2OF5 class provides access to parameters that are available for the D2OF5 decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###Length1
-To be added.
+Used to set decode lengths. The valid range is 0 to 55.
 
 **Type** - System.Int32
 ###Length2
-To be added.
+Used to set decode lengths. The valid range is 0 to 55.
 
 **Type** - System.Int32
 ###Redundancy
-To be added.
+Sets the reader to read the bar code twice before accepting data.
 
 **Type** - System.Boolean
 

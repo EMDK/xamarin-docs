@@ -1,5 +1,5 @@
 #ScannerConfig.Inverse1DMode
-To be added.
+This parameter allows the user to select decoding on inverse 1D bar codes.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode[]
@@ -26,15 +26,15 @@ To be added.
 ##Properties
 
 ###Auto
-To be added.
+Allows decoding of both positive as well as inverse 1D symbologies.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode
 ###Disabled
-To be added.
+Disables decoding of inverse 1D symbologies
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode
 ###Enabled
-To be added.
+Enables decoding of only inverse 1D symbologies.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode
 

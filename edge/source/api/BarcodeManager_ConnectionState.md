@@ -1,5 +1,5 @@
 #BarcodeManager.ConnectionState
-To be added.
+Connection states of a scanner device.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.BarcodeManager+ConnectionState
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.BarcodeManager+ConnectionState[]
@@ -26,11 +26,11 @@ To be added.
 ##Properties
 
 ###Connected
-To be added.
+Scanner interface is connected. Ready to scan barcodes.
 
 **Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState
 ###Disconnected
-To be added.
+Scanner interface is dis-connected. Not ready to scan barcodes.
 
 **Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState
 

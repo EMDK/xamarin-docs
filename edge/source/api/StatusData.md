@@ -1,16 +1,16 @@
 #StatusData
-To be added.
+
 
 **Type** - Java.Lang.Object
 
 ##Properties
 
 ###FriendlyName
-To be added.
+Friendlyname of scanner
 
 **Type** - System.String
 ###State
-To be added.
+Scanner State - check class StatusData.ScannerStates
 
 **Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 

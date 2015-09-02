@@ -1,44 +1,44 @@
 #ScannerConfig.DecoderParameters.Code39Decoder
-To be added.
+The Code39 class provides access to parameters that are available for the Code39 decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###ConvertToCode32
-To be added.
+Code 32 is a variant of Code 39 used by the Italian pharmaceutical industry.
 
 **Type** - System.Boolean
 ###FullAscii
-To be added.
+Code 39 Full ASCII is a variant of Code 39 that pairs characters to encode the full ASCII character set.
 
 **Type** - System.Boolean
 ###Length1
-To be added.
+Use to set decode lengths. The valid range is 0 to 55.
 
 **Type** - System.Int32
 ###Length2
-To be added.
+Use to set decode lengths. The valid range is 0 to 55.
 
 **Type** - System.Int32
 ###Redundancy
-To be added.
+Sets the reader to read the bar code twice before accepting data.
 
 **Type** - System.Boolean
 ###ReportCheckDigit
-To be added.
+Transmit Code 39 data with or without the check digit.
 
 **Type** - System.Boolean
 ###ReportCode32Prefix
-To be added.
+Scan the appropriate bar code to enable or disable adding the prefix character "A" to all Code 32 bar codes.
 
 **Type** - System.Boolean
 ###SecurityLevel
-To be added.
+Options: Security level 0 , Security Level 1 , Security Level 2 and Security Level 3. Use enum ScannerConfig.SecurityLevel.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel
 ###VerifyCheckDigit
-To be added.
+Enable this feature to check the integrity of all Code 39 symbols to verify that the data complies with a specified check digit algorithm. The digital scanner decodes only those Code 39 symbols that include a modulo 43 check digit. Enable this feature only if the Code 39 symbols contain a modulo 43 check digit.
 
 **Type** - System.Boolean
 

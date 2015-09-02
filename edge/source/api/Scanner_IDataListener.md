@@ -1,5 +1,5 @@
 #Scanner.IDataListener
-To be added.
+An interface for notifying client applications when the scan data is available.
 
 **Type** - 
 
@@ -7,11 +7,11 @@ To be added.
 ###OnData
 **public void OnData (Symbol.XamarinEMDK.Barcode.ScanDataCollection p0);**
 
-To be added.
+This is the callback method upon data availability.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.Barcode.ScanDataCollection **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.ScanDataCollection **p0** -  Collection of scan data.
 
 **Returns** - System.Void
 

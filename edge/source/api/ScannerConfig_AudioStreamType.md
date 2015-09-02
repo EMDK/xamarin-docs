@@ -1,5 +1,5 @@
 #ScannerConfig.AudioStreamType
-To be added.
+Volume slider type for decode audio feedback.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+AudioStreamType[]
@@ -26,15 +26,15 @@ To be added.
 ##Properties
 
 ###Alarms
-To be added.
+Alarms
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType
 ###Media
-To be added.
+Music and Media.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType
 ###Ringer
-To be added.
+Ringer and Notifications.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType
 

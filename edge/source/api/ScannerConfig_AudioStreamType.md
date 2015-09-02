@@ -25,10 +25,6 @@ To be added.
 
 ##Properties
 
-###Alarams
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.AudioStreamType
 ###Alarms
 To be added.
 

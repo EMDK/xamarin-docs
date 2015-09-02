@@ -53,22 +53,6 @@ To be added.
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
-###S378379
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
-###S414419434439
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
-###S977
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
-###S978979
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode
 ###Smart
 To be added.
 

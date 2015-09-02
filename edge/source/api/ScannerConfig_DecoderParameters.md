@@ -177,9 +177,5 @@ To be added.
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.UsPostNetDecoder
-###WebCode
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.WebCodeDecoder
 
 

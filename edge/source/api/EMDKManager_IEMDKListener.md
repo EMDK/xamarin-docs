@@ -1,5 +1,6 @@
 #EMDKManager.IEMDKListener
-To be added.
+This is the interface for the callback to notify the opening and closing status of the EMDK. On a successful opening, the EMDKManager object will be returned. An interface for notifying clients when they the EMDKManager is ready to use or closed abruptly.
+    
 
 **Type** - 
 
@@ -7,7 +8,8 @@ To be added.
 ###OnClosed
 **public void OnClosed ();**
 
-To be added.
+Called to notify the client that this EMDKManager object has been abruptly closed. The clients must call EMDKManager.Release() to free all the resources used by EMDKManager even after onClosed(). 
+        
 
 
 **Returns** - System.Void
@@ -15,11 +17,11 @@ To be added.
 ###OnOpened
 **public void OnOpened (Symbol.XamarinEMDK.EMDKManager p0);**
 
-To be added.
+Called to notify the client when the EMDKManager object has been opened and its ready to use.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.EMDKManager **p0** - To be added.
+* Symbol.XamarinEMDK.EMDKManager **p0** - 
 
 **Returns** - System.Void
 

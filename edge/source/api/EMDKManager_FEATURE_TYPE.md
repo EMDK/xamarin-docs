@@ -1,5 +1,5 @@
 #EMDKManager.FEATURE_TYPE
-To be added.
+This lists all the features exposed by the EMDK.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE
 
 ###Values
 **public static Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE[]
@@ -26,19 +26,15 @@ To be added.
 ##Properties
 
 ###Barcode
-To be added.
+EMDK feature type barcode
 
 **Type** - Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE
 ###Profile
-To be added.
-
-**Type** - Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE
-###Scanandpair
-To be added.
+EMDK feature type profile
 
 **Type** - Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE
 ###Version
-To be added.
+EMDK feature type version
 
 **Type** - Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE
 

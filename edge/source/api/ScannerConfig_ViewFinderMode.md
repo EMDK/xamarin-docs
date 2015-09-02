@@ -29,10 +29,6 @@ To be added.
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ViewFinderMode
-###StaticRecticle
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.ViewFinderMode
 ###StaticReticle
 To be added.
 

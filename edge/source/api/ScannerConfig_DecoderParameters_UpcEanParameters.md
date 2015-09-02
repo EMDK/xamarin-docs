@@ -29,10 +29,6 @@ To be added.
 To be added.
 
 **Type** - System.Boolean
-###LinearDecode
-To be added.
-
-**Type** - System.Boolean
 ###RandomWeightCheckDigit
 To be added.
 

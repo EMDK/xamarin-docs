@@ -42,19 +42,6 @@ To be added.
 **Returns** - Symbol.XamarinEMDK.EMDKResults
 
 ###ProcessProfile
-**public virtual Symbol.XamarinEMDK.EMDKResults ProcessProfile (string p0, Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG p1, Symbol.XamarinEMDK.ProfileConfig p2);**
-
-To be added.
-
-**Parameters:** 
-
-* System.String **p0** - To be added.
-* Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG **p1** - To be added.
-* Symbol.XamarinEMDK.ProfileConfig **p2** - To be added.
-
-**Returns** - Symbol.XamarinEMDK.EMDKResults
-
-###ProcessProfile
 **public virtual Symbol.XamarinEMDK.EMDKResults ProcessProfile (string p0, Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG p1, string[] p2);**
 
 To be added.
@@ -77,19 +64,6 @@ To be added.
 * System.String **p0** - To be added.
 * Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG **p1** - To be added.
 * Org.W3c.Dom.IDocument **p2** - To be added.
-
-**Returns** - Symbol.XamarinEMDK.EMDKResults
-
-###ProcessProfileAsync
-**public virtual Symbol.XamarinEMDK.EMDKResults ProcessProfileAsync (string p0, Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG p1, Symbol.XamarinEMDK.ProfileConfig p2);**
-
-To be added.
-
-**Parameters:** 
-
-* System.String **p0** - To be added.
-* Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG **p1** - To be added.
-* Symbol.XamarinEMDK.ProfileConfig **p2** - To be added.
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults
 

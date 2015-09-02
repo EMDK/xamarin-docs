@@ -229,9 +229,5 @@ To be added.
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
-###Webcode
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 
 

@@ -1,4 +1,4 @@
-##Symbol.XamarinEMDK.Barcode.EMDKList
+##Symbol.XamarinEMDK.barcode.EMDKList
 
 ###BarcodeManager
 

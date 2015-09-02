@@ -33,13 +33,5 @@ To be added.
 To be added.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
-###Isbn10
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
-###Isbn13
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
 
 

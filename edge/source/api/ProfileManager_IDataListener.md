@@ -1,5 +1,5 @@
 #ProfileManager.IDataListener
-To be added.
+An interface for notifying client applications to notify processProfileAsync result.
 
 **Type** - 
 
@@ -7,11 +7,11 @@ To be added.
 ###OnData
 **public void OnData (Symbol.XamarinEMDK.ProfileManager.ResultData p0);**
 
-To be added.
+This is the callback method to be called upon the processProfileAsync task completion.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.ProfileManager.ResultData **p0** - To be added.
+* Symbol.XamarinEMDK.ProfileManager.ResultData **p0** - ResultData object.
 
 **Returns** - System.Void
 

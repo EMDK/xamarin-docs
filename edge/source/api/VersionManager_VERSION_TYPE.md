@@ -1,5 +1,5 @@
 #VersionManager.VERSION_TYPE
-To be added.
+All the version keys for VersionManager#getVersion(VERSION_TYPE) are enumerated here.
 
 **Type** - Java.Lang.Enum
 
@@ -26,15 +26,15 @@ To be added.
 ##Properties
 
 ###Barcode
-To be added.
+Barcode Scanner Framework version.
 
 **Type** - Symbol.XamarinEMDK.VersionManager.VERSION_TYPE
 ###Emdk
-To be added.
+EMDK version
 
 **Type** - Symbol.XamarinEMDK.VersionManager.VERSION_TYPE
 ###Mx
-To be added.
+MX framework version
 
 **Type** - Symbol.XamarinEMDK.VersionManager.VERSION_TYPE
 

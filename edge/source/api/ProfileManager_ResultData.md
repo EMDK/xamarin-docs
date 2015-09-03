@@ -1,28 +1,28 @@
 #ProfileManager.ResultData
-To be added.
+This class provides the Status detail of processProfileAsync method.
 
 **Type** - Java.Lang.Object
 
 ##Properties
 
 ###ProfileDocument
-To be added.
+Returns the profile data as DOM document requested in the processProfileAsync method.
 
 **Type** - Org.W3c.Dom.IDocument
 ###ProfileFlag
-To be added.
+Returns the profile flag sent in processProfileAsync method.
 
 **Type** - Symbol.XamarinEMDK.ProfileManager.PROFILE_FLAG
 ###ProfileName
-To be added.
+Returns the profile name sent in processProfileAsync method.
 
 **Type** - System.String
 ###ProfileString
-To be added.
+Returns the profile data as string requested in the processProfileAsync method.
 
 **Type** - System.String
 ###Result
-To be added.
+Class for holding status of processProfileAsync method.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults
 

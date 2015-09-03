@@ -1,5 +1,5 @@
 #VersionManager
-To be added.
+Version information can be captured from this class.
 
 **Type** - Symbol.XamarinEMDK.EMDKBase
 
@@ -7,11 +7,11 @@ To be added.
 ###GetVersion
 **public virtual string GetVersion (Symbol.XamarinEMDK.VersionManager.VERSION_TYPE p0);**
 
-To be added.
+Gets the version of the specified VersionManager.VERSION_TYPE
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.VersionManager.VERSION_TYPE **p0** - To be added.
+* Symbol.XamarinEMDK.VersionManager.VERSION_TYPE **p0** - VersionManager.VERSION_TYPE
 
 **Returns** - System.String
 

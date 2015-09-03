@@ -1,5 +1,5 @@
 #ScannerConfig.CouponReport
-To be added.
+Supported Coupon modes
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport[]
@@ -26,15 +26,15 @@ To be added.
 ##Properties
 
 ###Both
-To be added.
+Scanner will read both old coupon format as well as the new GS1 DataBar coupon format
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport
 ###New
-To be added.
+Scanner will read only the new GS1 DataBar coupon format
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport
 ###Old
-To be added.
+Scanner will read only the old coupon format
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport
 

@@ -1,5 +1,5 @@
 #ScanDataCollection
-To be added.
+The ScanDataCollection object contains the scanning result and the collection of ScanData.
 
 **Type** - Java.Lang.Object
 
@@ -7,7 +7,7 @@ To be added.
 ###GetScanData
 **public virtual System.Collections.Generic.IList<Symbol.XamarinEMDK.Barcode.ScanDataCollection.ScanData> GetScanData ();**
 
-To be added.
+This method is used to obtain the scanned data list.
 
 
 **Returns** - System.Collections.Generic.IList<Symbol.XamarinEMDK.Barcode.ScanDataCollection+ScanData>
@@ -15,11 +15,11 @@ To be added.
 ##Properties
 
 ###FriendlyName
-To be added.
+Returns the friendly name of scanner for which the data is returned (ex:'Camera')
 
 **Type** - System.String
 ###Result
-To be added.
+This method used to obtain the scanned result in the form of a ScannerResults object.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 

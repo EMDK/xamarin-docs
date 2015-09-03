@@ -1,5 +1,5 @@
 #ScannerConfig.CheckDigit
-To be added.
+The number of check digits to be verified. With MSI symbols, one check digit is mandatory and always verified by the reader. The second check digit is optional.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigit ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigit
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigit[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigit[]
@@ -26,11 +26,11 @@ To be added.
 ##Properties
 
 ###One
-To be added.
+Verify one check digit.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigit
 ###Two
-To be added.
+Verify two check digits.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigit
 

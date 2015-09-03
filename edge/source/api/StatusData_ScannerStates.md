@@ -1,5 +1,5 @@
 #StatusData.ScannerStates
-To be added.
+Defines the different states of the barcode scanner.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates[]
@@ -26,23 +26,23 @@ To be added.
 ##Properties
 
 ###Disabled
-To be added.
+Scanner is not enabled.
 
 **Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 ###Error
-To be added.
+An error has occurred.
 
 **Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 ###Idle
-To be added.
+Scanner is enabled but no reads are pending.
 
 **Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 ###Scanning
-To be added.
+Scanner beam is on and it is acquiring data.
 
 **Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 ###Waiting
-To be added.
+Scanner has issued reads request and is waiting for trigger event.
 
 **Type** - Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates
 

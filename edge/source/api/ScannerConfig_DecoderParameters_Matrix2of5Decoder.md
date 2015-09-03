@@ -1,28 +1,28 @@
 #ScannerConfig.DecoderParameters.Matrix2of5Decoder
-To be added.
+The Matrix2of5 class provides access to parameters that are available for the Matrix2of5 decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###Length1
-To be added.
+Used to set decode lengths. The valid range is 0 to 55.
 
 **Type** - System.Int32
 ###Length2
-To be added.
+Used to set decode lengths. The valid range is 0 to 55.
 
 **Type** - System.Int32
 ###Redundancy
-To be added.
+Sets the reader to read the bar code twice before accepting data.
 
 **Type** - System.Boolean
 ###ReportCheckDigit
-To be added.
+Transmit Matrix 2 of 5 data with or without the check digit.
 
 **Type** - System.Boolean
 ###VerifyCheckDigit
-To be added.
+Enable this feature to check the integrity of all Matrix 2 of 5 symbols to verify that the data complies with a specified check digit algorithm.
 
 **Type** - System.Boolean
 

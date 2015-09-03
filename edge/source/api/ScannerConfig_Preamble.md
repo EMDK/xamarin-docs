@@ -1,5 +1,5 @@
 #ScannerConfig.Preamble
-To be added.
+Controls the preamble applied to the bar code Preamble characters are part of the UPC symbol consisting of Country Code and System Character. Select the appropriate option to match the host system.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble[]
@@ -26,15 +26,15 @@ To be added.
 ##Properties
 
 ###CountryAndSysChar
-To be added.
+Both country and system code preamble
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble
 ###None
-To be added.
+No preamble
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble
 ###SysChar
-To be added.
+System character preamble
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble
 

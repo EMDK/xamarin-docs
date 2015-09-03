@@ -1,36 +1,36 @@
 #ScannerConfig.DecoderParameters.I2of5Decoder
-To be added.
+The I2of5 class provides access to parameters that are available for the I2of5 decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###ConvertToEan13
-To be added.
+Transmit Interleaved 2 of 5 data with or without the check digit.
 
 **Type** - System.Boolean
 ###Length1
-To be added.
+Use to set decode lengths. The valid range is 0 to 55.
 
 **Type** - System.Int32
 ###Length2
-To be added.
+Use to set decode lengths. The valid range is 0 to 55.
 
 **Type** - System.Int32
 ###Redundancy
-To be added.
+Sets the reader to read the bar code twice before accepting data.
 
 **Type** - System.Boolean
 ###ReportCheckDigit
-To be added.
+Transmit Interleaved 2 of 5 data with or without the check digit.
 
 **Type** - System.Boolean
 ###SecurityLevel
-To be added.
+Specifies security level. Use class ScannerConfig.SecurityLevel.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.SecurityLevel
 ###VerifyCheckDigit
-To be added.
+The check digit type to verify. Use enum ScannerConfig.CheckDigitType.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitType
 

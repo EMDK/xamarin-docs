@@ -1,5 +1,5 @@
 #ScanDataCollection.LabelType
-To be added.
+This class describes the barcode symbology.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScanDataCollection+LabelType
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScanDataCollection+LabelType[]
@@ -26,211 +26,207 @@ To be added.
 ##Properties
 
 ###Auspostal
-To be added.
+The AUSTRALIAN POSTAL symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Aztec
-To be added.
+The AZTEC symbology
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Bookland
-To be added.
+The BOOKLAND EAN symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Canpostal
-To be added.
+The CANADIAN POSTAL symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Chinese2of5
-To be added.
+The CHINESE_2OF5 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Codabar
-To be added.
+The CODABAR symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Code11
-To be added.
+The CODE-11 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Code128
-To be added.
+The CODE-128 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Code32
-To be added.
+The CODE-32 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Code39
-To be added.
+The CODE-39 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Code93
-To be added.
+The CODE-93 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###CompositeAb
-To be added.
+The COMPOSITE AB symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###CompositeC
-To be added.
+The COMPOSITE C symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Coupon
-To be added.
+The COUPON CODE symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###D2of5
-To be added.
+The Discrete 2 of 5 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###DatabarCoupon
-To be added.
+The databar coupon symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Datamatrix
-To be added.
+The DATAMATRIX symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Dutchpostal
-To be added.
+The DUTCH POSTAL symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Ean128
-To be added.
+The EAN-128 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Ean13
-To be added.
+The EAN-13 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Ean8
-To be added.
+
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Gs1Databar
-To be added.
+The EAN-8 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Gs1DatabarExp
-To be added.
+The GS1_DATABAR symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Gs1DatabarLim
-To be added.
+The GS1_DATABAR_LIM symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Hanxin
-To be added.
+The HANXIN symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###I2of5
-To be added.
+The Interleaved 2 of 5 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Iata2of5
-To be added.
+The IATA 2 of 5 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Isbt128
-To be added.
+The ISBT 128 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Jappostal
-To be added.
+The JAPANESE POSTAL symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Korean3of5
-To be added.
+The KOREAN 3OF5 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Mailmark
-To be added.
+The MAILMARK symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Matrix2of5
-To be added.
+The MATRIX 2OF5 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Maxicode
-To be added.
+The MAXICODE symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Micropdf
-To be added.
+The MICRO PDF symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Microqr
-To be added.
+The MICRO QR symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Msi
-To be added.
+The MSI symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Ocr
-To be added.
+The OCR symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Pdf417
-To be added.
+The PDF 417 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Qrcode
-To be added.
+The QRCODE symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Signature
-To be added.
+The Signature symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Tlc39
-To be added.
+The TCIF Linked CODE 39 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Trioptic39
-To be added.
+The TRIOPTIC 3 of 9 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Ukpostal
-To be added.
+The UK POSTAL symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Undefined
-To be added.
+The Symbology is unknown or not defined.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Upca
-To be added.
+The UPC-A symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Upce0
-To be added.
+The UPC-E0 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Upce1
-To be added.
+The UPC-E1 symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Us4state
-To be added.
+The US4STATE symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Us4stateFics
-To be added.
+The US4STATE_FICS symbology
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Usplanet
-To be added.
+The US PLANET symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Uspostnet
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
-###Webcode
-To be added.
+The US POSTNET symbology.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 

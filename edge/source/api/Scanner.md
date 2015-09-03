@@ -1,5 +1,6 @@
 #Scanner
-To be added.
+
+Scanner class will represent and provides access to the physical scanner device.
 
 **Type** - Java.Lang.Object
 
@@ -7,29 +8,29 @@ To be added.
 ###AddDataListener
 **public virtual void AddDataListener (Symbol.XamarinEMDK.Barcode.Scanner.IDataListener p0);**
 
-To be added.
+The client can register to get data notification via callbacks.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.Barcode.Scanner.IDataListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner.IDataListener **p0** - IDataListener object.
 
 **Returns** - System.Void
 
 ###AddStatusListener
 **public virtual void AddStatusListener (Symbol.XamarinEMDK.Barcode.Scanner.IStatusListener p0);**
 
-To be added.
+The client can register to get status notification via callbacks.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.Barcode.Scanner.IStatusListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner.IStatusListener **p0** - IStatusListener object
 
 **Returns** - System.Void
 
 ###CancelRead
 **public virtual void CancelRead ();**
 
-To be added.
+This Cancels any pending asynchronous read() calls
 
 
 **Returns** - System.Void
@@ -37,7 +38,7 @@ To be added.
 ###Disable
 **public virtual void Disable ();**
 
-To be added.
+Disables the scanner hardware. Any pending scanned data will be lost. This method releases the scanner hardware resources for other application to use. You must call this as soon as you're done with the scanning.
 
 
 **Returns** - System.Void
@@ -45,7 +46,7 @@ To be added.
 ###Enable
 **public virtual void Enable ();**
 
-To be added.
+Enables the scanner hardware. This method does not make the scanner scan or turn on the laser. If the same scanner is enabled by other applications, this will throw ScannerExceptions. You must call disable() when you are done scanning, otherwise it will remain locked and be unavailable to other applications.
 
 
 **Returns** - System.Void
@@ -53,7 +54,7 @@ To be added.
 ###Read
 **public virtual void Read ();**
 
-To be added.
+Starts an asynchronous Scan. The method will not turn on the scanner. It will, however, put the scanner in a state in which the scanner can be turned ON either by pressing a hardware trigger or can be turned ON automatically. This is determined by the Scanner.triggerType. The data notification must registered in order to scan and get the Scan Data. The read request can be cancelled by issuing a cancelRead. If a read() is submitted while another read is pending, the method call will fail. It is recommended to check whether a read is pending by calling isReadPending() before submitting a read(). A read() can also be submitted from within onData and onStatus events. If called within onStatus, it should be called only when IDLE status is received. If called within onData, then checking for isReadPending() is recommended.
 
 
 **Returns** - System.Void
@@ -61,7 +62,7 @@ To be added.
 ###Release
 **public virtual void Release ();**
 
-To be added.
+Releases the scanner object resources. The scanner object is unusable after this call. The new object can be requested using BarcodeManager.getDevice(...). The object will be unusable after this call even if any failure occurs.
 
 
 **Returns** - System.Void
@@ -69,49 +70,49 @@ To be added.
 ###RemoveDataListener
 **public virtual void RemoveDataListener (Symbol.XamarinEMDK.Barcode.Scanner.IDataListener p0);**
 
-To be added.
+Cancels any IDataListener callbacks.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.Barcode.Scanner.IDataListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner.IDataListener **p0** - IDataListener object
 
 **Returns** - System.Void
 
 ###RemoveStatusListener
 **public virtual void RemoveStatusListener (Symbol.XamarinEMDK.Barcode.Scanner.IStatusListener p0);**
 
-To be added.
+Cancels any IStatusListener callbacks.
 
 **Parameters:** 
 
-* Symbol.XamarinEMDK.Barcode.Scanner.IStatusListener **p0** - To be added.
+* Symbol.XamarinEMDK.Barcode.Scanner.IStatusListener **p0** - IStatusListener object.
 
 **Returns** - System.Void
 
 ##Properties
 
 ###Config
-To be added.
+Get or Set the ScannerConfig settings.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig
 ###InterfaceConfig
-To be added.
+Get or Set InterfaceConfig
 
 **Type** - Symbol.XamarinEMDK.Barcode.InterfaceConfig
 ###IsEnabled
-To be added.
+Returns scanner enabled state.
 
 **Type** - System.Boolean
 ###IsReadPending
-To be added.
+Returns state of pending scanner read. Another read() cannot be submitted while a read is pending.
 
 **Type** - System.Boolean
 ###ScannerInfo
-To be added.
+Returns information about the scanner device.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo
 ###TriggerType
-To be added.
+Specifies the trigger type for the scanner. It is set to HARD by default.
 
 **Type** - Symbol.XamarinEMDK.Barcode.Scanner.TriggerTypes
 

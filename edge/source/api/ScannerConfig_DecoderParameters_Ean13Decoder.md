@@ -1,5 +1,5 @@
 #ScannerConfig.DecoderParameters.Ean13Decoder
-To be added.
+The Ean13 class provides access to parameters that are available for the Ean13 decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 

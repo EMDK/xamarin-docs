@@ -1,5 +1,5 @@
 #ScannerInfo.DecoderType
-To be added.
+This lists all the barcode types supported by scanners
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerInfo.DecoderType ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DecoderType
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerInfo.DecoderType[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DecoderType[]
@@ -26,15 +26,15 @@ To be added.
 ##Properties
 
 ###OneDimensional
-To be added.
+Barcode scanning is 1-D only.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.DecoderType
 ###TwoDimensional
-To be added.
+Barcode scanning is 2-D. This supports both 1-D and 2-D barcode scanning.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.DecoderType
 ###Undefined
-To be added.
+Decoder type not defined.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo.DecoderType
 

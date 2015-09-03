@@ -1,5 +1,5 @@
 #ScannerConfig.BooklandFormat
-To be added.
+Lists the Bookland formats
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+BooklandFormat
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+BooklandFormat[]
@@ -26,19 +26,11 @@ To be added.
 ##Properties
 
 ###ISBN_10
-To be added.
+978 reported in 10 digit mode
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
 ###ISBN_13
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
-###Isbn10
-To be added.
-
-**Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
-###Isbn13
-To be added.
+978/979 transmitted as EAN13 as per 2007 ISBN-13 protocol
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.BooklandFormat
 

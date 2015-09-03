@@ -1,5 +1,5 @@
 #ScannerConfig.DecoderParameters.BaseDecoder
-To be added.
+The BaseDecoder class is the parent decoder to all decoders and is inherited by all decoders.
 
 **Type** - Java.Lang.Object
 
@@ -10,7 +10,7 @@ To be added.
 ##Properties
 
 ###Enabled
-To be added.
+Returns whether or not the Decoder is currently enabled..
 
 **Type** - System.Boolean
 

@@ -1,5 +1,5 @@
 #EMDKManager.OpenedEventArgs
-To be added.
+Used by EMDKManager internally, not for development use.
 
 **Type** - System.EventArgs
 
@@ -10,7 +10,7 @@ To be added.
 ##Properties
 
 ###P0
-To be added.
+
 
 **Type** - Symbol.XamarinEMDK.EMDKManager
 

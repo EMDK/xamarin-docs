@@ -5,10 +5,6 @@ To be added.
 
 ##Properties
 
-###ProfileConfig
-To be added.
-
-**Type** - Symbol.XamarinEMDK.ProfileConfig
 ###ProfileDocument
 To be added.
 

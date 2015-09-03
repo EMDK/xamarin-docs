@@ -1,5 +1,5 @@
 #ScannerConfig.PowerMode
-To be added.
+Set laser scanner power mode
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PowerMode
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PowerMode[]
@@ -26,19 +26,19 @@ To be added.
 ##Properties
 
 ###AlwaysOn
-To be added.
+Highest power, fastest performance.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode
 ###High
-To be added.
+High power, and excellent performance.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode
 ###Low
-To be added.
+Lowest power, but slowest performance.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode
 ###Optimized
-To be added.
+Power level adjusts with scanning usage.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode
 

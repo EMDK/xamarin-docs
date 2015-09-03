@@ -1,12 +1,12 @@
 #ScannerConfig.DecoderParameters.UsPostNetDecoder
-To be added.
+The UsPostNet class provides access to parameters that are available for the UsPostNet decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###ReportCheckDigit
-To be added.
+Flag to enable reporting the bar code check digit.
 
 **Type** - System.Boolean
 

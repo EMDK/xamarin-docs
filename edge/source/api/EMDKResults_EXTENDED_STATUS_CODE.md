@@ -1,5 +1,5 @@
 #EMDKResults.EXTENDED_STATUS_CODE
-To be added.
+Defines all the extended status codes the library returns.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE
 
 ###Values
 **public static Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults+EXTENDED_STATUS_CODE[]
@@ -26,83 +26,80 @@ To be added.
 ##Properties
 
 ###ActivitySelectionMergingNotSupported
-To be added.
+The ActivitySelection merging is not supported.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###AppNotAllowedToSubmitXml
-To be added.
-
-**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
-###DependacyComponentFailure
-To be added.
+Permission error. Application is not allowed to submit xml.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###DependencyComponentFailure
-To be added.
+Failed to access dependency component.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureNameNotFoundInConfig
-To be added.
+Feature name not found for the feature in current EMDKConfig.xml.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureNameNotFoundInExtradata
-To be added.
+The feature name not found in extraData. Returned in: com.symbol.emdk.emdkservice.ProfileService.setProfile(String, String) when specifying feature name (emdk_name) in the criteria.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureNotUniqueInConfig
-To be added.
+The Feature and feature name combination is not unique in current EMDKConfig.xml. In order to perform merge operation the feature and feature name combination are required to be unique. Returned in: com.symbol.emdk.emdkservice.ProfileService.setProfile(String, String) when feature merging.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureNotUniqueInExtradata
-To be added.
+The Feature and feature name combination is not unique in provided extraData. Returned in: com.symbol.emdk.emdkservice.ProfileService.setProfile(String, String) when feature merging
+      
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureTypeNotFoundInConfig
-To be added.
+Feature type not found in the profile in current EMDKConfig.xml.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###FeatureTypeNotFoundInExtradata
-To be added.
+The feature type not found in extraData. Returned in: com.symbol.emdk.emdkservice.ProfileService.setProfile(String, String)
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###GeneralExceptionOccured
-To be added.
+Exception occurred while performing requested operation.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###InvalidProfileConfiguration
-To be added.
+The current EMDKConfig.xml is invalid. Returned in: com.symbol.emdk.emdkservice.ProfileService.setProfile(String, String)
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###InvalidValue
-To be added.
+The parameters given are invalid. Returned in:
+com.symbol.emdk.ProfileManager.processProfile(String, PROFILE_FLAG, Document), 
+com.symbol.emdk.ProfileManager.processProfile(String, PROFILE_FLAG, String[]), 
+com.symbol.emdk.ProfileManager.processProfile(String, PROFILE_FLAG, ProfileConfig), 
+com.symbol.emdk.emdkservice.ProfileService.setProfile(String, String)
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###NamevalueMismatchInConfig
-To be added.
+One or more names of parameters not found in current EMDKConfig.xml. This is due to the given name value pairs need to be equivalent to specified profile. So the operation is canceled. Returned in: com.symbol.emdk.emdkservice.ProfileService.setProfile(String, String) when using name-value pair functionality
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###NamevalueMismatchInExtradata
-To be added.
-
-**Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
-###NamevalueMissmatchInConfig
-To be added.
+One or more names of parameters not found in extraData. This is due to the given name value pairs need to be equivalent to specified feature name.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###None
-To be added.
+There is no extended status code.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###ProfileNameFormatError
-To be added.
+The give profileName format is invalid. The profile name criteria is required to be in profileName/feature type/feature Name format. This error occurred if it is not in that format.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###ProfileNotFoundInConfig
-To be added.
+Profile name not found in current EMDKConfig.xml. Returned in: com.symbol.emdk.emdkservice.ProfileService.setProfile(String, String) when changing profile using Name Value pair, Document or ProfileConfig or when switching or activating profile
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 ###ProfileNotFoundInExtradata
-To be added.
+The profile not found in extraData. Returned in: com.symbol.emdk.emdkservice.ProfileService.setProfile(String, String) when merging profiles.
 
 **Type** - Symbol.XamarinEMDK.EMDKResults.EXTENDED_STATUS_CODE
 

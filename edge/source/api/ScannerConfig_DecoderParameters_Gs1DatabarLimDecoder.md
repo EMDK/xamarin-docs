@@ -1,5 +1,5 @@
 #ScannerConfig.DecoderParameters.Gs1DatabarLimDecoder
-To be added.
+The Gs1DatabarLim class provides access to parameters that are available for the GS1 Databar Lim decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 

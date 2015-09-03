@@ -1,12 +1,12 @@
 #ScannerConfig.DecoderParameters.UkPostalDecoder
-To be added.
+The UkPostal class provides access to parameters that are available for the UkPostal decoder.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.DecoderParameters.BaseDecoder
 
 ##Properties
 
 ###ReportCheckDigit
-To be added.
+Transmit UK Postal data with or without the check digit.
 
 **Type** - System.Boolean
 

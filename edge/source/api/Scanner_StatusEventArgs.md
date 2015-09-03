@@ -1,5 +1,5 @@
 #Scanner.StatusEventArgs
-To be added.
+This class is used internally and not meant for developer applications.
 
 **Type** - System.EventArgs
 
@@ -10,7 +10,7 @@ To be added.
 ##Properties
 
 ###P0
-To be added.
+
 
 **Type** - Symbol.XamarinEMDK.Barcode.StatusData
 

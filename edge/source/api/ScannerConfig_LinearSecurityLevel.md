@@ -1,5 +1,5 @@
 #ScannerConfig.LinearSecurityLevel
-To be added.
+Sets the number of times a bar code is read to confirm an accurate decode.
 
 **Type** - Java.Lang.Enum
 
@@ -7,18 +7,18 @@ To be added.
 ###ValueOf
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel ValueOf (string p0);**
 
-To be added.
+
 
 **Parameters:** 
 
-* System.String **p0** - To be added.
+* System.String **p0** - 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
 
 ###Values
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel[] Values ();**
 
-To be added.
+
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel[]
@@ -26,19 +26,19 @@ To be added.
 ##Properties
 
 ###AllThrice
-To be added.
+Three times read redundancy for all bar codes.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 ###AllTwice
-To be added.
+Two times read redundancy for all bar codes (default).
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 ###LongAndShort
-To be added.
+Two times read redundancy for long bar codes, three times for short bar codes.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 ###ShortOrCodabar
-To be added.
+Two times read redundancy if short bar code or Codabar.
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel
 

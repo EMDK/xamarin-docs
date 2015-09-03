@@ -1,5 +1,5 @@
 #BarcodeManager.ScannerConnectionEventArgs
-To be added.
+used internally by BarcodeManager - not to be used in applications.
 
 **Type** - System.EventArgs
 
@@ -10,11 +10,11 @@ To be added.
 ##Properties
 
 ###P0
-To be added.
+
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo
 ###P1
-To be added.
+
 
 **Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState
 

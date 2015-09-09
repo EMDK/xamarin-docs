@@ -8,10 +8,12 @@ Defines the different states of the barcode scanner.
 **public static Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates
 
@@ -19,6 +21,7 @@ Defines the different states of the barcode scanner.
 **public static Symbol.XamarinEMDK.Barcode.StatusData.ScannerStates[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.StatusData+ScannerStates[]

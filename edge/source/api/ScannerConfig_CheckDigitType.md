@@ -8,10 +8,12 @@ Verify data integrity.
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitType ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitType
 
@@ -19,6 +21,7 @@ Verify data integrity.
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigitType[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigitType[]

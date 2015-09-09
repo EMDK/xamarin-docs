@@ -8,10 +8,12 @@ This class describes the barcode symbology.
 **public static Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScanDataCollection+LabelType
 
@@ -19,6 +21,7 @@ This class describes the barcode symbology.
 **public static Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScanDataCollection+LabelType[]
@@ -107,6 +110,7 @@ The EAN-13 symbology.
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Ean8
 
+        
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScanDataCollection.LabelType
 ###Gs1Databar

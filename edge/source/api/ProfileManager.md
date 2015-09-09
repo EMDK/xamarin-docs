@@ -12,6 +12,7 @@ The client can register to get data notification via callbacks.
 **Parameters:** 
 
 * Symbol.XamarinEMDK.ProfileManager.IDataListener **p0** - 
+        
 
 **Returns** - System.Void
 
@@ -88,6 +89,7 @@ The client can un-register to get data notification via callbacks.
 **Parameters:** 
 
 * Symbol.XamarinEMDK.ProfileManager.IDataListener **p0** - 
+        
 
 **Returns** - System.Void
 

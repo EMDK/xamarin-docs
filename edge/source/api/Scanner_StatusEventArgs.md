@@ -11,6 +11,7 @@ This class is used internally and not meant for developer applications.
 
 ###P0
 
+        
 
 **Type** - Symbol.XamarinEMDK.Barcode.StatusData
 

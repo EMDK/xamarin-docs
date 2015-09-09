@@ -8,10 +8,12 @@ Set laser scanner power mode
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PowerMode
 
@@ -19,6 +21,7 @@ Set laser scanner power mode
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.PowerMode[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PowerMode[]

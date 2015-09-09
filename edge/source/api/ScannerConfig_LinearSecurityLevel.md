@@ -8,10 +8,12 @@ Sets the number of times a bar code is read to confirm an accurate decode.
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel
 
@@ -19,6 +21,7 @@ Sets the number of times a bar code is read to confirm an accurate decode.
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.LinearSecurityLevel[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+LinearSecurityLevel[]

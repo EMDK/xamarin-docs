@@ -8,10 +8,12 @@ Defines all the status codes the library returns.
 **public static Symbol.XamarinEMDK.EMDKResults.STATUS_CODE ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE
 
@@ -19,6 +21,7 @@ Defines all the status codes the library returns.
 **public static Symbol.XamarinEMDK.EMDKResults.STATUS_CODE[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.EMDKResults+STATUS_CODE[]

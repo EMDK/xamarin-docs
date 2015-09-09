@@ -8,10 +8,12 @@ List of supported scanner device types.
 **public static Symbol.XamarinEMDK.Barcode.ScannerInfo.DeviceType ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType
 
@@ -19,6 +21,7 @@ List of supported scanner device types.
 **public static Symbol.XamarinEMDK.Barcode.ScannerInfo.DeviceType[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerInfo+DeviceType[]

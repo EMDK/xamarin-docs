@@ -8,10 +8,12 @@ This parameter allows the user to select decoding on inverse 1D bar codes.
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode
 
@@ -19,6 +21,7 @@ This parameter allows the user to select decoding on inverse 1D bar codes.
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Inverse1DMode[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Inverse1DMode[]

@@ -1,5 +1,6 @@
 #ScannerConfig.SupplementalMode
 
+    
 
 **Type** - Java.Lang.Enum
 
@@ -8,10 +9,12 @@
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode
 
@@ -19,6 +22,7 @@
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.SupplementalMode[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+SupplementalMode[]

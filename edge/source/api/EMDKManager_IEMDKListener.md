@@ -22,6 +22,7 @@ Called to notify the client when the EMDKManager object has been opened and its 
 **Parameters:** 
 
 * Symbol.XamarinEMDK.EMDKManager **p0** - 
+        
 
 **Returns** - System.Void
 

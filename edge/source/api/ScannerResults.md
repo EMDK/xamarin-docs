@@ -8,10 +8,12 @@ Defines all the error codes the barcode scanning API returns.
 **public static Symbol.XamarinEMDK.Barcode.ScannerResults ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerResults
 
@@ -19,6 +21,7 @@ Defines all the error codes the barcode scanning API returns.
 **public static Symbol.XamarinEMDK.Barcode.ScannerResults[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerResults[]
@@ -31,6 +34,7 @@ Scanning in progress.
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###Description
 
+        
 
 **Type** - System.String
 ###Failure
@@ -119,6 +123,7 @@ Error code not defined.
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerResults
 ###Value
 
+        
 
 **Type** - System.Int32
 ###VfError

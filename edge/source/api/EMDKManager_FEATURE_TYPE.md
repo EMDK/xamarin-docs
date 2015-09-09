@@ -8,10 +8,12 @@ This lists all the features exposed by the EMDK.
 **public static Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE
 
@@ -19,6 +21,7 @@ This lists all the features exposed by the EMDK.
 **public static Symbol.XamarinEMDK.EMDKManager.FEATURE_TYPE[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.EMDKManager+FEATURE_TYPE[]

@@ -8,10 +8,12 @@ Defines the specific scanner devices of each type.
 **public static Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier
 
@@ -19,6 +21,7 @@ Defines the specific scanner devices of each type.
 **public static Symbol.XamarinEMDK.Barcode.BarcodeManager.DeviceIdentifier[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.BarcodeManager+DeviceIdentifier[]

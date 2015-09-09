@@ -8,10 +8,12 @@ Configures the Viewfinder modes supported for camera scanning.
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.ViewFinderMode ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ViewFinderMode
 
@@ -19,6 +21,7 @@ Configures the Viewfinder modes supported for camera scanning.
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.ViewFinderMode[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+ViewFinderMode[]

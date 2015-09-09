@@ -8,10 +8,12 @@ Controls the preamble applied to the bar code Preamble characters are part of th
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble
 
@@ -19,6 +21,7 @@ Controls the preamble applied to the bar code Preamble characters are part of th
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.Preamble[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+Preamble[]

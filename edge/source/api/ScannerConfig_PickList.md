@@ -8,10 +8,12 @@ Allows the imager to decode only the bar code that is directly under the cross-h
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.PickList ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PickList
 
@@ -19,6 +21,7 @@ Allows the imager to decode only the bar code that is directly under the cross-h
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.PickList[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+PickList[]

@@ -11,10 +11,12 @@ used internally by BarcodeManager - not to be used in applications.
 
 ###P0
 
+        
 
 **Type** - Symbol.XamarinEMDK.Barcode.ScannerInfo
 ###P1
 
+        
 
 **Type** - Symbol.XamarinEMDK.Barcode.BarcodeManager.ConnectionState
 

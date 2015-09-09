@@ -36,6 +36,7 @@ Returns the friendly name of the Device..
 **Type** - System.String
 ###IsConnected
 
+        
 
 **Type** - System.Boolean
 ###IsDefaultScanner

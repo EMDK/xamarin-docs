@@ -8,10 +8,12 @@ The number of check digits to be verified. With MSI symbols, one check digit is 
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigit ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigit
 
@@ -19,6 +21,7 @@ The number of check digits to be verified. With MSI symbols, one check digit is 
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CheckDigit[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CheckDigit[]

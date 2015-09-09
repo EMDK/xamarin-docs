@@ -8,10 +8,12 @@ Supported Coupon modes
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport
 
@@ -19,6 +21,7 @@ Supported Coupon modes
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.CouponReport[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+CouponReport[]

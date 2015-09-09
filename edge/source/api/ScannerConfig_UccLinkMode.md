@@ -8,10 +8,12 @@ Describes the UCC link mode state.
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.UccLinkMode ValueOf (string p0);**
 
 
+        
 
 **Parameters:** 
 
 * System.String **p0** - 
+        
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+UccLinkMode
 
@@ -19,6 +21,7 @@ Describes the UCC link mode state.
 **public static Symbol.XamarinEMDK.Barcode.ScannerConfig.UccLinkMode[] Values ();**
 
 
+        
 
 
 **Returns** - Symbol.XamarinEMDK.Barcode.ScannerConfig+UccLinkMode[]

@@ -21,6 +21,10 @@ var menuStrcture = [
 								link: '#guide-vs-setup',
 							},
 							{
+								name: 'Xamarin Studio Add-in',
+								link: '#guide-xs-setup',
+							},
+							{
 								name: 'Xamarin Component Installation',
 								link: '#guide-component-install',
 							},

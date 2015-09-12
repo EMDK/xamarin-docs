@@ -38,7 +38,7 @@ To test that your settings have taken effect, scan a barcode type that was disab
 This seems like a very simple application, but looking at the source code will reveal a very important concept in developing applications that use EMDK profiles.
 
 The EMDK Profile Manager and Wizard allow you to create profiles that are stored in an XML file (EMDKConfig.xml) in your project's Assets folder. You can programmatically submit this profile via the ProfileManager API's and the
-settings configured in that profile will take effect.  The profile in this sample, `DataCaptureProfile-1` has several hardcoded barcode types that are enabled or disabled.  There are two ways to change those hardcoded values. one, at designed time, via the Profile Wizard, or programmatically by using a feature of the ProfileManager API's that allow you to replace hardcoded values in the static XML profile before submitting it.
+settings configured in that profile will take effect.  The profile in this sample, `DataCaptureProfile-1` has several hardcoded barcode types that are enabled or disabled.  There are two ways to change those hardcoded values. one, at designed time, via the Profile Wizard, or programmatically by using a feature of the ProfileManager API's that allows you to replace hardcoded values in the static XML profile before submitting it.
 
 Have a look at the following method from our samples source. It builds an xml string that contains updates to specific values in our profile depending on the state of our user interface checkboxes. A global variable `extraDataXml` is initialized with that string for later use.
 

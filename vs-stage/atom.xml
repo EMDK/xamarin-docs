@@ -14,7 +14,7 @@
     </author>
     <link rel="icon" href="icon.jpg" /> 
     <link rel="previewimage" href="preview.jpg" /> 
-    <category term="Templates" />
+    <category term="Extensions" />
     <content type="octet/stream" src="EMDKProfileManagerWizardVS.vsix" />
     <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010">
       <Id>EMDK.Xamarin.VSIX.ID</Id>

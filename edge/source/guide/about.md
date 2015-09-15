@@ -2,7 +2,7 @@
 Welcome to the EMDK for Xamarin Alpa. This alpha will provide you with ability to use Zebra's EMDK features within your Xamarin application. Please be sure to read the contents of this guide in it's entirety to ensure your evironment is properly setup
 
 ###Before you get started
- In order to use the EMDK for Xamarin alpha, you must first have Microsoft Visual Studio 2012+, and the Xamarin Platform installed on your development system.  Zebra does not provide licenses for Microsoft Visual Studio or licenses for Xamarin Platform. Further information on obtaining licenses or getting started with these products, can be found at the following links.
+ In order to use the EMDK for Xamarin alpha, you must first have Microsoft Visual Studio 2013+, and the Xamarin Platform installed on your development system.  Zebra does not provide licenses for Microsoft Visual Studio or licenses for Xamarin Platform. Further information on obtaining licenses or getting started with these products, can be found at the following links.
 
 * [Microsoft Visual Studio](https://www.visualstudio.com/downloads/download-visual-studio-vs)
 
@@ -15,16 +15,13 @@ Welcome to the EMDK for Xamarin Alpa. This alpha will provide you with ability t
 
 ###Features Supported
 
-- Profile Manager Visual Studio (2012+) Wizard
+- Profile Manager Visual Studio (2013+) Wizard
 - Symbol.XamarinEMDK APIs
 	- EMDKManager, ProfileManager, VersionManager
 	- Symbol.XamarinEMDK.Barcode 
-
-
-
-###Not Yet Implemented
 - Xamarin Studio 
 - Mac Support
+
 
 ##Getting Started
 ### 1) Install The Visual Studio Extension

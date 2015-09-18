@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Addin>
-    <Url>EMDKProfileManagerWizardXS.EMDKProfileManagerWizardXS_1.0.0.mpack</Url>
+    <Url>EMDKProfileManagerWizardXS.EMDKProfileManagerWizardXS_1.0.1.mpack</Url>
     <Addin>
       <Id>EMDKProfileManagerWizardXS</Id>
       <Namespace>EMDKProfileManagerWizardXS</Namespace>
       <Name>EMDK for Xamarin</Name>
-      <Version>1.0.0</Version>
+      <Version>1.0.1</Version>
       <BaseVersion />
       <Author>Symbol Technologies LLC.</Author>
       <Copyright />
       <Url />
-      <Description>Symbol Technologies LLC. EMDK for Xamarin</Description>
+      <Description>Copyright (C) 2015 Symbol Technologies LLC. All rights reserved.</Description>
       <Category>IDE extensions</Category>
       <Dependencies>
         <AddinDependency>
@@ -25,7 +25,7 @@
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">17354091</Property>
+        <Property name="DownloadSize">17131921</Property>
       </Properties>
     </Addin>
   </Addin>

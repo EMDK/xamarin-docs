@@ -16,16 +16,16 @@
       <Dependencies>
         <AddinDependency>
           <AddinId>::MonoDevelop.Core</AddinId>
-          <Version>5.9.7</Version>
+          <Version>5.9.5</Version>
         </AddinDependency>
         <AddinDependency>
           <AddinId>::MonoDevelop.Ide</AddinId>
-          <Version>5.9.7</Version>
+          <Version>5.9.5</Version>
         </AddinDependency>
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">17132502</Property>
+        <Property name="DownloadSize">17132385</Property>
       </Properties>
     </Addin>
   </Addin>

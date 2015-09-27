@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Addin>
-    <Url>EMDKProfileManagerWizardXS.EMDKProfileManagerWizardXS_1.0.3.mpack</Url>
+    <Url>EMDKProfileManagerWizardXS.EMDKProfileManagerWizardXS_1.0.4.mpack</Url>
     <Addin>
       <Id>EMDKProfileManagerWizardXS</Id>
       <Namespace>EMDKProfileManagerWizardXS</Namespace>
       <Name>EMDK for Xamarin</Name>
-      <Version>1.0.3</Version>
+      <Version>1.0.4</Version>
       <BaseVersion />
       <Author>Symbol Technologies LLC.</Author>
       <Copyright />

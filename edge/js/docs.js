@@ -148,7 +148,7 @@ function GA(hash){
   ga('create', 'UA-63523200-1', 'auto');
   ga('send', 'pageview', version + '/' + hash);
   ga('send', 'screenview', {
-	  'appName': 'EMDK Docs',
+	  'appName': 'EMDK Xamarin Docs',
 	  'appVersion': version,
 	  'screenName': screenName
   });

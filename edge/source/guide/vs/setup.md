@@ -5,7 +5,6 @@
 
 
 ##Installing the Extension
-To install the EMDK for Xamarin extension:
 
 1. Open Visual Studio and select `Tools\Extensions and Updates`.
 

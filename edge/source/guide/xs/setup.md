@@ -5,6 +5,7 @@
 
 
 ##Installing the Add-in
+Before Installing this Add-in make sure your Xamarin Studio version is at least 5.9.5 or above.
 
 
 1. Open Xamarin Studio

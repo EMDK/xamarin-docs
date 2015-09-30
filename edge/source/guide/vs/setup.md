@@ -15,7 +15,7 @@
 5. You should now be presented with a search result, showing the `EMDK For Xamarin`.
 
 	![img](images/vs/install-emdk-found.png)
-6. Click the `Download` button to install it.
+6. Click the `Download` button.
 
 7. Click `Yes` when prompted to allow the program to make changes to your computer.
 

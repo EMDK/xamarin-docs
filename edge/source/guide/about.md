@@ -40,7 +40,6 @@ Download and install the Xamarin Studio Add-in using the Add-in Manager.
 
 
 ### 2) Install The Xamarin Component
-When this product is released, the component will be available on the Xamarin Component store, but for the alpha you must install it manually:
 
 - [Read the Xamarin Component Install Guide](../guide/component/install)
 

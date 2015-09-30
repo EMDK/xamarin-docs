@@ -1,4 +1,4 @@
-#EMDK For Android API List
+#EMDK For Xamarin API List
 
 ## Core and ProfileManager APIs
 The following APIs are to be used to process EMDK features and profiles using the [Profile Manager](../guide/profiles/usingwizard) as well as getting information about the EMDK.

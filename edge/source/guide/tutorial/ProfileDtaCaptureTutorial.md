@@ -12,7 +12,7 @@ If you are developing your project in Visual Studio, follow this [guide](../guid
 Follow this [guide](../guide/component-install) to add the needed component you your project.
 
 ##Setup AndroidManifest.xml
-In order to use the Symbol EMDK for Android in your project we first need to add a few items to the AndroidManifest.xml in your project.
+In order to use the Symbol EMDK for Xamarin in your project we first need to add a few items to the AndroidManifest.xml in your project.
 
 **Perform the following steps to setup your AndroidManifest**
 

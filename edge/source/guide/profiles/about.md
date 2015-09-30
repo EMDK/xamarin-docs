@@ -1,7 +1,7 @@
-# Using EMDK for Android Profiles
+# Using EMDK for Xamarin Profiles
 ##EMDK Profiles Overview
 
-The EMDK for Android allows you to easily access various capabilities of your Android device from within an Android application. These capabilities are grouped together into, what is referred to as EMDK profiles. Each EMDK profile is broken into various features. Each profile feature has parameters to provide automatic enablement as well as configuration options that will control it's behavior. One such profile feature is Data Capture, which allows you to accesses the devices bar code scanner and magstripe reader.
+The EMDK for Xamarin allows you to easily access various capabilities of your Android device from within an Android application. These capabilities are grouped together into, what is referred to as EMDK profiles. Each EMDK profile is broken into various features. Each profile feature has parameters to provide automatic enablement as well as configuration options that will control it's behavior. One such profile feature is Data Capture, which allows you to accesses the devices bar code scanner and magstripe reader.
 
 ##EMDK Profile Features
 

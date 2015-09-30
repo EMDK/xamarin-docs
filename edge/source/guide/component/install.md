@@ -42,7 +42,7 @@ Once the Xamarin Component has been installed to the IDE, you need to add it to 
 The component and EMDK for Xamarin APIs are now accessible in your application. You must complete other steps to configure your project in order to use the API's. 
 
 ## Removing from Android Projects
-You can disable the EMDK for Android component from a project, however please note that this does not permanently remove the component from the project cache or system. If you wish to permanently remove the component, please follow these instructions and the complete the steps in the `Uninstalling` section 
+You can disable the EMDK for Xamarin component from a project, however please note that this does not permanently remove the component from the project cache or system. If you wish to permanently remove the component, please follow these instructions and the complete the steps in the `Uninstalling` section 
 
 1. Open an Android based project.
 2. Right click on the Project's `Component` folder in the `Solution Explorer`.

@@ -39,7 +39,7 @@ The ProfileManager Wizard will generate the needed xml in a file call EMDKConfig
 
 
 ##Setup AndroidManifest.xml
-In order to use the Symbol EMDK for Android in your project we first need to add a few items to the AndroidManifest.xml in your project.
+In order to use the Symbol EMDK for Xamarin in your project we first need to add a few items to the AndroidManifest.xml in your project.
 
 **Perform the following steps to setup your AndroidManifest**
 

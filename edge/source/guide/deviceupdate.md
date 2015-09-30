@@ -43,7 +43,7 @@ In Visual Studio, you can configure the path where ADB can be found by:
 
 For Xamarin Studio, you can configure the path where ADB can be found by:
 
-1. Open the file `EMDKConfig.txt` found in `C:\Users\Public\Symbol EMDK for Xamarin` (Win) or `/Users/Shared/Symbol EMDK for Android` (Mac)
+1. Open the file `EMDKConfig.txt` found in `C:\Users\Public\Symbol EMDK for Xamarin` (Win) or `/Users/Shared/Symbol EMDK for Xamarin` (Mac)
 
 	![img](images/xs/emdkconfig-folder.jpg)
 2. Change the line `#android_sdk=""` line to include your path to ADB between the quotes like: `#android_sdk="C:\Path\To\ADB.exe"`
@@ -59,7 +59,7 @@ If the `EMDKConfig.txt` file is not there, please be sure to do the following on
 2. Select `Install Device Runtime` menu item 
 
 ## Device Update APK
-After selecting the `EMDK\Apply Device Update` menu option at least once, the device update APK file can be found in `C:\Users\Public\Symbol EMDK For Xamarin` (Win) or `/Users/Shared/Symbol EMDK for Android` (Mac)folder.
+After selecting the `EMDK\Apply Device Update` menu option at least once, the device update APK file can be found in `C:\Users\Public\Symbol EMDK For Xamarin` (Win) or `/Users/Shared/Symbol EMDK for Xamarin` (Mac)folder.
 
 ![img](images/xs/emdkconfig-folder.jpg)
 

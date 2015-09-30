@@ -39,7 +39,7 @@ var mxVersions = [
                                     {
                                         name: 'TC70 KK',
                                         device: 'TC70',
-                                        os: 'JB',
+                                        os: 'KK',
                                         notes: ''
                                     },
                                     {

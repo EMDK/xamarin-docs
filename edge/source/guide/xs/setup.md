@@ -56,5 +56,18 @@
 6. Click the close button for that dialog, then click the Close button for the Add-in Manager.
 7. Restart Xamarin Studio and you should no longer see the EMDK menu on the Menu bar.
 
+##Support file cleanup
+The IDE Add-in copies support files to the your file system in order to perform tasks such as Device Runtime Install. To clean up the support files do the following.
+
+Windows:
+
+* Remove Folder - C:\Users\Public\Symbol EMDK for Xamarin
+
+Mac:
+
+* Remove Folder - /Users/Shared/Symbol EMDK for Xamarin
+* Remove File - /Users/Shared/Symbol EMDK for Xamarin\EmdkOSUpdateApp_v3.1.38.apk
+* Remove File - /Users/Shared/Symbol EMDK for Xamarin\Deployment.bat
+
 ## What's Next
 In order to fully enable the EMDK for Xamarin, you must [install the Xamarin Component](../guide/component/install)

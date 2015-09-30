@@ -68,6 +68,11 @@ For Windows (Visual Studio or Xamarin Studio), the installed components can be f
 
 	![img](images/component/cache-info.jpg)
 
+For Mac, the same files can be found in:
+
+* `/Users/<username>/Library/Caches/Xamarin/Components`
+* `/Users/<username>/Library/Caches/Xamarin/ComponentInfo`
+
 ### 2) Remove from Android Projects
 Each project will cache the version of the component you have added within your project folder. Even after removing the component from your project using the IDE (mentioned above), the component files will remain inside your project folder. 
 

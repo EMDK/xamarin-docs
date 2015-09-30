@@ -7,7 +7,7 @@ The EMDK for Xamarin v1.0 provides developers with a comprehensive set of tools 
 * [Microsoft Visual Studio](https://www.visualstudio.com/downloads/download-visual-studio-vs)
 
 * [Xamarin](http://developer.xamarin.com/guides/cross-platform/getting_started/)
-	- Xamarin `Indie` licence is not suggested at this time due to Visual Studio complilation restrictions. Learn more [here](https://store.xamarin.com/).
+	- Xamarin `Indie` licence is not suggested at this time due to Visual Studio compilation restrictions. Learn more [here](https://store.xamarin.com/).
 
 
 

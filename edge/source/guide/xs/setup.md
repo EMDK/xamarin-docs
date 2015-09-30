@@ -4,71 +4,57 @@
 ![yt:4z1HQ1M3qJ0](images/video.png)-->
 
 
-##Adding Extension Gallery
-Prior to releasing the EMDK For Xamarin, we will be hosting a private Xamarin Studio Add-in gallery to allow you to easily install the 
-Add-in. To get access to the gallery, you need to add a gallery to the Xamarin Studio Add-in Manger.
-
+##Installing the Add-in
 
 
 1. Open Xamarin Studio
+
+2. Open Xamarin Studio Add-in Manager
 	
 	* For windows, select Tools > Add-in Manager
 
-		![img](images/xs/OpenAddinManager_win.png)
-
 	* For Mac, select Xamarin Studio > Add-in Manager
 
-		![img](images/xs/OpenAddinManager_mac.png)
+
+2. Then select the Gallery Tab 
+3. Enter `emdk` in the search box in the top right corner of the Add-in Manager.
+	> As you type in the search box, the Add-in manager will filter out all add-ins except **EMDK for Xamarin**.
+
+	![img](images/xs/gallery-tab-search-emdk.png)
 
 
-2. Then select the Gallery Tab and click the down arrow on the Repository combo box.
+2.  Now click the `Install` button in the bottom left corner of the right hand pane.
 
-	![img](images/xs/GalleryTabAndRepoDownArrow.png)
+3. Then select Install in the next dialog.
 
-
-
-3. Select "Manage Repositories" from that drop down
-
-	![img](images/xs/SelectManageRepositories.png)
-
-4. Then click the "add" button, in the "Add-in Repository Management" window.
-	
-	![img](images/xs/SelectAddRepo.png)
-	
-5. Enter http://emdk.github.io/xamarin-docs/xs/main.mrep into the "Register an On-line Repository" box, then select `OK`
-
-	![img](images/xs/EnterRepoURL.png)
-
-
-6. Now that we see the Add-in Repository has been added, select `Close`
-	
-	![img](images/xs/RepoAddedNowSelectClose.png)
-
-
-
-##Installing the Add-in
-
-1. In the far left pane under the Repository combo box, Select "EMDK for Xamarin" under "IDE extensions".
-	
-	![img](images/xs/ClickInstallButton.png)
-
-2.  Now click the "Install button" in the bottom left of the right hand pane.
-
-3. Then select Install in the next pop-up.
-
-	![img](images/xs/SelectInstallFromPopup.png)
-
-	> You will likely see an error message stating that the install failed. This is a known issue in Xamarin Studio, and will
-	be address in later revisions of the IDE.  The Add-in is now installed, we just need to restart the IDE for the EMDK menu to be displayed.  
+	> You will likely see an error message stating that the install failed. This is a known issue, and will
+	be addressed in later revisions of the Xamarin Studio.  The Add-in is now installed, we just need to restart the IDE for the EMDK menu to be displayed.  
 	
 	![img](images/xs/InstallFailed.png)
 
+4. Click the close button for that dialog, then click the Close button for the Add-in Manager.
 
-4. Restart Xamarin Studio and you will see the EMDK menu on the Menu bar.
+5. Restart Xamarin Studio and you will see the EMDK menu on the Menu bar.
 
 
+##Uninstalling the Add-in
 
+1. Open Xamarin Studio Add-in Manager
+	
+	* For windows, select Tools > Add-in Manager
 
+	* For Mac, select Xamarin Studio > Add-in Manager
+
+2. In the Installed Tab, click the **arrow** left of **IDE extensions** label
+
+3. Find and select `EMDK for Xamarin`
+
+4. Click the Uninstall button in the bottom left corner of the right hand pane.
+5. Click the Uninstall button in the next dialog.
+	> You will likely see an error message stating that the uninstall failed. This is a known issue, and will
+	be addressed in later revisions of the Xamarin Studio.  The Add-in is now uninstalled, we just need to restart the IDE for the EMDK menu to be removed. 
+6. Click the close button for that dialog, then click the Close button for the Add-in Manager.
+7. Restart Xamarin Studio and you should no longer see the EMDK menu on the Menu bar.
 
 ## What's Next
 In order to fully enable the EMDK for Xamarin, you must [install the Xamarin Component](../guide/component/install)

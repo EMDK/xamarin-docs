@@ -5,7 +5,6 @@
 
 
 ##Installing the Extension
-To install the EMDK for Xamarin extension:
 
 1. Open Visual Studio and select `Tools\Extensions and Updates`.
 
@@ -16,7 +15,7 @@ To install the EMDK for Xamarin extension:
 5. You should now be presented with a search result, showing the `EMDK For Xamarin`.
 
 	![img](images/vs/install-emdk-found.png)
-6. Click the `Download` button to install it.
+6. Click the `Download` button.
 
 7. Click `Yes` when prompted to allow the program to make changes to your computer.
 
@@ -30,6 +29,34 @@ To install the EMDK for Xamarin extension:
 10. Restart Visual Studio as directed
 
 	![img](images/vs/vsix-restart.png)
+
+##Uninstalling the Extension
+
+1. Open Visual Studio and select `Tools\Extensions and Updates`.
+
+	![img](images/vs/toolsextensions.png)
+
+2. Select `Installed` from the left hand pane
+3. Type `emdk` in the search box in the top right corner and then press **Enter**
+4. In the search results (center pane) find `EMDK for Xamarin`, and click the **Uninstall** button.
+5. Then click the **Yes** button when prompted.
+6. Restart Visual Studio as directed
+
+	![img](images/vs/vsix-restart.png)
+
+##Support file cleanup
+The IDE extension copies support files to the your file system in order to perform tasks such as Device Runtime Install. To clean up the support files do the following.
+
+Windows:
+
+* Remove Folder - C:\Users\Public\Symbol EMDK for Xamarin
+
+Mac:
+
+* Remove Folder - /Users/Shared/Symbol EMDK for Xamarin
+* Remove File - /Users/Shared/Symbol EMDK for Xamarin\EmdkOSUpdateApp_v3.1.38.apk
+* Remove File - /Users/Shared/Symbol EMDK for Xamarin\Deployment.bat
+
 
 
 

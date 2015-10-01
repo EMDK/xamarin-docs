@@ -7,7 +7,7 @@ The EMDK for Xamarin v1.0 provides developers with a comprehensive set of tools 
 * [Microsoft Visual Studio](https://www.visualstudio.com/downloads/download-visual-studio-vs)
 
 * [Xamarin](http://developer.xamarin.com/guides/cross-platform/getting_started/)
-	- Xamarin `Indie` licence is not suggested at this time due to Visual Studio complilation restrictions. Learn more [here](https://store.xamarin.com/).
+	- Xamarin `Indie` licence is not suggested at this time due to Visual Studio compilation restrictions. Learn more [here](https://store.xamarin.com/).
 
 
 
@@ -27,13 +27,19 @@ The EMDK for Xamarin v1.0 provides developers with a comprehensive set of tools 
 	* Symbol.XamarinEMDK.Barcode
 
 ##Getting Started
-### 1) Install The Visual Studio Extension
+### 1) Install The Visual Studio Extension or Xamarin Studio Add-in
+
 Download and install the Visual Studio Extension using the online extension gallery. 
 
 - [Read the Visual Studio Setup Guide](../guide/vs/setup)
 
+
+Download and install the Xamarin Studio Add-in using the Add-in Manager. 
+
+- [Read the Xamarin Studio Setup Guide](../guide/xs/setup)
+
+
 ### 2) Install The Xamarin Component
-When this product is released, the component will be available on the Xamarin Component store, but for the alpha you must install it manually:
 
 - [Read the Xamarin Component Install Guide](../guide/component/install)
 

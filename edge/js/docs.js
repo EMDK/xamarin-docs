@@ -500,18 +500,29 @@ function loadDoc(key){
 
 	//Get images
 	var imgTags = $("#markdownDoc").find('img').each(function( index ) {
+		var imgIsVideo = false;
 		if($(this).attr('alt').startsWith('yt:')){
+			imgIsVideo = true;
 			var ytid = $(this).attr('alt').replace('yt:','');
 			var video_thumbnail = 'http://img.youtube.com/vi/'+ytid+'/0.jpg';
 			$(this).attr('src',video_thumbnail);
 			$(this).wrap( "<div class='videos'></div>" );
 			$(this).wrap( "<div  class='video' alt='yt:" + ytid + "''></div>" );
 			$(this).before( "<span></span>" );
+		};
+		var item;
+		if(imgIsVideo){
+			item = $(this).parent();
 		}
+		else{
+			item = $(this);
+		}
+
 		//Image Model
-		$(this).parent().click(function(){
+		item.click(function(){
 			//Set Image
 			var imgIsVideo = false;
+			
 			if($(this).attr('alt').startsWith('yt:')){
 				imgIsVideo = true;
 			}

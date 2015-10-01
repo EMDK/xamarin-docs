@@ -77,8 +77,20 @@ var menuStrcture = [
 								link: '#guide-sample-about',
 							},
 							{
+								name: 'Barcode API Sample',
+								link: '#guide-sample-api-barcode',
+							},
+							{
 								name: 'DataCapture Profile Sample',
 								link: '#guide-sample-profile-datacapture',
+							},
+							{
+								name: 'Power Manager Profile Sample',
+								link: '#guide-sample-profile-powermanager',
+							},
+							{
+								name: 'Wifi Profile Sample',
+								link: '#guide-sample-profile-wifi',
 							},
 						]
 					}

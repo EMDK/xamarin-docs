@@ -238,7 +238,7 @@ Method Signature:
 
 	:::csharp
 	// Pass in a string in XML form
-	ProcessProfileAsync(String profileName, ProfileManager.PROFILE_FLAG profileFlag, String extraData)
+	ProcessProfileAsync(String profileName, ProfileManager.PROFILE_FLAG profileFlag, String[] extraData)
 
 `profileName` can be:
 

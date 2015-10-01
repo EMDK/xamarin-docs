@@ -47,7 +47,7 @@ var menuStrcture = [
 			{
 				name: 'Tutorials',
 				icon: 'fa fa-terminal',
-				link: '#guide-tutorial-index',
+				link: '#',
 				items: [
 					{
 						title: 'Tutorials',

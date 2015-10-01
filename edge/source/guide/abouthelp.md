@@ -24,7 +24,7 @@ The menu icon will allow you to collapse and expand the "Table of Contents".
 
 At the top of the page you will see a search box. 
 
-![img](images/about/s1.png)
+![img](images/about/s1.jpg)
 
 This box will search all documents in the system and highlight selected terms in the current document. You can switch between relevant documents buy selecting the document in "Search Results". You can minimize the "Search Results" by clicking on the "-" icon. You can bring the "Search Results back by click on the search bar. 
 

@@ -86,3 +86,7 @@ Each project will cache the version of the component you have added within your 
 2. Open the project `Components` folder and delete the `emdk-component-<version>.*` files and folder.
 
 	![img](images/component/project-folder-component.jpg)
+
+
+## What's Next
+Try the Sample included with in Component[ Sample ](../guide/sample/about)

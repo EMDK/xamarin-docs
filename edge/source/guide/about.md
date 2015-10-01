@@ -2,12 +2,14 @@
 The EMDK for Xamarin v1.0 provides developers with a comprehensive set of tools to easily create powerful line of business applications for Android enterprise mobile computing devices while retaining their C# skills and tools. The EMDK for Xamarin includes class libraries, sample applications with source code, as well as all of the associated documentation to help your applications take full advantage of what Zebra Technologies devices have to offer.
 
 ###Before you get started
- In order to use the EMDK for Xamarin, you must have the Xamarin Platform installed on your development system. Xamarin Studio will be installed as part of the Xamarin Platform. If you intend to use Microsoft Visual Studio as your development enviroment, you must install Microsoft Visual Studio 2013 or higher. Zebra does not provide licenses for Microsoft Visual Studio or licenses for Xamarin Platform. Further information on obtaining licenses or getting started with these products, can be found at the following links.
+ In order to use the EMDK for Xamarin, you must have the Xamarin Platform installed on your development system. Xamarin Studio will be installed as part of the Xamarin Platform. If you intend to use Microsoft Visual Studio as your development environment, you must install Microsoft Visual Studio 2013 or higher. Zebra does not provide licenses for Microsoft Visual Studio or licenses for Xamarin Platform. Further information on obtaining licenses or getting started with these products, can be found at the following links.
 
 * [Microsoft Visual Studio](https://www.visualstudio.com/downloads/download-visual-studio-vs)
 
 * [Xamarin](http://developer.xamarin.com/guides/cross-platform/getting_started/)
-	- Xamarin `Indie` licence is not suggested at this time due to Visual Studio compilation restrictions. Learn more [here](https://store.xamarin.com/).
+	- When using **Visual Studio** for EMDK development, a Xamarin **Business** License or higher is required. Learn more [here](https://store.xamarin.com/).
+
+	- When using **Xamarin Studio** for EMDK development, a Xamarin **Indie** License or higher is required. Learn more [here](https://store.xamarin.com/).
 
 
 
@@ -19,9 +21,10 @@ The EMDK for Xamarin v1.0 provides developers with a comprehensive set of tools 
 * Installs as an IDE Plug-in for Visual Studio & Xamarin Studio
 * Online Documentation
 * Sample Code
-* Built-in Barcode API Sample
-* Online Data Capture Profile Sample
-* Online Wi-Fi Profile Sample
+	* Built-in Barcode API Sample
+	* Online Data Capture Profile Sample
+	* Online Wi-Fi Profile Sample
+	* Online Power Manager Profile Sample
 * Symbol.XamarinEMDK APIs
 	* EMDKManager, ProfileManager, VersionManager
 	* Symbol.XamarinEMDK.Barcode

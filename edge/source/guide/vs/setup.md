@@ -47,16 +47,7 @@
 ##Support file cleanup
 The IDE extension copies support files to the your file system in order to perform tasks such as Device Runtime Install. To clean up the support files do the following.
 
-Windows:
-
 * Remove Folder - C:\Users\Public\Symbol EMDK for Xamarin
-
-Mac:
-
-* Remove Folder - /Users/Shared/Symbol EMDK for Xamarin
-* Remove File - /Users/Shared/Symbol EMDK for Xamarin\EmdkOSUpdateApp_v3.1.38.apk
-* Remove File - /Users/Shared/Symbol EMDK for Xamarin\Deployment.bat
-
 
 
 

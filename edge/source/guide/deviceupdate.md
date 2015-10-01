@@ -8,7 +8,7 @@ If the device has not been updated to at least this version, features like Profi
 
 ##	Device Update from IDE
 
-For your convenience, a menu item has been added to the Visual Studio extension to perform the device updated. Before running make sure:
+For your convenience, a menu item has been added to the Visual Studio and Xamarin Studio extension to perform the device update. Before running make sure:
 
 1. The device has USB Debugging enabled
 2. The device has been connected to the development machine
@@ -29,24 +29,26 @@ The device update process uses `ADB.exe` to download and initiate the installati
 2. Use the Device Update APK file manually.
 
 ### ADB Configuration path
+#### Visual Studio
 In Visual Studio, you can configure the path where ADB can be found by:
 
 1. Open Visual Studio
 2. Select `Tools` \ `Options`
 3. Scroll down and open `Symbol EMDK For Xamarin` \ `Options`
-4. On the right hand side of the dialog, enter the path to ADB.exe
+4. On the right hand side of the dialog, enter the path to the Android SDK
 
 	![img](images/vs/tools-options.jpg)
 5. Click `Ok`
 6. Select the `EMDK` menu from the menu bar
 7. Select `Install Device Runtime` menu item
 
+####Xamarin Studio
 For Xamarin Studio, you can configure the path where ADB can be found by:
 
 1. Open the file `EMDKConfig.txt` found in `C:\Users\Public\Symbol EMDK for Xamarin` (Win) or `/Users/Shared/Symbol EMDK for Xamarin` (Mac)
 
 	![img](images/xs/emdkconfig-folder.jpg)
-2. Change the line `#android_sdk=""` line to include your path to ADB between the quotes like: `#android_sdk="C:\Path\To\ADB.exe"`
+2. Change the line `#android_sdk=""` line to include your path to ADB between the quotes like: `#android_sdk="C:\Path\To\AndroidSDK"`
 
 	![img](images/xs/emdkconfig.jpg)
 

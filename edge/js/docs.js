@@ -227,7 +227,7 @@ function findHash()
 	}
 	else
 	{
-		syncMenu(hash);
+		//syncMenu(hash);
 	}
 	//console.log("Done");
 }

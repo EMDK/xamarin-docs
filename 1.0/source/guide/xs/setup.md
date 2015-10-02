@@ -1,7 +1,7 @@
 #Xamarin Studio Setup
 
-<!--## Watch This Guide
-![yt:4z1HQ1M3qJ0](images/video.png)-->
+## Watch This Guide
+![yt:qYPOWP8UKN4](images/video.png)
 
 
 ##Installing the Add-in

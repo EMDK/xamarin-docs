@@ -33,6 +33,10 @@ var menuStrcture = [
 								link: '#guide-deviceupdate',
 							},
 							{
+								name: 'Try a Sample Project',
+								link: '#guide-sample-about',
+							},
+							{
 								name: 'EMDK Profiles Overview',
 								link: '#guide-profiles-about',
 							},

@@ -302,6 +302,11 @@ var menuStrcture = [
 				link: '#guide-abouthelp',
 				icon: 'fa fa-question-circle'
 			},
+			{
+				name: 'Launchpad Community',
+				link: 'https://developer.motorolasolutions.com/community/android/xamarin',
+				icon: 'fa fa-comment'
+			},
 
 		]
 	}

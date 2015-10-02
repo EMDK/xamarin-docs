@@ -1,7 +1,7 @@
-# Using EMDK for Android Profiles
+# Using EMDK for Xamarin Profiles
 ##EMDK Profiles Overview
 
-The EMDK for Android allows you to easily access various capabilities of your Android device from within an Android application. These capabilities are grouped together into, what is referred to as EMDK profiles. Each EMDK profile is broken into various features. Each profile feature has parameters to provide automatic enablement as well as configuration options that will control it's behavior. One such profile feature is Data Capture, which allows you to accesses the devices bar code scanner and magstripe reader.
+The EMDK for Xamarin allows you to easily access various capabilities of your Android device from within an Android application. These capabilities are grouped together into, what is referred to as EMDK profiles. Each EMDK profile is broken into various features. Each profile feature has parameters to provide automatic enablement as well as configuration options that will control it's behavior. One such profile feature is Data Capture, which allows you to accesses the devices bar code scanner and magstripe reader.
 
 ##EMDK Profile Features
 
@@ -110,7 +110,7 @@ Profile Manager is an exclusive EMDK technology offered within your IDE, providi
 ###Accessing the Profile Manager
 1. Inside your IDE select an open Android Application.
 2. Select "EMDK" -> "Profile Manager" on the toolbar.  
-    ![img](images/profiles/image001.jpg)
+    ![img](images/menu-emdk.jpg)
 
 ###Creating a Profile
 
@@ -207,83 +207,23 @@ Profile Manager is an exclusive EMDK technology offered within your IDE, providi
 Once you create your profiles using the Profile Manager, they will be bundled with your application and available to access using the [Profile Manager APIs](../guide/reference/EMDKList). These profiles will NOT be applied on the device until it is processed using these APIs.
 
 ### Multiple Ways to Access
-In the ProfileManager API, you will see three methods for `processProfile`. Essentially the last parameter, `extraData`, is one of three types:
+In the ProfileManager API, you will see methods for `ProcessProfile` and `ProcessProfileAsync`. Essentially the last parameter, `extraData`, is one of two types:
 
 * **Document** - data will be handled as a XML Document.
 * **String** - data will be handled as a raw string.
-* **ProfileConfig** - data will be handled as a ProfileConfig class.
-
->WARNING!: The preferred way is to use the `ProfileConfig` option and the examples below present using such option. Using the Document or String methods may not work if the XML is not structured properly. See usage notes below for more information about using these methods.
 
 ###Creating or Activating a Profile
 A profile is created or activated with using the PROFILE_FLAG.SET option. If the profileFlag is set to SET, and if the given profile is not available, it will look for a valid profile in the extraData argument and if present, the profile  will be added to the internal XML volatile repository and also applied to the device.  If the profile is present, then it will be applied to the device.
 
-> Note: The following example uses ProfileConfig object, which is currently only available for DataCapture profile features.
+	:::csharp
+    // Call processPrfoileAsync with profile name, 'Set' flag and modify data to update the profile
+    EMDKResults results = profileManager.ProcessProfileAsync(profileName, ProfileManager.PROFILE_FLAG.Set, modifyData);
+  
 
-	:::java
-	@Override  
-    public void onOpened(EMDKManager emdkmanager)  
-    {  
-        //Create the Profile Config object  
-        ProfileConfig profileConfigObj = new ProfileConfig();  
-
-        //Get the Profile Manager  
-        ProfileManager profileManager = (ProfileManager)emdkmanager.getInstance(FEATURE_TYPE.PROFILE);  
-
-        //Create the new profile  
-        EMDKResults results = profileManager.processProfile("ProfileName", ProfileManager.PROFILE_FLAG.SET, profileConfigObj);
-    }  
-
-###Getting a Profile
-If profileFlag is set to GET and if the profile is present in the internal repository, it will be returned in the extraData object.
-
-> Note: The following example uses ProfileConfig object, which is currently only available for DataCapture profile features.
-
-	:::java
-	@Override  
-    public void onOpened(EMDKManager emdkmanager)  
-    {  
-        //Create the Profile Config object  
-        ProfileConfig profileConfigObj = new ProfileConfig();  
-
-        //Get the Profile Manager  
-        ProfileManager profileManager = (ProfileManager)emdkmanager.getInstance(FEATURE_TYPE.PROFILE);  
-
-        //Get the profile and store it in the ProfileConfig object  
-        EMDKResults results = profileManager.processProfile("ProfileName", ProfileManager.PROFILE_FLAG.GET, profileConfigObj);
-    }  
-
-###Modifying a Profile
-To modify a profile, you would:
-
-* Use the PROFILE_FLAG.GET option to retrieve the profile (if it exists).
-* Use the profileConfig Object and APIs to modify the feature parameters.
-* Use the PROFILE_FLAG.SET option to save the parameters.
-
-> Note: The following example uses ProfileConfig object, which is currently only available for DataCapture profile features.
-
- 	:::java
- 	@Override  
-    public void onOpened(EMDKManager emdkmanager)  
-    {  
-        //Create the Profile Config object  
-        ProfileConfig profileConfigObj = new ProfileConfig();  
-
-        //Get the Profile Manager  
-        ProfileManager profileManager = (ProfileManager)emdkmanager.getInstance(FEATURE_TYPE.PROFILE);  
-
-        //Get the profile and store it in the ProfileConfig object  
-        EMDKResults results = profileManager.processProfile("ProfileName", ProfileManager.PROFILE_FLAG.GET, profileConfigObj);  
-        //Enable MSR  
-        profileConfigObj.dataCapture.msr.msr_input_enabled = ENABLED_STATE.TRUE;  
-        //Modify Profile  
-        EMDKResults ModifyResults = profileManager.processProfile("ProfileName", ProfileManager.PROFILE_FLAG.SET, profileConfigObj);  
-    }  
 
 ## Usage Notes
-
-### Getting Started with Tutorial
-This is an overview of how you can create and integrate Profiles using EMDK Profile Manager. Click [here](../guide/tutorial/tutdatacaptureprofile) to get started with a detailed tutorial on Data Capture Profiles to understand better.  
+### Get Started with a Tutorial
+Be sure to follow step by step instructions for using the Profile Manager and the associated API's in the [Getting Started Tutorial](../guide/tutorial/helloxamarin)
 
 ### Multiple Instance of Features
 There should only be one instance of the DataCapture feature. The EMDK Profile Manager will not allow you to add multiple DataCapture features, but may happen if you are manually editing the EMDKConfig.xml. Other profile features can have multiple instances and may be required in some cases. For example, you may need two 'Certificate Manager' features. The first one to initialize the certificate store and the second one to install a new certificate.
@@ -296,9 +236,9 @@ The processProfile method has an overload method that allows sending XML content
 
 Method Signature:
 
-	:::java
+	:::csharp
 	// Pass in a string in XML form
-	processProfile(String profileName, ProfileManager.PROFILE_FLAG profileFlag, String extraData)
+	ProcessProfileAsync(String profileName, ProfileManager.PROFILE_FLAG profileFlag, String[] extraData)
 
 `profileName` can be:
 
@@ -307,15 +247,13 @@ Method Signature:
 	* Valid `[featureType]`:	ActivitySelection, Barcode, MSR, Intent, Keystroke, IP, Clock, PowerMgr, PersistMgr, CertMgr, AppMgr, AccessMgr, Wi-Fi, GprsMgr
 
 #### XML String Structure
-One way you can see how this XML string should be structured is to use the Profile Manager in Eclipse.
+One way you can see how this XML string should be structured is to use the Profile Manager and inspect the XML file that is created:
 
-1. Open any project in Eclipse that does not have a EMDK profile defined already (so you get just the parameters you want to change).
+1. Open any project in either Visual Studio or Xamarin Studio that does not have a EMDK profile defined already (so you get just the parameters you want to change).
 2. Select EMDK / Profile Manager from the menu.
 3. Add the Profile features you want and selection the options you wish to use.
 4. Click Finish when you are done with your selections.
 5. Look in the `assets` folder and open `EMDKConfig.xml`
-
-	![img](images/MxAppManagerTutorialImages/emdk_config_file_entries.jpg)
 6. Notice the XML structure that is shown. This complete structure is to be passed in the extraData parameter as a string. You can choose to copy and paste this into your code to be used.
 
 > WARNING!: XML parm names and values may not be the same as what is presented in the Profile Manager wizard. Pay close attention to the fields of interest. It is not recommended to manually edit this XML, use the Profile Manager Wizard to ensure proper formation of the XML structure and values.
@@ -325,8 +263,8 @@ If the ProfileName node is given in extraData and the ProfileFlag is SET, Profil
 
 Example:
 
-	:::java
-	String[] extraData = new String[1];
+	:::csharp
+	string[] extraData = new string[1];
 	extraData[0]=
 	"<?xml version=\"1.0\" encoding=\"utf-8\"?>" +
 	"<characteristic type=\"Profile\">" +
@@ -339,7 +277,7 @@ Example:
 	"</characteristic>"+
 	"</characteristic>";
 
-	emdkStatus = mProfileManager.processProfile("EMDKProfile1", ProfileManager.PROFILE_FLAG.SET, extraData);
+	emdkStatus = mProfileManager.ProcessProfileAsync("EMDKProfile1", ProfileManager.PROFILE_FLAG.SET, extraData);
 
 * If the ProfileName node is NOT given in extraData and the ProfileFlag is SET, the content will be merged with the profile given in the first parameter passed to processProfile.
 
@@ -357,8 +295,8 @@ Each specific profile feature can be named so that only that portion of the prof
 
 In the following example, we created a profile called `EMDKProfile1` and added the Clock feature with a name of `ck2`. Now we can modify that profile using the processProfile method, making sure we specify the `emdk_name` parameter as `ck2` and use a profileName of `EMDKProfile1/Clock/ck2` in the processProfile method:
 
-	:::java
-	String[] extraData = new String[1];
+	:::csharp
+	string[] extraData = new string[1];
 	extraData[0]=
 	"<?xml version=\"1.0\" encoding=\"utf-8\"?>" +
 	"<characteristic type=\"Profile\">" +
@@ -371,14 +309,14 @@ In the following example, we created a profile called `EMDKProfile1` and added t
 	"</characteristic>"+
 	"</characteristic>";
 
-	emdkStatus = mProfileManager.processProfile("EMDKProfile1/Clock/ck2", ProfileManager.PROFILE_FLAG.SET, extraData);
+	emdkStatus = mProfileManager.ProcessProfileAsync("EMDKProfile1/Clock/ck2", ProfileManager.PROFILE_FLAG.SET, extraData);
 
 * If the ProfileFlag is SET, the emdk_name is NOT given in ExtraData and if the first parameter passed to processProfileis has the fully qualified name (ex: EMDKProfile1/Clock/ck2) , content will be appended to the profile (this only applicable for non-DataCapture features).
 
 Example:  
 
-	:::java
-	String[] extraData = new String[1];
+	:::csharp
+	string[] extraData = new string[1];
 	extraData[0]=
 	"<?xml version=\"1.0\" encoding=\"utf-8\"?>" +
 	"<characteristic type=\"Profile\">" +

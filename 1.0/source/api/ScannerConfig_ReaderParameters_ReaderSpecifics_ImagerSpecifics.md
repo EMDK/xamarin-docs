@@ -10,7 +10,7 @@ Sets the maximum amount of time that the reader remains on (0 - 60,000 ms in inc
 
 **Type** - System.Int32
 ###ConnectionIdleTime
-This is the time (in seconds) when an external scanner is idle in a particular state (ScannerStates.IDLE to ScannerStates.WAITING) after which the connection between the terminal and the scanner is severed to conserve power. This is currently applicable to Bluetooth scanners only..
+This is the time (in seconds) when an external scanner is idle in a particular state (ScannerStates.IDLE to ScannerStates.WAITING) after which the connection between the terminal and the scanner is severed to conserve power.  The valid range is 60 to 1800  with steps of 5. The default value is 600. This is currently applicable to Bluetooth scanners only..
 
 **Type** - System.Int32
 ###ContinuousRead

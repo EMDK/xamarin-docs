@@ -77,8 +77,20 @@ var menuStrcture = [
 								link: '#guide-sample-about',
 							},
 							{
+								name: 'Barcode API Sample',
+								link: '#guide-sample-api-barcode',
+							},
+							{
 								name: 'DataCapture Profile Sample',
 								link: '#guide-sample-profile-datacapture',
+							},
+							{
+								name: 'Power Manager Profile Sample',
+								link: '#guide-sample-profile-powermanager',
+							},
+							{
+								name: 'Wifi Profile Sample',
+								link: '#guide-sample-profile-wifi',
 							},
 						]
 					}
@@ -114,7 +126,7 @@ var menuStrcture = [
 
 											{
 												name: 'EMDK Profiles Overview',
-												link: '#guide-profiles-usingwizard',
+												link: '#guide-profiles-about',
 											},
 											{
 												name: 'Data Capture',
@@ -165,11 +177,11 @@ var menuStrcture = [
 												link: '#guide-profiles-app',
 											},
 											{
-												name: 'Audio Manager <span class="label label-primary">New</span>',
+												name: 'Audio Manager',
 												link: '#guide-profiles-audio',
 											},
 											{
-												name: 'Battery Manager <span class="label label-primary">New</span>',
+												name: 'Battery Manager',
 												link: '#guide-profiles-battery',
 											},
 											{
@@ -193,7 +205,7 @@ var menuStrcture = [
 												link: '#guide-profiles-clock',
 											},
 											{
-												name: 'Component Manager <span class="label label-primary">New</span>',
+												name: 'Component Manager',
 												link: '#guide-profiles-component',
 											},
 											{
@@ -201,7 +213,7 @@ var menuStrcture = [
 												link: '#guide-profiles-devadmin',
 											},
 											{
-												name: 'DHCP Manager <span class="label label-primary">New</span>',
+												name: 'DHCP Manager',
 												link: '#guide-profiles-dhcp',
 											},
 											{
@@ -217,7 +229,7 @@ var menuStrcture = [
 												link: '#guide-profiles-gprs',
 											},
 											{
-												name: 'KeyMap Manager <span class="label label-primary">New</span>',
+												name: 'KeyMap Manager',
 												link: '#guide-profiles-keymap',
 											},
 											{

@@ -1,19 +1,34 @@
-#Sample: Data Capture Profiles
+#ProfileDataCapture1
 
-This guide will provide details of the Data Capture sample project included with the EMDK for Xamarin component.
+##Overview
+One of the features of the EMDK is the ability to create Barcode scanning profiles. This application allows you to modify a Barcode profile to select which types of Barcodes should be interpreted.
 
-## Opening the Sample Project
-Be sure to read the [Using Component Samples Guide](../sample/about) for instructions for accessing the sample project.
+## Loading the Sample Application
+This sample project is available in our [online sample repository](https://github.com/EMDK/xamarin-samples). Perform the following steps to load the ProfileDataCapture1 sample.
 
-
+1. Download the Sample: [ProfileDataCapture1Sample1](https://github.com/EMDK/xamarin-samples/archive/ProfileDataCaptureSample1.zip)
+2. Unzip the downloaded .zip file
+3. Open the sample project by double clicking the `.sln` in the root of the unzipped archive, or browse to the `.sln` file from your preferred IDE.
 
 ## Running the Sample
-If Visual Studio detects your device connected via USB, it will display the name of that device next to the "Play"
-button.
+Now that we have the project loaded, lets run the application and see how it works
 
-For Example (in Visual Studio ): ![img](images/samples/vsPlayButton.png)
+###Visual Studio
+
+Visual Studio will detect your device connected via USB, it will display the name of that device next to the "Play" button.
+
+![img](images/samples/vsPlayButton.png)
 
 Press the "Play" button next to the devices name.  The IDE will build, deploy and start the sample app on your device.
+
+###Xamarin Studio
+In Xamarin Studio, you may need to select your attached device from the devices dropdown under `Physical Devices`.
+
+![img](images/samples/xs-select-device.png)
+
+Now press the "Play" button. The IDE will build, deploy and start the sample app on your device.
+
+![img](images/samples/xsPlayButton.png)
 
 ## Using the Sample
 When the Sample Application loads it will present the following screen. The user interface provides a means to configure the barcode type that the scanner is allowed to decode. In order to make best use of this sample you will need a barcode that represents each of the listed type.
@@ -34,11 +49,11 @@ The Status message should change, stating that the profile was successfully modi
 
 To test that your settings have taken effect, scan a barcode type that was disabled previously, the barcode should not scan. Now scan a barcode that was previously disabled, the user interface should update with the decoded barcode data.
 
-##Code sample explanation
+<!--##Code sample explanation
 This seems like a very simple application, but looking at the source code will reveal a very important concept in developing applications that use EMDK profiles.
 
 The EMDK Profile Manager and Wizard allow you to create profiles that are stored in an XML file (EMDKConfig.xml) in your project's Assets folder. You can programmatically submit this profile via the ProfileManager API's and the
-settings configured in that profile will take effect.  The profile in this sample, `DataCaptureProfile-1` has several hardcoded barcode types that are enabled or disabled.  There are two ways to change those hardcoded values. one, at designed time, via the Profile Wizard, or programmatically by using a feature of the ProfileManager API's that allow you to replace hardcoded values in the static XML profile before submitting it.
+settings configured in that profile will take effect.  The profile in this sample, `DataCaptureProfile-1` has several hardcoded barcode types that are enabled or disabled.  There are two ways to change those hardcoded values. one, at designed time, via the Profile Wizard, or programmatically by using a feature of the ProfileManager API's that allows you to replace hardcoded values in the static XML profile before submitting it.
 
 Have a look at the following method from our samples source. It builds an xml string that contains updates to specific values in our profile depending on the state of our user interface checkboxes. A global variable `extraDataXml` is initialized with that string for later use.
 
@@ -133,3 +148,4 @@ After the `extraDataXML` global string has been initialized, we can use it when 
             tvStatus.Text = "Profile modification succeeded ...";
         }
     }
+    -->

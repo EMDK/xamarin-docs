@@ -4,7 +4,8 @@
 ![yt:qYPOWP8UKN4](images/video.png)
 
 
-##Installing the Add-in
+##Installing the Add-in v1.0.5
+
 Before Installing this Add-in make sure your Xamarin Studio version is at least 5.9.5 or above.
 
 

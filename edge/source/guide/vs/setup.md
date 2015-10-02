@@ -4,7 +4,7 @@
 ![yt:hs-JlwSfCxk](images/video.png)
 
 
-##Installing the Extension
+##Installing the Extension v1.0.4
 
 1. Open Visual Studio and select `Tools\Extensions and Updates`.
 

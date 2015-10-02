@@ -1,39 +1,19 @@
-# Using Component Samples
-The EMDK For Xamarin includes sample projects to explore and get familiar with it's features.
+# Using EMDK for Xamarin Samples
+The EMDK For Xamarin includes sample projects to explore and get familiar with it's features. One sample is included when you [install the component](../guide/component/install) and others are available from our [samples repository](https://github.com/EMDK/xamarin-samples). Each sample will include a short guide, documented here, describing how to use it.
 
 ## Prerequisites
+For all samples to run, you will need to have the build environment setup including:
 
 * [Visual Studio Extension Installed](../guide/vs/setup)
 * [Xamarin Component Installed and added to the project](../guide/component/install)
 * [Zebra Android Device with device update applied](../guide/deviceupdate)
 
-##Before you get Started
-###Project Folder
-There is a known [issue](https://bugzilla.xamarin.com/show_bug.cgi?id=17662) that may occur when loading and building a sample project from the component details page. When a Xamarin component is added to your project, a copy of that component and its contents are copied to your project and placed in the `PROJECT/Components` folder. All the samples for that project reside three directories further into the project path  `PROJECT/Components/COMPONENTNAME/Samples/SampleName`. As you can see the full path to this sample can grow quite large. i.e. **C:\Users\USERNAME\Documents\Visual Studio 2013\Projects\PROJECTNAME\Components\emdk-component-0.0.1\samples\SAMPLENAME**.  In most cases the project will load correctly when launching the sample, but when you attempt to build the project you get get a PathTooLongException. This error happens because the windows operating system sets a maximum limit to how long a path can be (260 characters). This path may not be 260 long yet, but when the build process starts, it will generate files and paths inside that sample folder, which could exceed that limit.  To solve this issue, you simply need to copy the sample project that you wish to use, out of that embedded samples folder, up to the IDE's project folder, and then load the sample by clicking on its .sln (solution)file.
+## Barcode API Sample (included)
+After [adding the EMDK for Xamarin component](../guide/component/install) to your Android project, you can access the Barcode API sample. Read the [setup and usage guide](../guide/sample/api-barcode) for this sample.
 
-## Opening a Sample
-After adding the EMDK for Xamarin component to your Android project, you can access the samples that come bundled with the component:
+## Other Samples
+Others sample projects are available from our [samples repository](https://github.com/EMDK/xamarin-samples). Follow the sample guide below for the sample you wish to download and use.
 
-1. Open the EMDK for Xamarin components detail page
-
-	![img](images/component/details-button.png)
-	![img](images/component/details.png)
-2. Select the `Samples` tab
-
-	![img](images/component/samples.png)
-3. Click the `Open Sample` button
-
-	![img](images/component/samples-openbutton.png)
-
-The sample project will then open. You can choose to run it and review the associated code.
-
-![img](images/component/sample-opened.png)
-
-
-
-
-
-## Details of Samples
-Be sure to reference the details of each included sample as described in their associated guides:
-
-* [Profiles - Data Capture](../guide/sample/profile-datacapture) - Demonstrates use of base EMDK API's and using data capture using profiles generated from Profile Manager.
+* [Data Capture Profile Sample](../guide/sample/profile-datacapture) - Datacapture using [Profile Manager](../guide/profiles/about) and base [EMDK APIs](../guide/reference/EMDKList)
+* [Wi-Fi Profile Sample](../guide/sample/profile-wifi) - Configure Wi-Fi settings using the [WiFi Profile Feature](../guide/profiles/wifi).
+* [Power Manager Profile Sample](../guide/sample/profile-powermanager) - Put the device into Sleep mode, re-power or perform an OS Update using [PowerMgr Profile Feature](../guide/profiles/power)

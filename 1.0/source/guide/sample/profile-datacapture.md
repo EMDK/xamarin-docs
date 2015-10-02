@@ -1,4 +1,4 @@
-#ProfileDataCapture1
+#Data Capture Profile Sample
 
 ##Overview
 One of the features of the EMDK is the ability to create Barcode scanning profiles. This application allows you to modify a Barcode profile to select which types of Barcodes should be interpreted.

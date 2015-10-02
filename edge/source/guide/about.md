@@ -18,14 +18,16 @@ The EMDK for Xamarin v1.0 provides developers with a comprehensive set of tools 
 	* EMDKManager, ProfileManager, VersionManager
 	* Symbol.XamarinEMDK.Barcode
 
-### About Version numbers
-With this release, we wanted to bring all the EMDK tools into your selected IDE. To do that we leveraged the extension framework provided by Visual studio and Xamarin Studio. The Visual Studio Extension and Xamarin Studio Add-in are separate IDE plug-ins that may have different version numbers and may not match the EMDK for Xamarin Component version. Below is a list of each plug-in version number along with the version number of the EMDK for Xamarin component.
+### About version numbers
+With this release, we wanted to bring all the EMDK tools into your selected IDE. To do that we leveraged the extension framework provided by Visual studio and Xamarin Studio. The Visual Studio Extension and Xamarin Studio Add-in are separate IDE plug-ins that may have different version numbers and may not match the EMDK for Xamarin Component version. Below is a list of each plug-in version number along with the version number of the EMDK for Xamarin component they deliver.
 
-Microsoft Visual Studio Extension v1.0.4
-	* EMDK for Xamarin Component v1.0.3
+Microsoft Visual Studio Extension v1.0.4:
 
-Xamarin Studio Add-in v1.0.5
-	* EMDK for Xamarin Component v1.0.3
+* EMDK for Xamarin Component v1.0.3
+
+Xamarin Studio Add-in v1.0.5:
+
+* EMDK for Xamarin Component v1.0.3
 
 ##Devices Supported
 Currently only Zebra Android KitKat devices are supported. Be sure to run the [device update](../guide/deviceupdate) on all devices before using the EMDK for Xamarin.

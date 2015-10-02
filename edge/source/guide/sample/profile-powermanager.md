@@ -1,4 +1,4 @@
-#ProfilePowerMgrSample1
+#Power Manager Profile Sample
 
 ##Overview
 The Power Manager Profile allows you to control the power state of a Symbol device. 

@@ -1,8 +1,8 @@
-#ProfileWifiSample1
+#Wi-Fi Profile Sample
 
 
 ##Overview
-The Wifi Profile allows you to configure Wi-Fi of a Symbol device. 
+The Wifi Profile allows you to configure Wi-Fi settings for the device. 
 
 The available actions are:
   

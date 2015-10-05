@@ -1,7 +1,11 @@
 #Xamarin Component Install
 The Xamarin Component part of the EMDK includes the API libraries that you will use in your Android application. You must install the component and add it to your android project before being able to use the APIs.
 
-## Installing the Xamarin Component
+## Watch This Guide
+![yt:jDZlBYd8qPk](images/video.png)
+
+
+## Installing the Xamarin Component v1.0.3
 After adding the [Visual Studio Extension](../guide/vs/setup) or [Xamarin Studio Add-in](../guide/xs/setup), you must install the EMDK for Xamarin component so it can be accessible from your projects.
 
 > Note: This needs to only be performed once for the IDE. After the component is installed to the IDE, you must follow the steps below, in the `Enabling for Android Projects` section, for each project to enable the component.
@@ -22,7 +26,7 @@ Once the Xamarin Component has been installed to the IDE, you need to add it to 
 3. Choose `Edit Components`
 
 	![img](images/vs/edit-components.png)
-4. You must be logged into your Xamarin account in order to add the component.	
+4. You must be logged into your Xamarin account in order to add the component.
 
 	![img](images/component/login.png)
 	![img](images/component/login-complete.png)
@@ -42,7 +46,7 @@ Once the Xamarin Component has been installed to the IDE, you need to add it to 
 The component and EMDK for Xamarin APIs are now accessible in your application. To understand how to use the APIs, view source of one of our [sample projects](../guide/sample/about) or [follow a tutorial](../guide/tutorial/index).
 
 ## Removing from Android Projects
-You can disable the EMDK for Xamarin component from a project, however please note that this does not permanently remove the component from the project cache or system. If you wish to permanently remove the component, please follow these instructions and the complete the steps in the `Uninstalling` section 
+You can disable the EMDK for Xamarin component from a project, however please note that this does not permanently remove the component from the project cache or system. If you wish to permanently remove the component, please follow these instructions and the complete the steps in the `Uninstalling` section
 
 1. Open an Android based project.
 2. Right click on the Project's `Component` folder in the `Solution Explorer`.
@@ -78,7 +82,7 @@ For Mac, the same files can be found in:
 * `/Users/<username>/Library/Caches/Xamarin/ComponentInfo`
 
 ### 2) Remove from Android Projects
-Each project will cache the version of the component you have added within your project folder. Even after removing the component from your project using the IDE (mentioned above), the component files will remain inside your project folder. 
+Each project will cache the version of the component you have added within your project folder. Even after removing the component from your project using the IDE (mentioned above), the component files will remain inside your project folder.
 
 1. Open your project solution folder.
 

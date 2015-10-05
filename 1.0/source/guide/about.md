@@ -18,13 +18,24 @@ The EMDK for Xamarin v1.0 provides developers with a comprehensive set of tools 
 	* EMDKManager, ProfileManager, VersionManager
 	* Symbol.XamarinEMDK.Barcode
 
+### About version numbers
+With this release, we wanted to bring all the EMDK tools into your selected IDE. To do that we leveraged the extension framework provided by Visual studio and Xamarin Studio. The Visual Studio Extension and Xamarin Studio Add-in are separate IDE plug-ins that may have different version numbers and may not match the EMDK for Xamarin Component version. Below is a list of each plug-in version number along with the version number of the EMDK for Xamarin component they deliver.
+
+Microsoft Visual Studio Extension **v1.0.4**: ( Provides EMDK menu in Visual Studio )
+
+* EMDK for Xamarin Component **v1.0.3** ( Provides C# EMDK API's )
+
+Xamarin Studio Add-in **v1.0.5**: (Provides EMDK menu in Xamarin Studio )
+
+* EMDK for Xamarin Component **v1.0.3** ( Provides C# EMDK API's )
+
 ##Devices Supported
 Currently only Zebra Android KitKat devices are supported. Be sure to run the [device update](../guide/deviceupdate) on all devices before using the EMDK for Xamarin.
 
 ##Before you get started
 In order to use the EMDK for Xamarin, you must have the Xamarin Platform installed on your development system. Xamarin Studio will be installed as part of the Xamarin Platform. If you intend to use Microsoft Visual Studio as your development environment, you must install Microsoft Visual Studio 2013 or higher. Zebra does not provide licenses for Microsoft Visual Studio or licenses for Xamarin Platform. Further information on obtaining licenses or getting started with these products, can be found at the following links.
 
-###Development Environment 
+###Development Environment
 Consult the [Xamarin](http://developer.xamarin.com/guides/android/getting_started/) and Microsoft documentation for installing and setting up Xamarin and Visual Studio:
 
 * Xamarin.Android (Includes Xamarin Studio)
@@ -35,9 +46,9 @@ Consult the [Xamarin](http://developer.xamarin.com/guides/android/getting_starte
 
 
 ### Xamarin Licensing
-* When using **Visual Studio** for EMDK development, a Xamarin **Business** License or higher is required. 
+* When using **Visual Studio** for EMDK development, a Xamarin **Business** License or higher is required.
 
-* When using **Xamarin Studio** for EMDK development, a Xamarin **Indie** License or higher is required. 
+* When using **Xamarin Studio** for EMDK development, a Xamarin **Indie** License or higher is required.
 
 Learn more about [Xamarin Licensing options](https://store.xamarin.com/).
 
@@ -46,12 +57,12 @@ Learn more about [Xamarin Licensing options](https://store.xamarin.com/).
 ##Getting Started
 ### 1) Install The Visual Studio Extension or Xamarin Studio Add-in
 
-Download and install the Visual Studio Extension using the online extension gallery. 
+Download and install the Visual Studio Extension using the online extension gallery.
 
 - [Read the Visual Studio Setup Guide](../guide/vs/setup)
 
 
-Download and install the Xamarin Studio Add-in using the Add-in Manager. 
+Download and install the Xamarin Studio Add-in using the Add-in Manager.
 
 - [Read the Xamarin Studio Setup Guide](../guide/xs/setup)
 
@@ -87,5 +98,3 @@ We have a lot more resources for you to benefit from:
 - More Samples
 - [More docs online](http://emdk.github.io/xamarin-docs/edge)
 </div>
-
-

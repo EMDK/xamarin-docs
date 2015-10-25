@@ -545,4 +545,4 @@ Now that we are finished with our Barcode API Application, lets see how it runs.
 
 
 ##Download the Source
-The project source to this tutorial can be [downloaded (Internet Connection Required)](https://github.com/EMDK/xamarin-samples/archive/GettingStartedTutorial.zip).
+The project source to this tutorial can be [downloaded (Internet Connection Required)](https://github.com/EMDK/xamarin-samples/archive/BasicScanningTutorial.zip).

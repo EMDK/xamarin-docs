@@ -61,7 +61,10 @@ var menuStrcture = [
 								name: 'Profile Manager API',
 								link: '#guide-tutorial-helloxamarin',
 							},
-
+							{
+								name: 'Basic Scanning API',
+								link: '#guide-tutorial-barcodeapitutorial',
+							},
 						]
 
 					}

@@ -15,6 +15,8 @@ When creating a project for this tutorial use the project name **GettingStartedT
 
 Follow this [guide](../guide/newprojectvisualstudio) to create a new project in Visual Studio.
 
+Follow this [guide](../guide/newprojectxamarinstudio) to create a new project in Xamarin Studio.
+
 ##Add Symbol EMDK Component
 Follow this [guide](../guide/component-install) to add the needed component you your project.
 

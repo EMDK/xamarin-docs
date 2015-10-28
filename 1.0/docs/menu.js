@@ -118,7 +118,7 @@ var menuStrcture = [
 
 							},
 							{
-								name: 'Barcode APIs (Java)',
+								name: 'Barcode APIs (C#)',
 								link: '#guide-reference-EMDKList?Barcode APIs',
 
 							},
